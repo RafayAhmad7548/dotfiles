@@ -155,32 +155,30 @@
   "C_Cpp.suggestSnippets": false,
   "cmake.showOptionsMovedNotification": false,
   "git.autofetch": true,
-  "C_Cpp.default.compilerPath": "/usr/bin/g++",
-  "C_Cpp.default.includePath": ["/usr/include"],
-  "settingsSync.ignoredSettings": [
-    "-C_Cpp.default.compilerPath",
-    "-C_Cpp.default.compilerArgs",
-    "-C_Cpp.default.compileCommands",
-    "-C_Cpp.default.browse.path",
-    "-C_Cpp.default.browse.databaseFilename"
-  ],
   "git.confirmSync": false,
   "terminal.integrated.cursorStyle": "line",
-  "redhat.telemetry.enabled": true,
-  "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk-amd64",
+  "redhat.telemetry.enabled": false,
+  "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk",
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
   "breadcrumbs.enabled": false,
   "git.openRepositoryInParentFolders": "never",
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": false,
     "scminput": false
   },
-  "java.import.gradle.java.home": "/usr/lib/jvm/java-17-openjdk-amd64",
+  "java.import.gradle.java.home": "/usr/lib/jvm/java-17-openjdk",
   "cmake.configureOnOpen": true,
   "terminal.integrated.fontFamily": "\"Hack Nerd Font\"",
+  "editor.fontFamily": "\"Hack Nerd Font\"",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "extensions.autoCheckUpdates": false,
+  "update.showReleaseNotes": false,
 
   
   

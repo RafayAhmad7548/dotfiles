@@ -6,12 +6,12 @@ success_symbol = ''
 error_symbol = ''
 
 [os]
-format = '[$symbol](bold white) '
+format = '[$symbol]($style) '
+style = '#1793d1'
 disabled = false
 
 [os.symbols]
-Ubuntu = ''
-
+Arch = "󰣇"
 
 # Shows the username
 [username]

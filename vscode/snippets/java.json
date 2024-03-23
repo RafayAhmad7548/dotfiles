@@ -1,0 +1,183 @@
+{
+	"sysout": {
+		"prefix": ["sou"],
+		"body": [
+			"System.out.println($1);$0"
+		],
+		"description": "Print to standard out"
+	},
+	"syserr": {
+		"prefix": ["syserr", "serr"],
+		"body": [
+			"System.err.println($1);$0"
+		],
+		"description": "Print to standard err"
+	},
+	"fori": {
+		"prefix": ["fo"],
+		"body": [
+			"for(${1:int} ${2:i}=${3:0};${2:i}<${4:max};${2:i}${5:++}){",
+			"\t$0",
+			"}"
+		],
+		"description": "Indexed for loop"
+	},
+	"foreach": {
+		"prefix": ["fore"],
+		"body": [
+			"for(${1:type} ${2:var} : ${3:iterable}){",
+			"\t$0",
+			"}"
+		],
+		"description": "Enhanced for loop"
+	},
+	"if": {
+		"prefix": ["ifi"],
+		"body": [
+			"if(${1:condition}){",
+			"\t$0",
+			"}"
+		],
+		"description": "if statement"
+	},
+	"ifelse": {
+		"prefix": ["ife"],
+		"body": [
+			"if(${1:condition}){",
+			"\t$2",
+			"}",
+			"else{",
+			"\t$0",
+			"}"
+		],
+		"description": "if/else statement"
+	},
+	"ifnull": {
+		"prefix": ["ifn"],
+		"body": [
+			"if(${1:condition}==null){",
+			"\t$0",
+			"}"
+		],
+		"description": "if statement checking for null"
+	},
+	"ifnotnull": {
+		"prefix": ["ifnn"],
+		"body": [
+			"if(${1:condition}!=null){",
+			"\t$0",
+			"}"
+		],
+		"description": "if statement checking for not null"
+	},
+	"While Statement": {
+		"prefix": ["whi"],
+		"body": [
+			"while(${1:condition}){",
+			"\t$0",
+			"}"
+		],
+		"description": "While Statement"
+	},
+	"Do-While Statement": {
+		"prefix": ["do"],
+		"body": [
+			"do{",
+			"\t$0",
+			"}while(${1:condition});"
+		],
+		"description": "Do-While Statement"
+	},
+	"Switch Statement": {
+		"prefix": "swi",
+		"body": [
+			"switch(${1:key}){",
+			"\t$0",
+			"}"
+		],
+		"description": "Switch Statement"
+	},
+	"trycatch": {
+		"prefix": "try",
+		"body": [
+			"try{",
+			"\t${TM_SELECTED_TEXT:$1}",
+			"}",
+			"catch(${2:Exception} ${3:e}){",
+			"\t$0",
+			"}"
+		],
+		"description": "try/catch block"
+	},
+	"tryresources": {
+		"prefix": "tryr",
+		"body": [
+			"try($1){",
+			"\t$2",
+			"}",
+			"catch(${3:Exception} ${4:e}){",
+			"\t$0",
+			"}"
+		]
+	},
+	"Startup": {
+		"prefix": ["rafay"],
+		"body": [
+			"public class ${1:${TM_FILENAME_BASE}}{",
+			"\tpublic static void main(String[] args){",
+			"\t\t$0",
+			"\t}",
+			"}"
+		],
+		"description": "Startup"
+	},
+	"class": {
+		"prefix": ["cla"],
+		"body": [
+			"${1:public} class ${2:name}{",
+			"\t$0",
+			"}"
+		]
+	},
+	"main": {
+		"prefix": ["mai"],
+		"body": [
+			"public static void main(String[] args){",
+			"\t$0",
+			"}"
+		],
+		"description": "Public static main method"
+	},
+	"Constructor": {
+		"prefix": "cstr",
+		"body": [
+			"${1:public} ${2:${TM_FILENAME_BASE}}($3){",
+			"\t$0",
+			"}"
+		],
+		"description": "Constructor"
+	},
+	"method": {
+		"prefix": "meth",
+		"body": [
+			"${1:public}$2 ${3:void} ${4:name}($5){",
+			"\t$0",
+			"}"
+		],
+		"description": "Method"
+	},
+	"newObject": {
+		"prefix": "obj",
+		"body": [
+			"${1:Object} ${2:foo} = new ${1}($3);$0",
+		],
+		"description": "Create new Object"
+	},
+	"Field": {
+		"prefix": "var",
+		"body": [
+			"${1:public} ${2:String} ${3:name};"
+		],
+		"description": "Field"
+	}
+}

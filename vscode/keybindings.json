@@ -135,6 +135,7 @@
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
     },
+    
     {
         "key": "ctrl+n",
         "command": "workbench.action.terminal.new",
@@ -146,6 +147,11 @@
         "when": "terminalFocus"
     },
     //file tree
+    {
+        "key": "ctrl+k",
+        "command": "workbench.panel.chat.view.copilot.focus",
+        "when": "explorerViewletFocus"
+    },
     {
         "key": "ctrl+j",
         "command": "workbench.explorer.fileView.focus",
