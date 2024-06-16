@@ -1,0 +1,4106 @@
+!SESSION 2024-05-30 14:11:17.020 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-65a830a1cbc3e86c093a8f633a42535f.sock
+Command-line arguments:  -data /home/rafayahmad/.config/Code/User/workspaceStorage/0f41262c617b34a9a14e4c55d15b3a8a/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-65a830a1cbc3e86c093a8f633a42535f.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.154
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.465
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.514
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.516
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.517
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.485
+!MESSAGE ProjectRegistryRefreshJob finished 968ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.502
+!MESSAGE Started org.eclipse.buildship.core 17ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.555
+!MESSAGE Setting /usr/lib/jvm/java-22-openjdk as 'JavaSE-22' environment (id:1717060280545)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.561
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk as 'JavaSE-17' environment (id:1717060280536)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.563
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.579
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.580
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.580
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.580
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.580
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.581
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.581
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.581
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.581
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.582
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.582
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.582
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.595
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.606
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.608
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:20.672
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:21.031
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:21.611
+!MESSAGE Workspace initialized in 1017ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:21.649
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:21.652
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:21.654
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:22.611
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:13.566
+!MESSAGE Projects updated in 339 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:13.749
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:23.662
+!MESSAGE >> java/validateDocument
+
+!ENTRY java-debug 1 0 2024-05-30 14:13:23.880
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:24.115
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:24.786
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:24.787
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:24.789
+!MESSAGE Validated 1. Took 72 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:29.400
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:29.865
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:29.865
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:29.866
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:34.288
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:34.772
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:34.773
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:34.773
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:36.870
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:36.872
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:37.180
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:37.360
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:37.361
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:37.361
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:38.080
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:38.560
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:38.560
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:38.561
+!MESSAGE Validated 1. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:44.009
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:44.146
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:44.344
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:44.595
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:44.658
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:44.709
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:44.765
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:45.024
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:45.496
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:45.497
+!MESSAGE 2 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:45.497
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:45.561
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:46.031
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:46.122
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:46.460
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:46.460
+!MESSAGE 2 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:46.460
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:46.943
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:47.060
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:47.489
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:47.489
+!MESSAGE 3 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:47.490
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:47.685
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:48.159
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:48.159
+!MESSAGE 3 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:48.160
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:48.950
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:49.101
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:49.361
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:49.789
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:49.789
+!MESSAGE 2 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:49.790
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:50.335
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:50.753
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:50.753
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:50.754
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:51.776
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:52.215
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:52.216
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:52.216
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:56.064
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:56.528
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:56.528
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:56.529
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:57.587
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:58.052
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:58.053
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:58.053
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:58.638
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:58.838
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:59.302
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:59.302
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:59.303
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:59.516
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:13:59.971
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:00.390
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:00.391
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:00.391
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:00.577
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:01.046
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:01.046
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:01.047
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:03.468
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:03.932
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:03.932
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:03.933
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:06.451
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:06.752
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:06.753
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:07.216
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:07.217
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:07.217
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:07.956
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:08.423
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:08.423
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:08.424
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:08.584
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:09.054
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:09.054
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:09.055
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:09.654
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:10.126
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:10.126
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:10.126
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:10.444
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:10.914
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:10.914
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:10.914
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:11.857
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:12.324
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:12.325
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:12.325
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:13.964
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:14.436
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:14.436
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:14.437
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:15.220
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:15.685
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:15.685
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:15.685
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:17.774
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:18.245
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:18.246
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:18.246
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:18.876
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:19.341
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:19.341
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:19.342
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:19.914
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:20.334
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:20.334
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:20.334
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:21.408
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:21.869
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:21.869
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:21.870
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:22.773
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:23.183
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:23.183
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:23.184
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:23.566
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:24.030
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:24.031
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:24.031
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:25.843
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:26.256
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:26.256
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:26.257
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:38.643
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.066
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.066
+!MESSAGE 2 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.066
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.211
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.217
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.632
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.634
+!MESSAGE 2 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.634
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.752
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.970
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:39.986
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:40.001
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:40.024
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:40.086
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:40.109
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:40.209
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:40.237
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:40.707
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:40.708
+!MESSAGE 2 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:40.708
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:41.234
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:41.653
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:41.653
+!MESSAGE 2 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:41.654
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:42.853
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:43.317
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:43.317
+!MESSAGE 2 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:43.318
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:45.352
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:45.772
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:45.772
+!MESSAGE 2 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:45.772
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:48.644
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:49.027
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:49.355
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:49.824
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:49.824
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:49.825
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:50.214
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:50.632
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:50.632
+!MESSAGE 1 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:14:50.633
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:18.073
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-05-30 14:15:33.690
+!MESSAGE Unable to load IDecompiler class for jarFileContentProvider
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:58.260
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:58.565
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:58.767
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:59.027
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:59.351
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:59.352
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:59.822
+!MESSAGE begin problem for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:59.822
+!MESSAGE 3 problems reported for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:15:59.823
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:00.105
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:00.112
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:00.421
+!MESSAGE Clearing problems for /GlobalKeyListenerExample.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:00.530
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:00.530
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:00.530
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:01.146
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:01.616
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:01.616
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:01.617
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:09.202
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:09.613
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:09.614
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:09.614
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:10.197
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:10.666
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:10.666
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:10.667
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:21.313
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:21.405
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:21.876
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:21.876
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:21.877
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:23.006
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:23.012
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:23.231
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:23.381
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:23.657
+!MESSAGE onDidCompletionItemSelect:GlobalKeyListener
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:23.712
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:23.713
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:24.181
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:24.181
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:24.182
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:24.515
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:24.987
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:24.988
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:24.988
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:25.277
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:25.367
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:25.586
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:25.998
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:25.998
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:25.998
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:29.925
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:30.213
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:30.241
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:30.242
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:30.317
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:30.426
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:30.746
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:30.775
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:30.775
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:31.243
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:31.243
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:31.243
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:31.307
+!MESSAGE onDidCompletionItemSelect:GlobalKeyListener
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:31.367
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:31.626
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:32.098
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:32.099
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:32.099
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:32.338
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:32.810
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:32.811
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:32.811
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:37.305
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:37.724
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:37.724
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:37.725
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:39.411
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:39.882
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:39.882
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:39.882
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:44.475
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:44.945
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:44.945
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:44.945
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:45.864
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:46.284
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:46.285
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:46.285
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:48.986
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:49.328
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:49.792
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:49.792
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:49.793
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:50.450
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:50.868
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:50.868
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:50.869
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:51.975
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:52.288
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:52.288
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:52.760
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:52.761
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:52.763
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:57.931
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:58.395
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:58.396
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:58.396
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:58.624
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:58.629
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:58.690
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:58.756
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:58.873
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:59.343
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:59.343
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:59.343
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:16:59.822
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:00.243
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:00.243
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:00.244
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:07.006
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:07.473
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:07.474
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:07.474
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:08.182
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:08.647
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:08.648
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:08.648
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:08.810
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:09.277
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:09.278
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:09.278
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:10.064
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:10.530
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:10.531
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:10.531
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:12.201
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:12.616
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:12.616
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:12.617
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:15.229
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:15.698
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:15.698
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:15.698
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:16.558
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:17.027
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:17.027
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:17.028
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:18.790
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:19.263
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:19.264
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:19.264
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:20.207
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:20.626
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:20.626
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:20.626
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:22.282
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:22.697
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:22.697
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:22.698
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:23.487
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:23.904
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:23.904
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:23.905
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:25.045
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:25.514
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:25.514
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:25.514
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:26.234
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:26.652
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:26.652
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:26.653
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:26.908
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:27.327
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:27.327
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:27.327
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:28.285
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:28.338
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:28.457
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:28.635
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.109
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.109
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.110
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.254
+!MESSAGE onDidCompletionItemSelect:GlobalKeyListener
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.298
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.479
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.495
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.902
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.902
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:29.903
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:30.106
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:30.377
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:30.843
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:30.844
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:30.844
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:31.008
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:31.013
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:31.432
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:31.432
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:31.433
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:31.620
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:31.846
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:32.323
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:32.324
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:32.324
+!MESSAGE Validated 1. Took 27 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:33.318
+!MESSAGE onDidCompletionItemSelect:GlobalScreen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:33.360
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:33.665
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:33.684
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:34.136
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:34.137
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:34.137
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:35.545
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:35.652
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:36.074
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:36.074
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:36.075
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:41.076
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:41.088
+!MESSAGE onDidCompletionItemSelect:registerNativeHook
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:41.207
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:41.677
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:41.677
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:41.678
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:42.196
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:42.629
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:42.629
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:42.630
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:42.994
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:43.411
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:43.412
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:43.412
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:43.686
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:44.154
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:44.154
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:44.155
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:49.651
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:50.303
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:17:50.758
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:00.374
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:00.843
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:00.843
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:00.844
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:04.032
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:04.502
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:04.502
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:04.502
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:04.577
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:04.597
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:04.629
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:04.879
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:05.070
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:05.536
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:05.537
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:05.543
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:18.664
+!MESSAGE onDidCompletionItemSelect:removeNativeKeyListener
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:18.695
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:19.158
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:19.159
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:19.159
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:20.112
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:20.113
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:20.584
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:20.584
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:20.585
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:20.684
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:21.152
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:21.152
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:21.153
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:22.409
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:22.993
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:22.993
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:22.993
+!MESSAGE Validated 1. Took 134 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:26.884
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:27.171
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:27.174
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:27.396
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:27.632
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:28.100
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:28.101
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:28.101
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:28.767
+!MESSAGE onDidCompletionItemSelect:GlobalScreen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:28.807
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:28.883
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:28.914
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:29.334
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:29.334
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:29.334
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:30.288
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:30.451
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:30.564
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:30.822
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:30.902
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:31.370
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:31.370
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:31.371
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:32.558
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:32.675
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:32.817
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:33.020
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:33.489
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:33.489
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:33.489
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:38.099
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:38.238
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:38.604
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:38.833
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:39.035
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:39.111
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:39.544
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:39.554
+!MESSAGE onDidCompletionItemSelect:unregisterNativeHook
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:39.681
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:40.101
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:40.101
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:40.108
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:40.541
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:40.644
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:41.114
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:41.114
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:41.115
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:41.816
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:42.234
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:42.234
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:42.235
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:43.836
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:44.305
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:44.305
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:44.305
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:46.063
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:46.530
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:46.531
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:46.531
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:47.816
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:48.226
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:48.227
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:48.227
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:49.115
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:49.413
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:49.881
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:49.881
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:49.881
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:50.399
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:50.818
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:50.818
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:50.818
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:51.648
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:52.064
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:52.064
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:52.064
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:52.679
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:53.097
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:53.097
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:53.097
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:53.542
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:54.010
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:54.010
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:54.010
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:54.957
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:55.426
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:55.426
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:55.427
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:58.178
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:58.621
+!MESSAGE Validated 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:18:59.835
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:19:00.037
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:19:00.457
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:19:00.457
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:19:00.457
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:19:12.772
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:19:13.239
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:19:13.241
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:19:13.241
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:21:42.958
+!MESSAGE Updated keypress-getter in 297 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:21:43.116
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:47.008
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:47.475
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:47.475
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:47.475
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:56.727
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:57.191
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:57.192
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:57.192
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:59.516
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:59.977
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:59.978
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:22:59.978
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:23:21.627
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:23:22.091
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:23:22.091
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:23:22.091
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:23:23.152
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:23:23.617
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:23:23.617
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:23:23.618
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:25:19.273
+!MESSAGE Updated keypress-getter in 1043 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:25:19.335
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:25:19.335
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:25:21.271
+!MESSAGE Updated keypress-getter in 226 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:25:21.332
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:25:54.652
+!MESSAGE Updated keypress-getter in 717 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:25:54.724
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:26:19.877
+!MESSAGE Updated keypress-getter in 228 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:26:19.939
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:26:44.872
+!MESSAGE Updated keypress-getter in 231 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:26:44.934
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:26:55.702
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:26:56.164
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:26:56.164
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:26:56.164
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:12.208
+!MESSAGE >> java/validateDocument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:12.675
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:12.675
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:12.675
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:46.003
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:46.421
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:46.421
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:46.421
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:46.520
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:46.936
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:46.937
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:46.937
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:47.160
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:47.775
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:47.775
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:47.776
+!MESSAGE Validated 1. Took 166 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:47.894
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:48.018
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:48.223
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:48.473
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:48.935
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:48.936
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:48.936
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:49.443
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:49.635
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:50.004
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:50.270
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:50.737
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:50.737
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:50.737
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:50.869
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:50.872
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:51.338
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:51.338
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:51.338
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:51.456
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:51.959
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:52.412
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:52.884
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:52.884
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:52.885
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:53.412
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 4 2 2024-05-30 14:27:53.423
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot get completion responses.
+	at org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)
+	at org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:192)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:616)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2024-05-30 14:27:53.424
+!MESSAGE Cannot get completion responses.
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2024-05-30 14:27:53.424
+!MESSAGE Cannot get completion responses.
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-05-30 14:27:53.425
+!MESSAGE Error in calling delegate command handler
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot get completion responses.
+	at org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)
+	at org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)
+	at org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:192)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:616)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2024-05-30 14:27:53.426
+!MESSAGE Cannot get completion responses.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:53.426
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:53.716
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:53.754
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:53.986
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:54.320
+!MESSAGE onDidCompletionItemSelect:process
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:54.355
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:54.565
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:54.571
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:55.024
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:55.134
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:55.190
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:55.609
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:55.609
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:55.609
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:56.044
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:56.045
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:56.517
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:56.519
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:56.520
+!MESSAGE Validated 1. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:56.573
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:57.043
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:57.043
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:57.044
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:57.077
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:57.546
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:57.547
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:57.547
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:57.605
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.077
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.078
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.078
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.117
+!MESSAGE onDidCompletionItemSelect:Runtime
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.167
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.179
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.640
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.640
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.640
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:58.752
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:59.206
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:59.378
+!MESSAGE onDidCompletionItemSelect:★ getRuntime
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:59.422
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:27:59.552
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:00.021
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:00.021
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:00.021
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:00.294
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:00.712
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:00.712
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:00.712
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:03.556
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:04.046
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:04.046
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:04.047
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:04.305
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:04.307
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:04.411
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:04.619
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:04.647
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:05.120
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:05.120
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:05.121
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:05.188
+!MESSAGE onDidCompletionItemSelect:Process
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:05.223
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:05.390
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:05.870
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:05.870
+!MESSAGE 7 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:05.870
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:06.923
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:07.385
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:07.385
+!MESSAGE 7 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:07.386
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:07.579
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:08.005
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:08.005
+!MESSAGE 8 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:08.005
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:09.929
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:10.388
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:10.388
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:10.389
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:10.799
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:11.265
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:11.265
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:11.265
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:11.453
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:11.460
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:11.563
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:11.652
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:11.897
+!MESSAGE onDidCompletionItemSelect:Process
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:11.941
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:12.129
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:12.185
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:12.281
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:12.291
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:12.472
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:12.686
+!MESSAGE onDidCompletionItemSelect:process
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:12.728
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:13.196
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:13.196
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:13.197
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:13.646
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:13.703
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:13.771
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:13.904
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:13.961
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:14.431
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:14.431
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:14.431
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:15.914
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:15.973
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:16.190
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:16.593
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:17.067
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:17.068
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:17.068
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:17.431
+!MESSAGE onDidCompletionItemSelect:Runtime
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:17.487
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:17.620
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:17.650
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:18.002
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:18.103
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:18.573
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:18.573
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:18.574
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:19.079
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:19.293
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:19.763
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:19.763
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:19.764
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:20.944
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:21.245
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:21.246
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:21.715
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:21.715
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:21.715
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:24.570
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:24.582
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:24.891
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:24.892
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:24.967
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:25.576
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:25.577
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:25.577
+!MESSAGE Validated 1. Took 159 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:26.494
+!MESSAGE onDidCompletionItemSelect:ProcessBuilder
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:26.549
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:26.587
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:27.017
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:27.017
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:27.017
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:28.078
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:28.292
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:28.485
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:28.721
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:28.899
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:29.366
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:29.366
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:29.366
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:30.011
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:30.476
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:30.477
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:28:30.477
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:09.947
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:09.948
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:10.110
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:10.178
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:10.270
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:10.433
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:10.902
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:10.903
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:10.903
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:11.076
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:11.084
+!MESSAGE onDidCompletionItemSelect:ProcessBuilder
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:11.544
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:11.544
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:11.545
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:11.606
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:11.661
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:12.130
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:12.130
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:12.131
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:12.535
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:12.563
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:12.723
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:12.776
+!MESSAGE Reconciled 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:13.202
+!MESSAGE onDidCompletionItemSelect:builder
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:13.228
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:13.414
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:13.436
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:13.878
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:13.879
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:13.879
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:13.899
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:13.903
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.051
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.109
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.335
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.478
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.483
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.669
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.706
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.876
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.938
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:14.971
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:15.442
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:15.443
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:15.443
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:16.660
+!MESSAGE onDidCompletionItemSelect:ProcessBuilder
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:16.687
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:17.153
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:17.153
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:17.153
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:17.707
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:18.173
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:18.173
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:18.173
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:18.800
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:19.153
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:19.154
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:19.621
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:19.624
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:19.624
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:20.265
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:20.733
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:20.733
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:20.733
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:20.894
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:21.241
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:21.242
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:21.666
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:21.666
+!MESSAGE 4 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:21.666
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:24.338
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:24.806
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:24.806
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:24.806
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:25.153
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:25.575
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:25.576
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:25.576
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:30.137
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:30.226
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:30.333
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:30.462
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:30.629
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:31.099
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:31.099
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:31.099
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:31.807
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:32.231
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:32.231
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:32.231
+!MESSAGE Validated 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:38.788
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:39.211
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:39.211
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:39.212
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:40.218
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:40.699
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:40.700
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:40.702
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:40.958
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:41.378
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:41.378
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:41.379
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:54.941
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:55.305
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:55.772
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:56.041
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:56.070
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:56.189
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:56.256
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:56.373
+!MESSAGE onDidCompletionItemSelect:Process
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:56.415
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:56.886
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:56.887
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:56.887
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:57.329
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:57.384
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:57.852
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:57.853
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:57.853
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:57.947
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:57.972
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:58.155
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:58.189
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:58.399
+!MESSAGE onDidCompletionItemSelect:process
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:58.452
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:58.613
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:58.669
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:58.815
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:58.907
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:58.964
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:59.383
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:59.383
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:59.383
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:30:59.984
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:00.026
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:00.437
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:00.603
+!MESSAGE onDidCompletionItemSelect:builder
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:00.647
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:00.816
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:00.858
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:01.236
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:01.236
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:01.237
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:01.528
+!MESSAGE onDidCompletionItemSelect:★ start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:01.568
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:01.760
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:02.227
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:02.227
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:02.227
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:02.943
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:03.409
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:03.410
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:03.410
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:05.230
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:05.649
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:05.650
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:05.650
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:14.371
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:14.835
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:14.836
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:14.836
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:15.394
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:15.848
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:15.849
+!MESSAGE 2 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:15.849
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:19.360
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:19.829
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:19.829
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:19.830
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:20.993
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:21.460
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:21.461
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:21.461
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:22.013
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:22.423
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:22.423
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:22.423
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:24.026
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:24.494
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:24.494
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:24.494
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:24.822
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:25.289
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:25.289
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:25.290
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:26.740
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:27.157
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:27.157
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:27.158
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:27.439
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:27.905
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:27.905
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:27.905
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:34.615
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.040
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.040
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.040
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.471
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.523
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.584
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.676
+!MESSAGE onDidCompletionItemSelect:process
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.721
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.936
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:35.948
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:36.153
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:36.250
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:36.283
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:36.705
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:36.705
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:36.705
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:36.713
+!MESSAGE onDidCompletionItemSelect:★ waitFor
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:36.765
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:37.030
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:37.499
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:37.500
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:37.500
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:37.919
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:38.390
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:38.391
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:38.391
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:42.427
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:42.893
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:42.894
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:42.894
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:43.453
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:43.597
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:43.598
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:43.675
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:43.985
+!MESSAGE onDidCompletionItemSelect:catch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:44.032
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:44.499
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:44.500
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:44.500
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:44.737
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:45.031
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:45.031
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:45.499
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:45.501
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:45.501
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:45.615
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:45.998
+!MESSAGE onDidCompletionItemSelect:InterruptedException
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:46.031
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:46.033
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:46.503
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:46.503
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:46.504
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:47.033
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:47.089
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:47.527
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:47.528
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:47.532
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:48.168
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:48.190
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:48.497
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:48.523
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:48.524
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:48.991
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:48.991
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:48.992
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:49.671
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:49.772
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:50.239
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:50.239
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:50.239
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:52.058
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:52.060
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:52.123
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:52.495
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:52.509
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:52.963
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:52.964
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:52.964
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:53.080
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:53.499
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:53.499
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:53.500
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:53.537
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:53.557
+!MESSAGE onDidCompletionItemSelect:printStackTrace
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:53.600
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:54.068
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:54.068
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:54.068
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:54.984
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:55.402
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:55.402
+!MESSAGE 1 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:55.402
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:55.507
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:55.978
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:55.978
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:55.978
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:56.198
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:56.667
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:56.667
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:31:56.668
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:08.654
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:08.856
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:09.051
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:09.131
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:09.157
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:09.309
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:09.460
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:09.591
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:10.059
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:10.060
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:32:10.060
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:14.842
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:15.307
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:15.308
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:15.308
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:15.599
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:16.064
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:16.064
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:16.065
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:19.827
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:20.242
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:20.242
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:35:20.242
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:47:30.699
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:47:30.700
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:47:30.711
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:47:30.719
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-05-30 15:37:27.687 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-2cf70d8af0042364efdc9381d070b6b7.sock
+Command-line arguments:  -data /home/rafayahmad/.config/Code/User/workspaceStorage/0f41262c617b34a9a14e4c55d15b3a8a/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-2cf70d8af0042364efdc9381d070b6b7.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.289
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.634
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.644
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.648
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.649
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.655
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.708
+!MESSAGE Started org.eclipse.buildship.core 51ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.037
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.038
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.042
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.042
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.043
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.043
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.043
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.043
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.044
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.044
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.044
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.045
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.136
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.230
+!MESSAGE RepositoryRegistryUpdateJob finished 161ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.884
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.055
+!MESSAGE Workspace initialized in 987ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.078
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.083
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.108
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:34.354
+!MESSAGE Reconciled 1. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:35.177
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:35.181
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:35.183
+!MESSAGE Validated 1. Took 227 ms
+
+!ENTRY java-debug 1 0 2024-05-30 15:37:35.298
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:35.561
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:38:04.892
+!MESSAGE Reconciled 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:38:05.422
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:38:05.423
+!MESSAGE 5 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:38:05.424
+!MESSAGE Validated 1. Took 82 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:38:07.200
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:38:07.685
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:38:07.686
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:38:07.686
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:36.942
+!MESSAGE Maven Central search cancelled
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:39.333
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:39.434
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:39.591
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:40.079
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:40.079
+!MESSAGE 3 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:40.080
+!MESSAGE Validated 1. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:40.700
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:41.186
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:41.186
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:41.187
+!MESSAGE Validated 1. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:42.305
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:42.736
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:42.737
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:42.737
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:43.538
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:43.779
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:43.988
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:44.358
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:44.700
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:44.702
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:44.835
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:45.096
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:45.143
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:45.211
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:45.377
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:45.513
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:45.704
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:45.859
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:46.027
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:46.129
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:46.611
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:46.612
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:39:46.613
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:45:16.819
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:45:16.821
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:45:16.841
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:45:16.849
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-06-06 07:31:09.308 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-2190160afbb1bb66d0b4652d75f6fd91.sock
+Command-line arguments:  -data /home/rafayahmad/.config/Code/User/workspaceStorage/0f41262c617b34a9a14e4c55d15b3a8a/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-2190160afbb1bb66d0b4652d75f6fd91.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.226
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.693
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.719
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.732
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.733
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.736
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.854
+!MESSAGE Started org.eclipse.buildship.core 115ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.421
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.3.1/dist/com.microsoft.jdtls.intellicode.core-0.7.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.424
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-gradle-3.13.5/server/com.microsoft.gradle.bs.importer-0.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.427
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-debug-0.57.0/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.430
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-dependency-0.23.6/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.433
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.441
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.444
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.446
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.456
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.463
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.468
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.475
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.480
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.483
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.485
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.486
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.491
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.494
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.496
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.498
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.500
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.504
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.506
+!MESSAGE Installed reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-maven-0.44.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.539
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.540
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.553
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.555
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.560
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.604
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-maven-0.44.0/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.653
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.678
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-gradle-3.13.5/server/com.microsoft.gradle.bs.importer-0.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.679
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.684
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.705
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-debug-0.57.0/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.706
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.707
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.708
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.708
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.726
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.3.1/dist/com.microsoft.jdtls.intellicode.core-0.7.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.727
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.728
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.729
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.748
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-dependency-0.23.6/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.749
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.750
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.751
+!MESSAGE Started reference:file:/home/rafayahmad/.vscode/extensions/vscjava.vscode-java-test-0.41.1/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.760
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.760
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.761
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.761
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.761
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.761
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.762
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.762
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.762
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.762
+!MESSAGE Non-Static Commands: [java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.762
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.762
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.784
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.796
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:15.163
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:15.196
+!MESSAGE Workspace initialized in 413ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:15.228
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:15.232
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:15.238
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:16.480
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:17.223
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:17.226
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:17.227
+!MESSAGE Validated 1. Took 97 ms
+
+!ENTRY java-debug 1 0 2024-06-06 07:31:17.628
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:17.900
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:32.010
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:49.385
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:49.388
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:49.509
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:49.517
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-06-07 10:08:06.281 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-c9a39a9da115e47e9bc8299208d07785.sock
+Command-line arguments:  -data /home/rafayahmad/.config/Code/User/workspaceStorage/0f41262c617b34a9a14e4c55d15b3a8a/redhat.java/jdt_ws --pipe=/run/user/1000/lsp-c9a39a9da115e47e9bc8299208d07785.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-07 10:08:08.542
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-06-07 10:08:08.636
+!MESSAGE No such file or directory
+!STACK 0
+java.net.SocketException: No such file or directory
+	at java.base/sun.nio.ch.UnixDomainSockets.connect0(Native Method)
+	at java.base/sun.nio.ch.UnixDomainSockets.connect(UnixDomainSockets.java:148)
+	at java.base/sun.nio.ch.UnixDomainSockets.connect(UnixDomainSockets.java:144)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:851)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$PipeStreamProvider.initializeNamedPipe(ConnectionStreamFactory.java:117)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$PipeStreamProvider.<init>(ConnectionStreamFactory.java:89)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory.createProvider(ConnectionStreamFactory.java:269)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory.getSelectedStream(ConnectionStreamFactory.java:257)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory.getInputStream(ConnectionStreamFactory.java:275)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startConnection(JavaLanguageServerPlugin.java:349)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startLanguageServer(JavaLanguageServerPlugin.java:447)
+	at org.eclipse.jdt.ls.core.internal.LanguageServerApplication.start(LanguageServerApplication.java:54)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:679)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:616)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1465)
+
+!ENTRY org.eclipse.osgi 4 0 2024-06-07 10:08:08.649
+!MESSAGE Application error
+!STACK 1
+java.lang.IllegalStateException: Input stream must be configured.
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:310)
+	at org.eclipse.lsp4j.jsonrpc.Launcher.createIoLauncher(Launcher.java:125)
+	at org.eclipse.lsp4j.jsonrpc.Launcher.createLauncher(Launcher.java:101)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startConnection(JavaLanguageServerPlugin.java:357)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startLanguageServer(JavaLanguageServerPlugin.java:447)
+	at org.eclipse.jdt.ls.core.internal.LanguageServerApplication.start(LanguageServerApplication.java:54)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:679)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:616)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1465)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-07 10:08:08.673
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

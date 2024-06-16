@@ -1,0 +1,358 @@
+!SESSION 2024-05-30 14:11:16.793 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-94f45944d5c027ea1cf70be828295e62.sock
+Command-line arguments:  -data /home/rafayahmad/.config/Code/User/workspaceStorage/0f41262c617b34a9a14e4c55d15b3a8a/redhat.java/ss_ws --pipe=/run/user/1000/lsp-94f45944d5c027ea1cf70be828295e62.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:18.747
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:18.921
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:18.964
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:18.968
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.092
+!MESSAGE Setting /usr/lib/jvm/java-22-openjdk as 'JavaSE-22' environment (id:1717060279081)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.096
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk as 'JavaSE-17' environment (id:1717060279069)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.097
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.112
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.140
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.195
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.741
+!MESSAGE Workspace initialized in 629ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.813
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.815
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.826
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:19.828
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:21.709
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:21.715
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:21.765
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 14:11:21.773
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-05-30 15:37:27.125 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-bd72060ba7e44a080bcd00c71c889e9e.sock
+Command-line arguments:  -data /home/rafayahmad/.config/Code/User/workspaceStorage/0f41262c617b34a9a14e4c55d15b3a8a/redhat.java/ss_ws --pipe=/run/user/1000/lsp-bd72060ba7e44a080bcd00c71c889e9e.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:29.466
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:29.641
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:29.687
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:29.689
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:29.749
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.227
+!MESSAGE Workspace initialized in 500ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.246
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.247
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.251
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.253
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.267
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.276
+!MESSAGE Creating the Java project keypress-getter_ba55503d
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.321
+!MESSAGE Finished creating the Java project keypress-getter_ba55503d
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.355
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:30.355
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.113
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.123
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.132
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.135
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.187
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.263
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.469
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.470
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.840
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.873
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:31.875
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.049
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.063
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.135
+!MESSAGE Reconciled 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.221
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.253
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.308
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.581
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.615
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.657
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.683
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.933
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:32.985
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.029
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.375
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.378
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.383
+!MESSAGE Validated 1. Took 124 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.421
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.964
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:33.978
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:34.035
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-05-30 15:37:34.056
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-06-06 07:31:08.939 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-63157424df18c1a1b15724eefe3b5cd0.sock
+Command-line arguments:  -data /home/rafayahmad/.config/Code/User/workspaceStorage/0f41262c617b34a9a14e4c55d15b3a8a/redhat.java/ss_ws --pipe=/run/user/1000/lsp-63157424df18c1a1b15724eefe3b5cd0.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:11.808
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.031
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.063
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.066
+!MESSAGE Initializing Java Language Server 1.35.0.202404250410
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.150
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.873
+!MESSAGE Workspace initialized in 758ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.888
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.890
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.893
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.894
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.911
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:12.921
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:13.716
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:13.758
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:13.760
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.164
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.935
+!MESSAGE begin problem for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.938
+!MESSAGE 0 problems reported for /GlobalKeyListener.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:14.945
+!MESSAGE Validated 1. Took 129 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:16.141
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:16.150
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:16.237
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-06 07:31:16.246
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2024-06-07 10:08:06.281 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.11
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/run/user/1000/lsp-e5e39ebb2df38dc1c6eff966127cafb7.sock
+Command-line arguments:  -data /home/rafayahmad/.config/Code/User/workspaceStorage/0f41262c617b34a9a14e4c55d15b3a8a/redhat.java/ss_ws --pipe=/run/user/1000/lsp-e5e39ebb2df38dc1c6eff966127cafb7.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-07 10:08:08.524
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-06-07 10:08:08.584
+!MESSAGE No such file or directory
+!STACK 0
+java.net.SocketException: No such file or directory
+	at java.base/sun.nio.ch.UnixDomainSockets.connect0(Native Method)
+	at java.base/sun.nio.ch.UnixDomainSockets.connect(UnixDomainSockets.java:148)
+	at java.base/sun.nio.ch.UnixDomainSockets.connect(UnixDomainSockets.java:144)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:851)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$PipeStreamProvider.initializeNamedPipe(ConnectionStreamFactory.java:117)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$PipeStreamProvider.<init>(ConnectionStreamFactory.java:89)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory.createProvider(ConnectionStreamFactory.java:269)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory.getSelectedStream(ConnectionStreamFactory.java:257)
+	at org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory.getInputStream(ConnectionStreamFactory.java:275)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startConnection(JavaLanguageServerPlugin.java:349)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startLanguageServer(JavaLanguageServerPlugin.java:447)
+	at org.eclipse.jdt.ls.core.internal.LanguageServerApplication.start(LanguageServerApplication.java:54)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:679)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:616)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1465)
+
+!ENTRY org.eclipse.osgi 4 0 2024-06-07 10:08:08.598
+!MESSAGE Application error
+!STACK 1
+java.lang.IllegalStateException: Input stream must be configured.
+	at org.eclipse.lsp4j.jsonrpc.Launcher$Builder.create(Launcher.java:310)
+	at org.eclipse.lsp4j.jsonrpc.Launcher.createIoLauncher(Launcher.java:125)
+	at org.eclipse.lsp4j.jsonrpc.Launcher.createLauncher(Launcher.java:101)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startConnection(JavaLanguageServerPlugin.java:357)
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.startLanguageServer(JavaLanguageServerPlugin.java:447)
+	at org.eclipse.jdt.ls.core.internal.LanguageServerApplication.start(LanguageServerApplication.java:54)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:679)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:616)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1465)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-06-07 10:08:08.604
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-06-07 10:08:08.652
+!MESSAGE The workspace will exit with unsaved changes in this session.

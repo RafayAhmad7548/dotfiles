@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/rafayahmad/.config/Code/User/workspaceStorage/aeb191ed7ec0b589e8cb90341c31827d/redhat.java/.620b464772d5284f7de9ac18df7ee249d72208b9-audit.json",
+    "files": [
+        {
+            "date": 1712920437722,
+            "name": "/home/rafayahmad/.config/Code/User/workspaceStorage/aeb191ed7ec0b589e8cb90341c31827d/redhat.java/client.log.2024-04-12",
+            "hash": "1487eb6d1cf632d79fb53fa732b5aa885eb9d37ab6ce50312d789dd4c6d54344"
+        }
+    ],
+    "hashType": "sha256"
+}

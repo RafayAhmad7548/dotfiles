@@ -1,0 +1,102 @@
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-04-15 09:29:14.812'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.29.0-linux-x64/lombok/lombok-1.18.32.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.29.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.800.v20240304-1850.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.29.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/c89b1286d1c3ca5d358e061e31643a72/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-04-15 09:29:14.878'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.29.0-linux-x64/lombok/lombok-1.18.32.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/c89b1286d1c3ca5d358e061e31643a72/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.29.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.800.v20240304-1850.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.29.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/c89b1286d1c3ca5d358e061e31643a72/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-04-15 09:29:14.983'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2024-04-15 09:29:14.988'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-04-15 09:29:15.056'
+}
+{
+  message: 'Apr 15, 2024 9:29:16 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-04-15 09:29:16.261'
+}
+{
+  message: 'Apr 15, 2024 9:29:16 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-04-15 09:29:16.270'
+}
+{
+  message: '[Error - 9:29:18 AM] Apr 15, 2024, 9:29:16 AM FrameworkEvent ERROR\n' +
+    'org.osgi.framework.BundleException: Could not resolve module: com.microsoft.java.test.plugin [133]\n' +
+    '  Unresolved requirement: Require-Bundle: org.eclipse.jdt.junit5.runtime\n' +
+    '    -> Bundle-SymbolicName: org.eclipse.jdt.junit5.runtime; bundle-version="1.1.100.v20220907-0450"; singleton:="true"\n' +
+    '       org.eclipse.jdt.junit5.runtime [130]\n' +
+    '         Unresolved requirement: Require-Bundle: org.opentest4j; bundle-version="1.1.1"\n' +
+    '         Unresolved requirement: Require-Bundle: junit-jupiter-migrationsupport; bundle-version="5.4.0"\n' +
+    '           -> Bundle-SymbolicName: junit-jupiter-migrationsupport; bundle-version="5.9.3"\n' +
+    '              junit-jupiter-migrationsupport [118]\n' +
+    '                Unresolved requirement: Import-Package: org.apiguardian.api; version="[1.1.0,2.0.0)"; resolution:="optional"\n' +
+    '                Unresolved requirement: Import-Package: org.junit.jupiter.api.extension; version="[5.9.0,6.0.0)"\n' +
+    '                  -> Export-Package: org.junit.jupiter.api.extension; bundle-symbolic-name="junit-jupiter-api"; bundle-version="5.9.3"; version="5.9.3"; status="STABLE"; uses:="org.apiguardian.api,org.junit.jupiter.api,org.junit.jupiter.api.function,org.junit.jupiter.api.parallel,org.junit.platform.commons"\n' +
+    '                     junit-jupiter-api [116]\n' +
+    '                       Unresolved requirement: Import-Package: org.apiguardian.api; version="[1.1.0,2.0.0)"; resolution:="optional"\n' +
+    '                       Unresolved requirement: Import-Package: org.junit.platform.commons.logging; version="[1.9.0,2.0.0)"; status="INTERNAL"\n' +
+    '         Unresolved requirement: Require-Bundle: junit-vintage-engine; bundle-version="5.4.0"\n' +
+    '           -> Bundle-SymbolicName: junit-vintage-engine; bundle-version="5.9.3"\n' +
+    '              junit-vintage-engine [127]\n' +
+    '                Unresolved requirement: Import-Package: org.apiguardian.api; version="[1.1.0,2.0.0)"; resolution:="optional"\n' +
+    '                Unresolved requirement: Import-Package: org.junit.platform.commons.logging; version="[1.9.0,2.0.0)"; status="INTERNAL"\n' +
+    '         Unresolved requirement: Require-Bundle: junit-jupiter-api; bundle-version="5.4.0"\n' +
+    '           -> Bundle-SymbolicName: junit-jupiter-api; bundle-version="5.9.3"\n' +
+    '         Unresolved requirement: Require-Bundle: junit-jupiter-engine; bundle-version="5.4.0"\n' +
+    '           -> Bundle-SymbolicName: junit-jupiter-engine; bundle-version="5.9.3"\n' +
+    '              junit-jupiter-engine [117]\n' +
+    '                Unresolved requirement: Import-Package: org.apiguardian.api; version="[1.1.0,2.0.0)"; resolution:="optional"\n' +
+    '                Unresolved requirement: Import-Package: org.junit.platform.commons.logging; version="[1.9.0,2.0.0)"; status="INTERNAL"\n' +
+    '         Unresolved requirement: Require-Bundle: junit-jupiter-params; bundle-version="5.4.0"\n' +
+    '           -> Bundle-SymbolicName: junit-jupiter-params; bundle-version="5.9.3"\n' +
+    '              junit-jupiter-params [119]\n' +
+    '                Unresolved requirement: Import-Package: org.apiguardian.api; version="[1.1.0,2.0.0)"; resolution:="optional"\n' +
+    '                Unresolved requirement: Import-Package: kotlin; resolution:="optional"\n' +
+    '                Unresolved requirement: Import-Package: kotlin.jvm.internal; resolution:="optional"\n' +
+    '                Unresolved requirement: Import-Package: org.junit.jupiter.api; version="[5.9.0,6.0.0)"\n' +
+    '                  -> Export-Package: org.junit.jupiter.api; bundle-symbolic-name="junit-jupiter-api"; bundle-version="5.9.3"; version="5.9.3"; status="STABLE"; uses:="kotlin,kotlin.jvm.functions,kotlin.jvm.internal,org.apiguardian.api,org.junit.jupiter.api.function,org.junit.jupiter.api.parallel,org.junit.platform.commons.annotation,org.opentest4j"\n' +
+    '  Unresolved requirement: Require-Bundle: junit-jupiter-api; bundle-version="5.4.0"\n' +
+    '    -> Bundle-SymbolicName: junit-jupiter-api; bundle-version="5.9.3"\n' +
+    '\n' +
+    '\tat org.eclipse.osgi.container.Module.start(Module.java:493)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:2073)\n' +
+    '\tat org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:143)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2064)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:2004)\n' +
+    '\tat org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1967)\n' +
+    '\tat org.eclipse.osgi.container.SystemModule.startWorker(SystemModule.java:274)\n' +
+    '\tat org.eclipse.osgi.container.Module.doStart(Module.java:639)\n' +
+    '\tat org.eclipse.osgi.container.Module.start(Module.java:498)\n' +
+    '\tat org.eclipse.osgi.container.SystemModule.start(SystemModule.java:198)\n' +
+    '\tat org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:463)\n' +
+    '\tat org.eclipse.osgi.internal.framework.EquinoxBundle.start(EquinoxBundle.java:482)\n' +
+    '\tat org.eclipse.osgi.launch.Equinox.start(Equinox.java:139)\n' +
+    '\tat org.eclipse.core.runtime.adaptor.EclipseStarter.startup(EclipseStarter.java:367)\n' +
+    '\tat org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:267)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:681)\n' +
+    '\tat org.eclipse.equinox.launcher.Main.basicRun(Main.java:618)\n' +
+    '\tat org.eclipse.equinox.launcher.Main.run(Main.java:1494)\n' +
+    '\tat org.eclipse.equinox.launcher.Main.main(Main.java:1467)\n',
+  level: 'info',
+  timestamp: '2024-04-15 09:29:18.289'
+}

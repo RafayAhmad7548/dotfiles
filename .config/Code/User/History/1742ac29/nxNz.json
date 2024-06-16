@@ -1,0 +1,186 @@
+{
+  //--------------VIM STUFF----------------------//
+  
+  "vim.useSystemClipboard": true,
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.leader": "<Space>",
+  "editor.lineNumbers": "relative",
+  "vim.handleKeys": {
+  },
+  "vim.insertModeKeyBindingsNonRecursive": [
+    // back to normal mode
+    {
+      "before": ["<C-x>"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    // hjkl remap
+    {
+      "before": ["j"],
+      "after": ["h"]
+    },
+    {
+      "before": ["k"],
+      "after": ["j"]
+    },
+    {
+      "before": ["i"],
+      "after": ["k"]
+    },
+    {
+      "before": ["h"],
+      "after": ["i"]
+    },
+    
+    // back to normal mode
+    {
+      "before": ["<C-x>"],
+      "after": ["<Esc>"]
+    },
+    
+    // start of line
+    {
+      "before": ["_"],
+      "after": ["#"]
+    },
+    {
+      "before": ["#"],
+      "after": ["_"]
+    }
+  ],
+  "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    // hjkl remap
+    {
+      "before": ["j"],
+      "after": ["h"]
+    },
+    {
+      "before": ["k"],
+      "after": ["j"]
+    },
+    {
+      "before": ["i"],
+      "after": ["k"]
+    },
+    {
+      "before": ["h"],
+      "after": ["i"]
+    },
+    
+    // start of line
+    {
+      "before": ["_"],
+      "after": ["#"]
+    },
+    {
+      "before": ["#"],
+      "after": ["_"]
+    },
+
+    // back to normal mode
+    {
+      "before": ["<C-x>"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // hjkl remap
+    {
+      "before": ["j"],
+      "after": ["h"]
+    },
+    {
+      "before": ["k"],
+      "after": ["j"]
+    },
+    {
+      "before": ["i"],
+      "after": ["k"]
+    },
+    {
+      "before": ["h"],
+      "after": ["i"]
+    },
+    
+    // start of line
+    {
+      "before": ["_"],
+      "after": ["#"]
+    },
+    {
+      "before": ["#"],
+      "after": ["_"]
+    },
+    
+    // vertical movement
+    {
+      "before": ["<C-d>"],
+      "after": ["<C-d>", "z", "z"]
+    },
+    {
+      "before": ["<C-u>"],
+      "after": ["<C-u>", "z", "z"]
+    },
+    
+    // command pallete stuff
+    {
+      "before": ["leader", "o"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["leader", "c"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["leader", "s"],
+      "commands": ["workbench.action.gotoSymbol"]
+    },
+    {
+      "before": ["leader", "f"],
+      "commands": ["actions.find"]
+    }
+
+  ],
+
+  //------------------------NORMAL SETTINGS----------------------------------//
+
+  "workbench.colorTheme": "Default Dark Modern",
+  "window.titleBarStyle": "custom",
+  "workbench.panel.defaultLocation": "right",
+  "workbench.settings.applyToAllProfiles": ["workbench.panel.defaultLocation"],
+  "workbench.startupEditor": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.suggestSnippets": false,
+  "cmake.showOptionsMovedNotification": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "terminal.integrated.cursorStyle": "line",
+  "redhat.telemetry.enabled": false,
+  "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk",
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "breadcrumbs.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "java.import.gradle.java.home": "/usr/lib/jvm/java-17-openjdk",
+  "cmake.configureOnOpen": true,
+  "terminal.integrated.fontFamily": "\"Hack Nerd Font\"",
+  "editor.fontFamily": "\"Hack Nerd Font\"",
+  "editor.fontSize": 16,
+  "terminal.integrated.fontSize": 16,
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "extensions.autoCheckUpdates": false,
+  "update.showReleaseNotes": false,
+
+  
+  
+
+}

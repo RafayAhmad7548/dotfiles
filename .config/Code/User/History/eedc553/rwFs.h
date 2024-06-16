@@ -1,0 +1,27 @@
+// #ifndef PADDLE_H
+// #define PADDLE_H
+
+#include "Ball.h"
+class Paddle{
+    const int height;
+    const int y;
+
+    int width;
+    int x;
+    float *color;
+
+public:
+
+    Paddle(int width, int x, float *color); 
+    Paddle(const Paddle& other);
+
+    void draw();
+    void checkCollision(Ball& ball);
+
+    int getX();
+    int getY();
+    Paddle& setX(int x);
+    ~Paddle();
+};
+
+// #endif

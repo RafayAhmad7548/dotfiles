@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(MyPlugin)
+
+set(CMAKE_CXX_STANDARD 14)
+
+# Specify the path to the Hyprland API headers
+include_directories(/path/to/hyprland/api/headers)
+
+# Add the source file
+add_library(MyPlugin SHARED main.cpp)
+
+# If the Hyprland API is a library, link against it
+target_link_libraries(MyPlugin /path/to/hyprland/api/library)

@@ -1,0 +1,41 @@
+# cmake_minimum_required(VERSION 3.10)
+# project(sttracker)
+
+# set(CMAKE_CXX_STANDARD 14)
+
+# # Specify the path to the Hyprland API headers
+# # include_directories(Hyprland/src/)
+# include_directories(Hyprland/subprojects/wlroots-hyprland/include/render)
+# include_directories(Hyprland/subprojects/wlroots-hyprland/render)
+
+# # Add the source file
+# add_library(sttracker SHARED main.cpp)
+
+# add_definitions(-DWLR_USE_UNSTABLE)
+cmake_minimum_required(VERSION 3.27)
+
+project(sttracker
+    DESCRIPTION "sttracker plugin for Hyprland"
+    VERSION 0.1
+)
+
+set(CMAKE_CXX_STANDARD 23)
+
+file(GLOB_RECURSE SRC "*.cpp")
+
+add_library(sttracker SHARED ${SRC})
+
+find_package(PkgConfig REQUIRED)
+pkg_check_modules(deps REQUIRED IMPORTED_TARGET
+    hyprland
+    libdrm
+    libinput
+    libudev
+    pangocairo
+    pixman-1
+    wayland-server
+    xkbcommon
+)
+target_link_libraries(sttracker PRIVATE rt PkgConfig::deps)
+
+install(TARGETS sttracker)

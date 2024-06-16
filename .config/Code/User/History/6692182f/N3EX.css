@@ -1,0 +1,36 @@
+/* .tab{
+    -fx-pref-width: 150px;
+    -fx-pref-height: 30px;
+}
+.tab-close-button:hover{
+    /* -fx-shape: "M 10,10 m -10,0 a 10,10 0 1,0 20,0 a 10,10 0 1,0 -20,0"; */
+    /* -fx-shape: "M 7,7 m -7,0 a 7,7 0 1,0 14,0 a 7,7 0 1,0 -14,0";  
+    -fx-background-color: rgb(165, 165, 165);
+    -fx-text-fill: black;
+} */
+
+#tab-button{
+    -fx-pref-width: 150px;
+    -fx-pref-height: 30px;
+    -fx-translate-x: 5px;
+    -fx-translate-y: 5px;
+    -fx-focus-traversable: false;
+    -fx-alignment: center-left;
+}
+#tab-close-button{
+    -fx-translate-x: 125px;
+    -fx-translate-y: 7px;
+    -fx-min-width: 20px;
+    -fx-min-height: 25px;
+    -fx-max-height: 25px;
+    -fx-background-radius: 20px;
+    -fx-focus-traversable: false;
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+#tab-close-button:hover{
+    -fx-background-color: rgb(214, 214, 214);
+}
+#tab-pane{
+    -fx-translate-y: 70px;
+}
