@@ -1,4 +1,4 @@
+.config/discord
 .config/Code/*
 !.config/Code/
 !config/Code/User
-.config/discord
