@@ -1,0 +1,143 @@
+//  __  __           _       _            
+// |  \/  | ___   __| |_   _| | ___  ___  
+// | |\/| |/ _ \ / _` | | | | |/ _ \/ __| 
+// | |  | | (_) | (_| | |_| | |  __/\__ \ 
+// |_|  |_|\___/ \__,_|\__,_|_|\___||___/ 
+//                                        
+//  
+// 
+// ----------------------------------------------------- 
+//
+{
+    // Workspaces
+    "hyprland/workspaces" : {
+        "on-click": "activate",
+        "active-only": false,
+        "all-outputs": true,
+        "format": "{}",
+        "format-icons": {
+            "urgent": "",
+            "active": "",
+            "default": ""
+        },
+        "persistent-workspaces": {
+            "*": 3
+        }       
+    },
+
+    // Taskbar
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 18,
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "ignore-list": [
+           "Alacritty"
+        ],
+        "app_ids-mapping": {
+            "firefoxdeveloperedition": "firefox-developer-edition"
+        },
+        "rewrite": {
+            "Firefox Web Browser": "Firefox",
+            "Foot Server": "Terminal"
+        }
+    },
+
+    // Hyprland Window
+    "hyprland/window": {
+        "rewrite": {
+            "(.*) - Brave": "$1",
+            "(.*) - Chromium": "$1",
+            "(.*) - Brave Search": "$1",
+            "(.*) - Outlook": "$1",
+            "(.*) Microsoft Teams": "$1"
+        },
+        "separate-outputs": true
+    },
+
+    
+
+    "custom/exit": {
+        "format": "",
+        "on-click": "~/Stuff/scripts/blurWlogout.sh",
+        "tooltip": false
+    },
+
+    "custom/arch": {
+        "format": "󰣇"
+    },
+
+
+    // Keyboard Layout
+    "hyprland/language": {
+        "format": "{short}"
+    },
+
+    // Keyboard State
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": false,
+        "format": {
+            "numlock": "{icon}"
+        },
+        "format-icons": {
+            "locked": "󰎦",
+            "unlocked": ""
+        }
+    },
+
+    // Clock
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        // START CLOCK FORMAT
+        "format": "{:%d %b - %I:%M %p}"
+        // END CLOCK FORMAT
+    },
+
+    // Network
+    "network": {
+        "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+        "format-wifi": "{icon} {signalStrength}%",
+        "format-ethernet": "󰈁 {ifname}",
+        "format-disconnected": "󰤭",
+        "tooltip-format-wifi": "{essid}",
+        "max-length": 50,
+        "on-click": "kitty nmtui"
+    },
+
+    // Battery
+    "battery": {
+        "states": {
+            "good": 80,
+            "warning": 30,
+            "critical": 25
+        },
+        "interval": 5,
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% 󰂄",
+        "format-plugged": "{capacity}% 󰂄",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+    },
+
+    // Pulseaudio
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon}{volume}%",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": "󰝟 {volume}%",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": " ",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["󰕿 ", "󰖀 ", "󰕾 "]
+        },
+        "on-click": "pavucontrol"
+    }
+
+}

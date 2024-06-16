@@ -1,0 +1,76 @@
+* {
+	
+}
+configuration {
+/*	modes: "window,drun,run,ssh";*/
+	font: "HackNerdFont 12";
+	show-icons: true;
+	hover-select: true;
+	no-steal-focus: false;
+	eh: 2;
+	matching: "prefix";
+    display-drun: " ";
+	
+  	timeout {
+		action: "kb-cancel";
+	  	delay:  0;
+  	}
+  	filebrowser {
+	  	directories-first: true;
+	  	sorting-method:    "name";
+  	}
+}
+
+listview {
+	lines: 12;
+	scrollbar: false;
+	cycle: false;
+}
+
+window {
+	width: 450px;
+	height: 575px;
+	border-radius: 10px;
+	background-color: #000000;
+}
+
+prompt {
+	text-color: #FFFFFF;
+}
+
+inputbar {
+    children: ["prompt", "entry"];
+}
+
+entry {
+    placeholder: "Search Apps";
+	text-color: #FFFFFF;
+}
+
+mainbox {
+	padding: 5px;
+    children: ["inputbar", "listview", "message"];
+}
+
+element {
+	margin: 5px;
+	border-radius: 10px;
+}
+
+element normal.normal {
+	background-color: #1E1E1E;
+	text-color: #FFFFFF;
+}
+element alternate.normal {
+	background-color: #111111;
+	text-color: #FFFFFF;
+}
+element selected.active {
+	background-color: #1793d1;
+	text-color: #FFFFFF;
+}
+
+element selected.normal {
+	background-color: #1793d1;
+	text-color: #FFFFFF;
+}
