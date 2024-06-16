@@ -1,4 +1,11 @@
 .config/discord/
+.config/ZapZap
+.config/cef_user_data
+.config/eog
+.config/libreoffice/4/user
+.config/vlc
+
+
 .config/Code/*
 !.config/Code/User/
 !.config/Code/User/**
