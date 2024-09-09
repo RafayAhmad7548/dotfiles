@@ -1,0 +1,3249 @@
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-12 10:35:23.184'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-12 10:35:23.213'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-12 10:35:23.304'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 10:35:23.443'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 10:35:23.444'
+}
+{
+  message: 'Jul 12, 2024 10:35:24 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Jul 12, 2024 10:35:24 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-12 10:35:24.802'
+}
+{
+  message: 'Jul 12, 2024 10:35:31 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-07-12 10:35:31.793'
+}
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-12 12:25:44.137'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-12 12:25:44.351'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:25:44.663'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-12 12:25:44.950'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:25:45.345'
+}
+{
+  message: 'Jul 12, 2024 12:25:46 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Jul 12, 2024 12:25:46 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:25:46.564'
+}
+{
+  message: 'Jul 12, 2024 12:27:30 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:27:30.052'
+}
+{
+  message: 'Jul 12, 2024 12:27:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 24\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:27:41.181'
+}
+{
+  message: 'Jul 12, 2024 12:27:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 33\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:27:42.379'
+}
+{
+  message: 'Jul 12, 2024 12:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 312\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:49.898'
+}
+{
+  message: 'Jul 12, 2024 12:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 313\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:49.905'
+}
+{
+  message: 'Jul 12, 2024 12:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 314\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:49.975'
+}
+{
+  message: 'Jul 12, 2024 12:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 316\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:49.976'
+}
+{
+  message: 'Jul 12, 2024 12:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 317\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:49.999'
+}
+{
+  message: 'Jul 12, 2024 12:29:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 360\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:53.049'
+}
+{
+  message: 'Jul 12, 2024 12:29:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 361\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:53.552'
+}
+{
+  message: 'Jul 12, 2024 12:29:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 363\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:53.585'
+}
+{
+  message: 'Jul 12, 2024 12:29:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 364\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:53.588'
+}
+{
+  message: 'Jul 12, 2024 12:29:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 369\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:53.614'
+}
+{
+  message: 'Jul 12, 2024 12:29:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 373\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:29:53.644'
+}
+{
+  message: 'Jul 12, 2024 12:30:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 719\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:30:42.072'
+}
+{
+  message: 'Jul 12, 2024 12:30:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 721\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:30:42.073'
+}
+{
+  message: 'Jul 12, 2024 12:31:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 769\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:31:17.448'
+}
+{
+  message: 'Jul 12, 2024 12:31:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 819\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:31:29.667'
+}
+{
+  message: 'Jul 12, 2024 12:31:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 846\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:31:35.365'
+}
+{
+  message: 'Jul 12, 2024 12:31:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 886\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:31:40.383'
+}
+{
+  message: 'Jul 12, 2024 12:31:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1001\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:31:52.297'
+}
+{
+  message: 'Jul 12, 2024 12:32:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1137\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:11.095'
+}
+{
+  message: 'Jul 12, 2024 12:32:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1238\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:29.661'
+}
+{
+  message: 'Jul 12, 2024 12:32:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1327\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:39.598'
+}
+{
+  message: 'Jul 12, 2024 12:32:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1447\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:54.284'
+}
+{
+  message: 'Jul 12, 2024 12:32:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1462\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:56.090'
+}
+{
+  message: 'Jul 12, 2024 12:32:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1463\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:56.593'
+}
+{
+  message: 'Jul 12, 2024 12:32:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1464\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:56.594'
+}
+{
+  message: 'Jul 12, 2024 12:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1465\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:57.098'
+}
+{
+  message: 'Jul 12, 2024 12:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1467\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:57.601'
+}
+{
+  message: 'Jul 12, 2024 12:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1469\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:57.602'
+}
+{
+  message: 'Jul 12, 2024 12:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1468\n' +
+    'Jul 12, 2024 12:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1470\n',
+  level: 'info',
+  timestamp: '2024-07-12 12:32:57.603'
+}
+{
+  message: 'Jul 12, 2024 1:42:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1558\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:42:19.563'
+}
+{
+  message: 'Jul 12, 2024 1:42:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1575\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:42:24.350'
+}
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-12 13:46:14.669'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-12 13:46:14.691'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:46:14.749'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-12 13:46:14.912'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:46:15.017'
+}
+{
+  message: 'Jul 12, 2024 1:46:16 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Jul 12, 2024 1:46:16 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:46:16.252'
+}
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-12 13:50:29.586'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:29.609'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:29.711'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:29.841'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:29.962'
+}
+{
+  message: 'Jul 12, 2024 1:50:31 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Jul 12, 2024 1:50:31 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:31.552'
+}
+{
+  message: 'Jul 12, 2024 1:50:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 18\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:38.943'
+}
+{
+  message: 'Jul 12, 2024 1:50:39 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:39.321'
+}
+{
+  message: 'Jul 12, 2024 1:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 98\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:54.641'
+}
+{
+  message: 'Jul 12, 2024 1:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 99\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:54.819'
+}
+{
+  message: 'Jul 12, 2024 1:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 100\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:54.822'
+}
+{
+  message: 'Jul 12, 2024 1:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 101\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:54.948'
+}
+{
+  message: 'Jul 12, 2024 1:50:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 102\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:54.950'
+}
+{
+  message: 'Jul 12, 2024 1:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 103\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:55.097'
+}
+{
+  message: 'Jul 12, 2024 1:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 104\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:55.099'
+}
+{
+  message: 'Jul 12, 2024 1:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 105\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:55.251'
+}
+{
+  message: 'Jul 12, 2024 1:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 107\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:55.253'
+}
+{
+  message: 'Jul 12, 2024 1:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 108\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:55.555'
+}
+{
+  message: 'Jul 12, 2024 1:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 109\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:55.555'
+}
+{
+  message: 'Jul 12, 2024 1:50:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 111\n' +
+    'Jul 12, 2024 1:50:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 110\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:56.174'
+}
+{
+  message: 'Jul 12, 2024 1:50:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 112\n' +
+    'Jul 12, 2024 1:50:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 113\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:56.176'
+}
+{
+  message: 'Jul 12, 2024 1:50:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 117\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:56.369'
+}
+{
+  message: 'Jul 12, 2024 1:50:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 120\n' +
+    'Jul 12, 2024 1:50:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 116\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:50:56.374'
+}
+{
+  message: 'Jul 12, 2024 1:51:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 188\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:08.187'
+}
+{
+  message: 'Jul 12, 2024 1:51:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 224\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:15.257'
+}
+{
+  message: 'Jul 12, 2024 1:51:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 225\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:15.272'
+}
+{
+  message: 'Jul 12, 2024 1:51:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 226\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:15.326'
+}
+{
+  message: 'Jul 12, 2024 1:51:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 227\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:15.329'
+}
+{
+  message: 'Jul 12, 2024 1:51:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 309\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:32.693'
+}
+{
+  message: 'Jul 12, 2024 1:51:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 310\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:32.713'
+}
+{
+  message: 'Jul 12, 2024 1:51:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 314\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:32.713'
+}
+{
+  message: 'Jul 12, 2024 1:51:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 315\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:32.714'
+}
+{
+  message: 'Jul 12, 2024 1:51:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 316\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:32.718'
+}
+{
+  message: 'Jul 12, 2024 1:51:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 336\n' +
+    'Jul 12, 2024 1:51:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 338\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:51:37.074'
+}
+{
+  message: 'Jul 12, 2024 1:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 374\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:00.462'
+}
+{
+  message: 'Jul 12, 2024 1:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 376\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:00.472'
+}
+{
+  message: 'Jul 12, 2024 1:52:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 379\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:00.473'
+}
+{
+  message: 'Jul 12, 2024 1:52:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 411\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:03.281'
+}
+{
+  message: 'Jul 12, 2024 1:52:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 434\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:06.352'
+}
+{
+  message: 'Jul 12, 2024 1:52:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 435\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:06.854'
+}
+{
+  message: 'Jul 12, 2024 1:52:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 438\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:06.856'
+}
+{
+  message: 'Jul 12, 2024 1:52:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 440\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:07.358'
+}
+{
+  message: 'Jul 12, 2024 1:52:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 441\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:07.360'
+}
+{
+  message: 'Jul 12, 2024 1:52:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 442\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:07.862'
+}
+{
+  message: 'Jul 12, 2024 1:52:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 443\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:07.863'
+}
+{
+  message: 'Jul 12, 2024 1:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 444\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:08.365'
+}
+{
+  message: 'Jul 12, 2024 1:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 445\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:08.369'
+}
+{
+  message: 'Jul 12, 2024 1:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 446\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:08.870'
+}
+{
+  message: 'Jul 12, 2024 1:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 447\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:08.871'
+}
+{
+  message: 'Jul 12, 2024 1:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError\n' +
+    'SEVERE: Internal error: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:290)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:1583)\n' +
+    'Caused by: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:106)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:640)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:272)\n' +
+    '\t... 10 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:08.873'
+}
+{
+  message: '[Error - 1:52:08 PM] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:08.877'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:290)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:1583)\n' +
+    'Caused by: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:106)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:640)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:272)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:08.877'
+}
+{
+  message: 'Jul 12, 2024 1:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 452\n' +
+    'Jul 12, 2024 1:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 463\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:08.879'
+}
+{
+  message: 'Jul 12, 2024 1:52:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 461\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:08.883'
+}
+{
+  message: 'Jul 12, 2024 1:52:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 492\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:11.533'
+}
+{
+  message: 'Jul 12, 2024 1:52:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 493\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:12.035'
+}
+{
+  message: 'Jul 12, 2024 1:52:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 494\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:12.035'
+}
+{
+  message: 'Jul 12, 2024 1:52:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 496\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:12.036'
+}
+{
+  message: 'Jul 12, 2024 1:52:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 499\n' +
+    'Jul 12, 2024 1:52:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 498\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:12.539'
+}
+{
+  message: 'Jul 12, 2024 1:52:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 500\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:12.540'
+}
+{
+  message: 'Jul 12, 2024 1:52:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 501\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:12.549'
+}
+{
+  message: 'Jul 12, 2024 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 504\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:13.047'
+}
+{
+  message: 'Jul 12, 2024 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 503\n' +
+    'Jul 12, 2024 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 507\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:13.048'
+}
+{
+  message: 'Jul 12, 2024 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 508\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:13.050'
+}
+{
+  message: 'Jul 12, 2024 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 509\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:13.552'
+}
+{
+  message: 'Jul 12, 2024 1:52:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 510\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:13.554'
+}
+{
+  message: 'Jul 12, 2024 1:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 511\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:14.056'
+}
+{
+  message: 'Jul 12, 2024 1:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 512\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:14.057'
+}
+{
+  message: 'Jul 12, 2024 1:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 513\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:14.560'
+}
+{
+  message: 'Jul 12, 2024 1:52:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 514\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:14.561'
+}
+{
+  message: 'Jul 12, 2024 1:52:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 515\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:15.063'
+}
+{
+  message: 'Jul 12, 2024 1:52:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 505\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:15.064'
+}
+{
+  message: 'Jul 12, 2024 1:52:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 516\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:15.067'
+}
+{
+  message: 'Jul 12, 2024 1:52:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 519\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:15.071'
+}
+{
+  message: 'Jul 12, 2024 1:52:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 520\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:15.074'
+}
+{
+  message: 'Jul 12, 2024 1:52:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 526\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:15.079'
+}
+{
+  message: 'Jul 12, 2024 1:52:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 570\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:18.956'
+}
+{
+  message: 'Jul 12, 2024 1:52:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 571\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:18.957'
+}
+{
+  message: 'Jul 12, 2024 1:52:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 575\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:18.961'
+}
+{
+  message: 'Jul 12, 2024 1:52:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 583\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:20.008'
+}
+{
+  message: 'Jul 12, 2024 1:52:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 584\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:20.025'
+}
+{
+  message: 'Jul 12, 2024 1:52:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 725\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:48.962'
+}
+{
+  message: 'Jul 12, 2024 1:52:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 763\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:53.234'
+}
+{
+  message: 'Jul 12, 2024 1:52:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 764\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:53.236'
+}
+{
+  message: 'Jul 12, 2024 1:52:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 766\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:52:53.240'
+}
+{
+  message: 'Jul 12, 2024 1:53:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 856\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:53:19.502'
+}
+{
+  message: 'Jul 12, 2024 1:53:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 857\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:53:19.505'
+}
+{
+  message: 'Jul 12, 2024 1:53:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 860\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:53:19.508'
+}
+{
+  message: 'Jul 12, 2024 1:53:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 998\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:53:44.272'
+}
+{
+  message: 'Jul 12, 2024 1:53:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1000\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:53:44.274'
+}
+{
+  message: 'Jul 12, 2024 1:53:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1004\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:53:44.277'
+}
+{
+  message: 'Jul 12, 2024 1:54:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1178\n' +
+    'Jul 12, 2024 1:54:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1179\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:54:47.686'
+}
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-12 13:55:39.451'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-12 13:55:39.475'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:55:39.550'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-12 13:55:39.768'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:55:39.846'
+}
+{
+  message: 'Jul 12, 2024 1:55:40 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Jul 12, 2024 1:55:40 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:55:40.851'
+}
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-12 13:56:08.917'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:08.933'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/42c9bfc494b1bb2f0cd6d9bb8ceb7f69/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:08.971'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:08.989'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:09.026'
+}
+{
+  message: 'Jul 12, 2024 1:56:09 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:09.926'
+}
+{
+  message: 'Jul 12, 2024 1:56:09 PM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:09.930'
+}
+{
+  message: 'Jul 12, 2024 1:56:15 PM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:15.201'
+}
+{
+  message: 'Jul 12, 2024 1:56:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 62\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:48.450'
+}
+{
+  message: 'Jul 12, 2024 1:56:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 73\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:50.092'
+}
+{
+  message: 'Jul 12, 2024 1:56:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 75\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:50.603'
+}
+{
+  message: 'Jul 12, 2024 1:56:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 77\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:51.111'
+}
+{
+  message: 'Jul 12, 2024 1:56:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 88\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:51.159'
+}
+{
+  message: 'Jul 12, 2024 1:56:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 79\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:51.161'
+}
+{
+  message: 'Jul 12, 2024 1:56:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 78\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:51.162'
+}
+{
+  message: 'Jul 12, 2024 1:56:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 82\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:56:51.164'
+}
+{
+  message: 'Jul 12, 2024 1:57:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 396\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:49.199'
+}
+{
+  message: 'Jul 12, 2024 1:57:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 401\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:49.262'
+}
+{
+  message: 'Jul 12, 2024 1:57:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 402\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:49.264'
+}
+{
+  message: 'Jul 12, 2024 1:57:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 404\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:49.769'
+}
+{
+  message: 'Jul 12, 2024 1:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 406\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:50.272'
+}
+{
+  message: 'Jul 12, 2024 1:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 408\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:50.775'
+}
+{
+  message: 'Jul 12, 2024 1:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 418\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:50.822'
+}
+{
+  message: 'Jul 12, 2024 1:57:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 421\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:50.823'
+}
+{
+  message: '[Error - 1:57:50 PM] Jul 12, 2024, 1:57:50 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:50.827'
+}
+{
+  message: '[Error - 1:57:50 PM] Jul 12, 2024, 1:57:50 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:50.829'
+}
+{
+  message: '[Error - 1:57:50 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:50.831'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:50.832'
+}
+{
+  message: 'Jul 12, 2024 1:57:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 435\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:52.029'
+}
+{
+  message: 'Jul 12, 2024 1:57:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 437\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:52.036'
+}
+{
+  message: 'Jul 12, 2024 1:57:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 440\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:52.539'
+}
+{
+  message: 'Jul 12, 2024 1:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 442\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:53.041'
+}
+{
+  message: 'Jul 12, 2024 1:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 444\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:53.547'
+}
+{
+  message: 'Jul 12, 2024 1:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 450\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.048'
+}
+{
+  message: 'Jul 12, 2024 1:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 449\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.049'
+}
+{
+  message: 'Jul 12, 2024 1:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 451\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.050'
+}
+{
+  message: 'Jul 12, 2024 1:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 453\n' +
+    'Jul 12, 2024 1:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 456\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.052'
+}
+{
+  message: 'Jul 12, 2024 1:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 455\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.138'
+}
+{
+  message: 'Jul 12, 2024 1:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 461\n' +
+    'Jul 12, 2024 1:57:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 463\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.140'
+}
+{
+  message: '[Error - 1:57:54 PM] Jul 12, 2024, 1:57:54 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.143'
+}
+{
+  message: '[Error - 1:57:54 PM] Jul 12, 2024, 1:57:54 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.145'
+}
+{
+  message: '[Error - 1:57:54 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.146'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 13:57:54.146'
+}
+{
+  message: 'Jul 12, 2024 1:58:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 681\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:39.352'
+}
+{
+  message: 'Jul 12, 2024 1:58:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 682\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:39.358'
+}
+{
+  message: 'Jul 12, 2024 1:58:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 686\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:39.862'
+}
+{
+  message: 'Jul 12, 2024 1:58:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 688\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:39.863'
+}
+{
+  message: 'Jul 12, 2024 1:58:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 691\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:39.865'
+}
+{
+  message: '[Error - 1:58:39 PM] Jul 12, 2024, 1:58:39 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:39.901'
+}
+{
+  message: '[Error - 1:58:39 PM] Jul 12, 2024, 1:58:39 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:39.903'
+}
+{
+  message: '[Error - 1:58:39 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:39.904'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:39.904'
+}
+{
+  message: 'Jul 12, 2024 1:58:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 699\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:40.427'
+}
+{
+  message: 'Jul 12, 2024 1:58:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 698\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:40.427'
+}
+{
+  message: 'Jul 12, 2024 1:58:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 701\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:58:40.429'
+}
+{
+  message: 'Jul 12, 2024 1:59:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 877\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:03.425'
+}
+{
+  message: 'Jul 12, 2024 1:59:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 878\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:03.430'
+}
+{
+  message: 'Jul 12, 2024 1:59:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 880\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:03.932'
+}
+{
+  message: 'Jul 12, 2024 1:59:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 883\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:04.936'
+}
+{
+  message: 'Jul 12, 2024 1:59:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 885\n' +
+    'Jul 12, 2024 1:59:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 884\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:04.937'
+}
+{
+  message: 'Jul 12, 2024 1:59:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 892\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:04.959'
+}
+{
+  message: 'Jul 12, 2024 1:59:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 896\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:04.967'
+}
+{
+  message: '[Error - 1:59:04 PM] Jul 12, 2024, 1:59:04 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:04.973'
+}
+{
+  message: '[Error - 1:59:04 PM] Jul 12, 2024, 1:59:04 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:04.975'
+}
+{
+  message: '[Error - 1:59:04 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:04.977'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:04.978'
+}
+{
+  message: 'Jul 12, 2024 1:59:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 994\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:17.358'
+}
+{
+  message: 'Jul 12, 2024 1:59:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1045\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:27.352'
+}
+{
+  message: 'Jul 12, 2024 1:59:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1049\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:27.358'
+}
+{
+  message: 'Jul 12, 2024 1:59:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1052\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:27.862'
+}
+{
+  message: 'Jul 12, 2024 1:59:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1054\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:28.868'
+}
+{
+  message: 'Jul 12, 2024 1:59:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1055\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:28.869'
+}
+{
+  message: 'Jul 12, 2024 1:59:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1064\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:28.901'
+}
+{
+  message: '[Error - 1:59:28 PM] Jul 12, 2024, 1:59:28 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:28.904'
+}
+{
+  message: '[Error - 1:59:28 PM] Jul 12, 2024, 1:59:28 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:28.905'
+}
+{
+  message: '[Error - 1:59:28 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:28.906'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 13:59:28.907'
+}
+{
+  message: 'Jul 12, 2024 2:14:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError\n' +
+    'SEVERE: Internal error: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:290)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:1583)\n' +
+    'Caused by: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:106)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:640)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:272)\n' +
+    '\t... 10 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:37.753'
+}
+{
+  message: '[Error - 2:14:37 PM] Request completionItem/resolve failed.',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:37.757'
+}
+{
+  message: '  Message: Internal error.\n' +
+    '  Code: -32603 \n' +
+    'java.util.concurrent.CompletionException: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:747)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:735)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2214)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:290)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:1583)\n' +
+    'Caused by: java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:106)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.resolveCompletionItem(JDTLanguageServer.java:640)\n' +
+    '\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:272)\n' +
+    '\t... 10 more\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:37.757'
+}
+{
+  message: 'Jul 12, 2024 2:14:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1295\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:42.188'
+}
+{
+  message: 'Jul 12, 2024 2:14:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1323\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:44.367'
+}
+{
+  message: 'Jul 12, 2024 2:14:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1325\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:44.870'
+}
+{
+  message: 'Jul 12, 2024 2:14:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1326\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:45.372'
+}
+{
+  message: 'Jul 12, 2024 2:14:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1327\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:45.373'
+}
+{
+  message: 'Jul 12, 2024 2:14:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1328\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:45.875'
+}
+{
+  message: 'Jul 12, 2024 2:14:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1329\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:46.377'
+}
+{
+  message: 'Jul 12, 2024 2:14:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1331\n' +
+    'Jul 12, 2024 2:14:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1330\n' +
+    'Jul 12, 2024 2:14:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1332\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:14:46.382'
+}
+{
+  message: '[Error - 2:15:17 PM] Jul 12, 2024, 2:15:17 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:17.297'
+}
+{
+  message: 'Jul 12, 2024 2:15:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1530\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:37.806'
+}
+{
+  message: 'Jul 12, 2024 2:15:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1533\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:37.807'
+}
+{
+  message: 'Jul 12, 2024 2:15:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1575\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:43.591'
+}
+{
+  message: 'Jul 12, 2024 2:15:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1578\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:44.093'
+}
+{
+  message: 'Jul 12, 2024 2:15:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1579\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:44.595'
+}
+{
+  message: 'Jul 12, 2024 2:15:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1577\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:44.596'
+}
+{
+  message: 'Jul 12, 2024 2:15:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1580\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:44.598'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1583\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.100'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1581\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.100'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1582\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.101'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1585\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.103'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1589\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.605'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1586\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.605'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1590\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.607'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1591\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.608'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1588\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.609'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1592\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.610'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1596\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.614'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1584\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.620'
+}
+{
+  message: 'Jul 12, 2024 2:15:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1598\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:15:45.627'
+}
+{
+  message: 'Jul 12, 2024 2:17:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1840\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:13.360'
+}
+{
+  message: 'Jul 12, 2024 2:17:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1841\n' +
+    'Jul 12, 2024 2:17:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1845\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:13.862'
+}
+{
+  message: 'Jul 12, 2024 2:17:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1846\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:13.862'
+}
+{
+  message: 'Jul 12, 2024 2:17:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1847\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:14.365'
+}
+{
+  message: 'Jul 12, 2024 2:17:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1848\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:14.366'
+}
+{
+  message: 'Jul 12, 2024 2:17:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1849\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:14.867'
+}
+{
+  message: 'Jul 12, 2024 2:17:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1850\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:14.870'
+}
+{
+  message: 'Jul 12, 2024 2:17:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1853\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:14.881'
+}
+{
+  message: 'Jul 12, 2024 2:17:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1855\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:15.382'
+}
+{
+  message: 'Jul 12, 2024 2:17:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1854\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:15.383'
+}
+{
+  message: 'Jul 12, 2024 2:17:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1858\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:15.385'
+}
+{
+  message: 'Jul 12, 2024 2:17:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1860\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:15.886'
+}
+{
+  message: 'Jul 12, 2024 2:17:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1857\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:15.889'
+}
+{
+  message: 'Jul 12, 2024 2:17:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1861\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:15.891'
+}
+{
+  message: 'Jul 12, 2024 2:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1863\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:16.393'
+}
+{
+  message: 'Jul 12, 2024 2:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1862\n' +
+    'Jul 12, 2024 2:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1866\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:16.394'
+}
+{
+  message: 'Jul 12, 2024 2:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1868\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:16.395'
+}
+{
+  message: 'Jul 12, 2024 2:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1870\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:16.405'
+}
+{
+  message: 'Jul 12, 2024 2:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1872\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:16.410'
+}
+{
+  message: 'Jul 12, 2024 2:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1865\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:16.412'
+}
+{
+  message: 'Jul 12, 2024 2:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1877\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:16.416'
+}
+{
+  message: 'Jul 12, 2024 2:17:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1875\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:16.421'
+}
+{
+  message: 'Jul 12, 2024 2:17:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1949\n' +
+    'Jul 12, 2024 2:17:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1951\n' +
+    'Jul 12, 2024 2:17:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 1953\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:21.362'
+}
+{
+  message: '[Error - 2:17:21 PM] Jul 12, 2024, 2:17:21 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:21.368'
+}
+{
+  message: '[Error - 2:17:21 PM] Jul 12, 2024, 2:17:21 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:21.370'
+}
+{
+  message: '[Error - 2:17:21 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:21.372'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:21.372'
+}
+{
+  message: 'Jul 12, 2024 2:17:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2021\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:26.319'
+}
+{
+  message: 'Jul 12, 2024 2:17:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2032\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:28.929'
+}
+{
+  message: 'Jul 12, 2024 2:17:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2034\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:29.430'
+}
+{
+  message: 'Jul 12, 2024 2:17:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2035\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:29.432'
+}
+{
+  message: 'Jul 12, 2024 2:17:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2036\n' +
+    'Jul 12, 2024 2:17:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2033\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:29.934'
+}
+{
+  message: 'Jul 12, 2024 2:17:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2037\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:29.934'
+}
+{
+  message: 'Jul 12, 2024 2:17:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2046\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:30.437'
+}
+{
+  message: 'Jul 12, 2024 2:17:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2047\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:30.939'
+}
+{
+  message: 'Jul 12, 2024 2:17:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2048\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:30.943'
+}
+{
+  message: 'Jul 12, 2024 2:17:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2056\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:30.948'
+}
+{
+  message: 'Jul 12, 2024 2:17:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2096\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:34.586'
+}
+{
+  message: 'Jul 12, 2024 2:17:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2097\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:35.094'
+}
+{
+  message: 'Jul 12, 2024 2:17:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2098\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:35.095'
+}
+{
+  message: 'Jul 12, 2024 2:17:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2099\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:35.598'
+}
+{
+  message: 'Jul 12, 2024 2:17:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2101\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:35.599'
+}
+{
+  message: 'Jul 12, 2024 2:17:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2102\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:35.602'
+}
+{
+  message: 'Jul 12, 2024 2:17:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2100\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:35.602'
+}
+{
+  message: 'Jul 12, 2024 2:17:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2104\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:35.606'
+}
+{
+  message: 'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2107\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:36.030'
+}
+{
+  message: 'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2105\n' +
+    'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2110\n' +
+    'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2106\n' +
+    'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2111\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:36.032'
+}
+{
+  message: 'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2112\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:36.035'
+}
+{
+  message: 'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2114\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:36.038'
+}
+{
+  message: 'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2117\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:36.040'
+}
+{
+  message: 'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2109\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:36.044'
+}
+{
+  message: 'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2128\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:36.567'
+}
+{
+  message: 'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2124\n' +
+    'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2131\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:36.568'
+}
+{
+  message: 'Jul 12, 2024 2:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2132\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:36.569'
+}
+{
+  message: 'Jul 12, 2024 2:17:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2133\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:37.070'
+}
+{
+  message: 'Jul 12, 2024 2:17:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2135\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:37.072'
+}
+{
+  message: 'Jul 12, 2024 2:17:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2136\n' +
+    'Jul 12, 2024 2:17:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2134\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:37.074'
+}
+{
+  message: 'Jul 12, 2024 2:17:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2137\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:37.076'
+}
+{
+  message: 'Jul 12, 2024 2:17:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2148\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:37.108'
+}
+{
+  message: '[Error - 2:17:37 PM] Jul 12, 2024, 2:17:37 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:37.112'
+}
+{
+  message: '[Error - 2:17:37 PM] Jul 12, 2024, 2:17:37 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:37.113'
+}
+{
+  message: '[Error - 2:17:37 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:37.115'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 14:17:37.115'
+}
+{
+  message: 'Jul 12, 2024 2:19:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2333\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:19:12.947'
+}
+{
+  message: 'Jul 12, 2024 2:21:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2647\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:15.100'
+}
+{
+  message: 'Jul 12, 2024 2:21:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2648\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:15.102'
+}
+{
+  message: 'Jul 12, 2024 2:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2914\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:50.766'
+}
+{
+  message: 'Jul 12, 2024 2:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2915\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:50.770'
+}
+{
+  message: 'Jul 12, 2024 2:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2918\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:50.771'
+}
+{
+  message: 'Jul 12, 2024 2:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2921\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:50.785'
+}
+{
+  message: 'Jul 12, 2024 2:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2923\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:50.787'
+}
+{
+  message: 'Jul 12, 2024 2:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2925\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:50.792'
+}
+{
+  message: 'Jul 12, 2024 2:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2927\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:50.797'
+}
+{
+  message: 'Jul 12, 2024 2:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2968\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:53.828'
+}
+{
+  message: 'Jul 12, 2024 2:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2969\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:53.831'
+}
+{
+  message: 'Jul 12, 2024 2:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2970\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:53.834'
+}
+{
+  message: 'Jul 12, 2024 2:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2973\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:53.841'
+}
+{
+  message: 'Jul 12, 2024 2:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2975\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:53.846'
+}
+{
+  message: 'Jul 12, 2024 2:21:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 2977\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:21:53.852'
+}
+{
+  message: 'Jul 12, 2024 2:22:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3073\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:22:02.413'
+}
+{
+  message: 'Jul 12, 2024 2:22:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3074\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:22:02.414'
+}
+{
+  message: 'Jul 12, 2024 2:22:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3076\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:22:02.415'
+}
+{
+  message: 'Jul 12, 2024 2:22:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3078\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:22:02.416'
+}
+{
+  message: 'Jul 12, 2024 2:22:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3490\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:22:56.625'
+}
+{
+  message: 'Jul 12, 2024 2:22:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3493\n' +
+    'Jul 12, 2024 2:22:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3491\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:22:56.657'
+}
+{
+  message: 'Jul 12, 2024 2:22:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3494\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:22:56.658'
+}
+{
+  message: 'Jul 12, 2024 2:22:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3496\n' +
+    'Jul 12, 2024 2:22:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3495\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:22:56.670'
+}
+{
+  message: 'Jul 12, 2024 2:23:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3665\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:23:23.801'
+}
+{
+  message: 'Jul 12, 2024 2:23:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3666\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:23:23.825'
+}
+{
+  message: 'Jul 12, 2024 2:23:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3667\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:23:23.844'
+}
+{
+  message: 'Jul 12, 2024 2:23:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 3690\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:23:25.577'
+}
+{
+  message: 'Jul 12, 2024 2:41:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4064\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:28.818'
+}
+{
+  message: 'Jul 12, 2024 2:41:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4065\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:29.320'
+}
+{
+  message: 'Jul 12, 2024 2:41:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4066\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:29.321'
+}
+{
+  message: 'Jul 12, 2024 2:41:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4067\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:29.823'
+}
+{
+  message: 'Jul 12, 2024 2:41:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4069\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:29.824'
+}
+{
+  message: 'Jul 12, 2024 2:41:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4070\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:30.326'
+}
+{
+  message: 'Jul 12, 2024 2:41:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4071\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:30.328'
+}
+{
+  message: 'Jul 12, 2024 2:41:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4072\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:30.829'
+}
+{
+  message: 'Jul 12, 2024 2:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4073\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:31.331'
+}
+{
+  message: 'Jul 12, 2024 2:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4075\n' +
+    'Jul 12, 2024 2:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4074\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:31.332'
+}
+{
+  message: 'Jul 12, 2024 2:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4078\n' +
+    'Jul 12, 2024 2:41:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4077\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:31.333'
+}
+{
+  message: 'Jul 12, 2024 2:41:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4146\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:35.721'
+}
+{
+  message: '[Error - 2:41:50 PM] Jul 12, 2024, 2:41:50 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:50.352'
+}
+{
+  message: 'Jul 12, 2024 2:41:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4235\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:58.385'
+}
+{
+  message: 'Jul 12, 2024 2:41:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4236\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:58.886'
+}
+{
+  message: 'Jul 12, 2024 2:41:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4237\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:58.890'
+}
+{
+  message: 'Jul 12, 2024 2:41:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4239\n' +
+    'Jul 12, 2024 2:41:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4238\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:58.892'
+}
+{
+  message: 'Jul 12, 2024 2:41:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4243\n',
+  level: 'info',
+  timestamp: '2024-07-12 14:41:58.894'
+}
+{
+  message: 'Jul 12, 2024 3:07:51 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:07:51.317'
+}
+{
+  message: 'Jul 12, 2024 3:07:52 PM com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    'WARNING: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:07:52.479'
+}
+{
+  message: 'Jul 12, 2024 3:09:12 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:12.009'
+}
+{
+  message: 'Jul 12, 2024 3:09:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4515\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:37.678'
+}
+{
+  message: 'Jul 12, 2024 3:09:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4516\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:38.251'
+}
+{
+  message: 'Jul 12, 2024 3:09:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4517\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:38.252'
+}
+{
+  message: 'Jul 12, 2024 3:09:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4518\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:38.754'
+}
+{
+  message: 'Jul 12, 2024 3:09:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4519\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:38.755'
+}
+{
+  message: 'Jul 12, 2024 3:09:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4520\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:39.257'
+}
+{
+  message: 'Jul 12, 2024 3:09:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4521\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:39.258'
+}
+{
+  message: 'Jul 12, 2024 3:09:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4522\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:39.763'
+}
+{
+  message: 'Jul 12, 2024 3:09:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4523\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:39.764'
+}
+{
+  message: 'Jul 12, 2024 3:09:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4526\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:39.772'
+}
+{
+  message: 'Jul 12, 2024 3:09:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4543\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:39.776'
+}
+{
+  message: 'Jul 12, 2024 3:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4555\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:41.392'
+}
+{
+  message: 'Jul 12, 2024 3:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4556\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:41.396'
+}
+{
+  message: 'Jul 12, 2024 3:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4557\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:41.898'
+}
+{
+  message: 'Jul 12, 2024 3:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4558\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:41.898'
+}
+{
+  message: 'Jul 12, 2024 3:09:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4559\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:42.399'
+}
+{
+  message: 'Jul 12, 2024 3:09:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4560\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:42.400'
+}
+{
+  message: 'Jul 12, 2024 3:09:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4562\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:42.906'
+}
+{
+  message: 'Jul 12, 2024 3:09:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4563\n' +
+    'Jul 12, 2024 3:09:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4564\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:42.906'
+}
+{
+  message: 'Jul 12, 2024 3:09:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4577\n' +
+    'Jul 12, 2024 3:09:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4578\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:43.035'
+}
+{
+  message: '[Error - 3:09:43 PM] Jul 12, 2024, 3:09:43 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:43.048'
+}
+{
+  message: '[Error - 3:09:43 PM] Jul 12, 2024, 3:09:43 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:43.049'
+}
+{
+  message: '[Error - 3:09:43 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:43.051'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:43.051'
+}
+{
+  message: 'Jul 12, 2024 3:09:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4684\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:54.681'
+}
+{
+  message: 'Jul 12, 2024 3:09:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4685\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:55.183'
+}
+{
+  message: 'Jul 12, 2024 3:09:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4686\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:55.685'
+}
+{
+  message: 'Jul 12, 2024 3:09:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4688\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:55.685'
+}
+{
+  message: 'Jul 12, 2024 3:09:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4690\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:56.187'
+}
+{
+  message: 'Jul 12, 2024 3:09:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4689\n' +
+    'Jul 12, 2024 3:09:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4692\n' +
+    'Jul 12, 2024 3:09:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4691\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:56.187'
+}
+{
+  message: 'Jul 12, 2024 3:09:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4694\n' +
+    'Jul 12, 2024 3:09:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4696\n' +
+    'Jul 12, 2024 3:09:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4698\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:56.189'
+}
+{
+  message: '[Error - 3:09:56 PM] Jul 12, 2024, 3:09:56 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:56.204'
+}
+{
+  message: '[Error - 3:09:56 PM] Jul 12, 2024, 3:09:56 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:56.206'
+}
+{
+  message: '[Error - 3:09:56 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:56.208'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:56.208'
+}
+{
+  message: 'Jul 12, 2024 3:09:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4745\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:09:59.843'
+}
+{
+  message: 'Jul 12, 2024 3:10:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4746\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:10:00.344'
+}
+{
+  message: 'Jul 12, 2024 3:10:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4747\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:10:00.345'
+}
+{
+  message: 'Jul 12, 2024 3:10:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4759\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:10:01.145'
+}
+{
+  message: 'Jul 12, 2024 3:10:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 4873\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:10:20.647'
+}
+{
+  message: '[Error - 3:10:30 PM] Jul 12, 2024, 3:10:30 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-12 15:10:30.283'
+}
+{
+  message: 'Jul 12, 2024 3:10:52 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:10:52.562'
+}
+{
+  message: 'Jul 12, 2024 3:11:36 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:11:36.018'
+}
+{
+  message: 'Jul 12, 2024 3:12:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5122\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:12:46.176'
+}
+{
+  message: 'Jul 12, 2024 3:13:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5233\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:01.045'
+}
+{
+  message: 'Jul 12, 2024 3:13:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5301\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:07.768'
+}
+{
+  message: 'Jul 12, 2024 3:13:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5302\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:08.271'
+}
+{
+  message: 'Jul 12, 2024 3:13:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5303\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:08.272'
+}
+{
+  message: 'Jul 12, 2024 3:13:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5306\n' +
+    'Jul 12, 2024 3:13:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5309\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:08.275'
+}
+{
+  message: '[Error - 3:13:08 PM] Jul 12, 2024, 3:13:08 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:08.279'
+}
+{
+  message: '[Error - 3:13:08 PM] Jul 12, 2024, 3:13:08 PM Error in calling delegate command handler\n' +
+    'Cannot get completion responses.\n' +
+    'org.eclipse.core.runtime.CoreException: Cannot get completion responses.\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ExceptionFactory.newException(ExceptionFactory.java:28)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionHandler.onDidCompletionItemSelect(CompletionHandler.java:185)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTDelegateCommandHandler.executeCommand(JDTDelegateCommandHandler.java:198)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:230)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:220)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:604)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188)\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:08.280'
+}
+{
+  message: '[Error - 3:13:08 PM] Request workspace/executeCommand failed.',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:08.281'
+}
+{
+  message: '  Message: Cannot get completion responses.\n' +
+    '  Code: -32001 \n' +
+    '[object Object]',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:08.281'
+}
+{
+  message: 'Jul 12, 2024 3:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5580\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:43.322'
+}
+{
+  message: 'Jul 12, 2024 3:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5581\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:43.824'
+}
+{
+  message: 'Jul 12, 2024 3:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5582\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:43.825'
+}
+{
+  message: 'Jul 12, 2024 3:13:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5583\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:44.326'
+}
+{
+  message: 'Jul 12, 2024 3:13:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5585\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:44.828'
+}
+{
+  message: 'Jul 12, 2024 3:13:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5587\n' +
+    'Jul 12, 2024 3:13:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5586\n' +
+    'Jul 12, 2024 3:13:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5589\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:44.829'
+}
+{
+  message: 'Jul 12, 2024 3:13:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5588\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:13:44.830'
+}
+{
+  message: 'Jul 12, 2024 3:14:10 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:14:10.387'
+}
+{
+  message: 'Jul 12, 2024 3:14:11 PM com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    'WARNING: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:14:11.571'
+}
+{
+  message: 'Jul 12, 2024 3:15:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5776\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:15:07.138'
+}
+{
+  message: 'Jul 12, 2024 3:15:18 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:15:18.964'
+}
+{
+  message: 'Jul 12, 2024 3:18:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5787\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:18:13.515'
+}
+{
+  message: 'Jul 12, 2024 3:18:17 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:18:17.759'
+}
+{
+  message: '[Error - 3:19:00 PM] Jul 12, 2024, 3:19:00 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-12 15:19:00.192'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 5817, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2024-07-12 15:19:00.204'
+}
+{
+  message: 'Jul 12, 2024 3:20:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5845\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:20:54.136'
+}
+{
+  message: 'Jul 12, 2024 3:20:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5849\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:20:54.151'
+}
+{
+  message: 'Jul 12, 2024 3:20:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 5883\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:20:57.830'
+}
+{
+  message: 'Jul 12, 2024 3:21:15 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:21:15.384'
+}
+{
+  message: 'Jul 12, 2024 3:21:15 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:21:15.701'
+}
+{
+  message: 'Jul 12, 2024 3:30:57 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:30:57.396'
+}
+{
+  message: '[Error - 3:41:16 PM] Jul 12, 2024, 3:41:16 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-12 15:41:16.116'
+}
+{
+  message: 'Jul 12, 2024 3:41:25 PM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:41:25.749'
+}
+{
+  message: 'Jul 12, 2024 3:41:26 PM com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    'WARNING: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-07-12 15:41:26.944'
+}
+{
+  message: 'Jul 12, 2024 4:12:11 PM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-12 16:12:11.577'
+}
+{
+  message: 'Jul 12, 2024 4:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:269)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:557)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:542)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 11 more\n' +
+    '\n' +
+    'Jul 12, 2024 4:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.beginTask(ProgressReporterManager.java:200)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:557)\n' +
+    '\tat org.eclipse.core.runtime.SubMonitor.convert(SubMonitor.java:512)\n' +
+    '\tat org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:290)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:542)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 11 more\n' +
+    '\n' +
+    'Jul 12, 2024 4:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify\n' +
+    'WARNING: Failed to send notification message.\n' +
+    'org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Broken pipe\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:88)\n' +
+    '\tat jdk.proxy3/jdk.proxy3.$Proxy10.notifyProgress(Unknown Source)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendStatus(ProgressReporterManager.java:290)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.sendProgress(ProgressReporterManager.java:239)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.ProgressReporterManager$ProgressReporter.done(ProgressReporterManager.java:222)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:74)\n' +
+    'Caused by: java.io.IOException: Broken pipe\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)\n' +
+    '\tat java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:62)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102)\n' +
+    '\tat java.base/sun.nio.ch.IOUtil.write(IOUtil.java:58)\n' +
+    '\tat java.base/sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:542)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ConnectionStreamFactory$NamedPipeOutputStream.write(ConnectionStreamFactory.java:238)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)\n' +
+    '\t... 8 more\n' +
+    '\n',
+  level: 'info',
+  timestamp: '2024-07-12 16:22:58.201'
+}

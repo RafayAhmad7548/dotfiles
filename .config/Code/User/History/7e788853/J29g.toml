@@ -1,0 +1,11 @@
+[repository]
+name = "morebinds"
+authors = ["rafay"]
+
+[plugin-name]
+description = "a plugin that allows you to set binds for double tapping mod keys"
+authors = ["rafay"]
+output = "plugin.so"
+build = [
+    "make all"
+]

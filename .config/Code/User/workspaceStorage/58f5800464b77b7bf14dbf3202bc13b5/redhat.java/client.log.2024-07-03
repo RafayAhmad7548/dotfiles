@@ -1,0 +1,397 @@
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-03 06:08:45.218'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-03 06:08:45.236'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-03 06:08:45.323'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:08:45.326'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:08:45.397'
+}
+{
+  message: 'Jul 03, 2024 6:08:46 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Jul 03, 2024 6:08:46 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:08:46.565'
+}
+{
+  message: 'Jul 03, 2024 6:08:54 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:08:54.221'
+}
+{
+  message: '[Error - 6:09:43 AM] Jul 3, 2024, 6:09:43 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-03 06:09:43.902'
+}
+{
+  message: '[Error - 6:09:44 AM] Jul 3, 2024, 6:09:44 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-03 06:09:44.364'
+}
+{
+  message: '[Error - 6:09:50 AM] Jul 3, 2024, 6:09:50 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-03 06:09:50.093'
+}
+{
+  message: '[Error - 6:09:50 AM] Jul 3, 2024, 6:09:50 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-03 06:09:50.342'
+}
+{
+  message: 'Jul 03, 2024 6:10:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 45\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:10:33.109'
+}
+{
+  message: 'Jul 03, 2024 6:11:36 AM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:11:36.849'
+}
+{
+  message: 'Jul 03, 2024 6:11:38 AM com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    'WARNING: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:11:38.204'
+}
+{
+  message: 'Jul 03, 2024 6:12:35 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:12:35.418'
+}
+{
+  message: 'Jul 03, 2024 6:12:35 AM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:12:35.740'
+}
+{
+  message: '[Error - 6:13:39 AM] Jul 3, 2024, 6:13:39 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-03 06:13:39.728'
+}
+{
+  message: 'Jul 03, 2024 6:13:40 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:13:40.986'
+}
+{
+  message: 'Jul 03, 2024 6:24:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 448\n' +
+    'Jul 03, 2024 6:24:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 447\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:24:33.183'
+}
+{
+  message: 'Jul 03, 2024 6:25:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 823\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:19.589'
+}
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-03 06:25:27.128'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:27.146'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:27.218'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:27.247'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:27.307'
+}
+{
+  message: 'Jul 03, 2024 6:25:28 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Jul 03, 2024 6:25:28 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:28.575'
+}
+{
+  message: '[Error - 6:25:32 AM] Jul 3, 2024, 6:25:32 AM _/src/main/resources [in hcloudserver_d341da67] does not exist\n' +
+    '_/src/main/resources [in hcloudserver_d341da67] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/src/main/resources [in hcloudserver_d341da67] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:562)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:764)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:430)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:967)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.collectNonJavaProblems(BaseDiagnosticsHandler.java:149)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.endReporting(BaseDiagnosticsHandler.java:135)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.reportProblems(ReconcileWorkingCopyOperation.java:141)\n' +
+    '\tat org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:110)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:739)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:804)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1303)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:332)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:295)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$PublishDiagnosticJob.run(BaseDocumentLifeCycleHandler.java:777)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:32.182'
+}
+{
+  message: 'Jul 03, 2024 6:25:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 15\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:36.303'
+}
+{
+  message: 'Jul 03, 2024 6:25:36 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:36.310'
+}
+{
+  message: 'Jul 03, 2024 6:25:58 AM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:58.633'
+}
+{
+  message: 'Jul 03, 2024 6:25:59 AM com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    'WARNING: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:25:59.795'
+}
+{
+  message: 'Jul 03, 2024 6:26:00 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:26:00.102'
+}
+{
+  message: 'Jul 03, 2024 6:26:16 AM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:26:16.949'
+}
+{
+  message: 'Jul 03, 2024 6:26:18 AM com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    'WARNING: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:26:18.067'
+}
+{
+  message: 'Jul 03, 2024 6:26:18 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:26:18.370'
+}
+{
+  message: 'Jul 03, 2024 6:26:44 AM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:26:44.008'
+}
+{
+  message: 'Jul 03, 2024 6:26:45 AM com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    'WARNING: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:26:45.136'
+}
+{
+  message: 'Jul 03, 2024 6:26:45 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:26:45.444'
+}
+{
+  message: 'Jul 03, 2024 6:27:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 185\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:27:45.134'
+}
+{
+  message: 'Jul 03, 2024 6:27:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 189\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:27:45.244'
+}
+{
+  message: 'Jul 03, 2024 6:27:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 242\n' +
+    'Jul 03, 2024 6:27:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 243\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:27:46.123'
+}
+{
+  message: 'Jul 03, 2024 6:28:41 AM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:28:41.645'
+}
+{
+  message: 'Jul 03, 2024 6:31:27 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:31:27.323'
+}
+{
+  message: '[Error - 6:32:01 AM] Jul 3, 2024, 6:32:01 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2024-07-03 06:32:01.225'
+}
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-03 06:32:43.252'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-03 06:32:43.266'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:32:43.340'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-03 06:32:43.392'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:32:43.480'
+}
+{
+  message: 'Jul 03, 2024 6:32:44 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n' +
+    'Jul 03, 2024 6:32:44 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:32:44.927'
+}
+{
+  message: 'Jul 03, 2024 6:32:50 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:32:50.315'
+}
+{
+  message: 'Jul 03, 2024 6:40:39 AM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:40:39.144'
+}
+{
+  message: 'Jul 03, 2024 6:40:40 AM com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    'WARNING: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:40:40.271'
+}
+{
+  message: 'Jul 03, 2024 6:41:34 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:41:34.030'
+}
+{
+  message: "Use the JDK from 'java.jdt.ls.java.home' setting as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2024-07-03 06:44:25.685'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_ss_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2024-07-03 06:44:25.705'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:44:25.773'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-21-openjdk/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -DDetectVMInstallationsJob.disabled=true -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/lombok/lombok-1.18.33.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/rafayahmad/.vscode/extensions/redhat.java-1.32.0-linux-x64/server/plugins/org.eclipse.equinox.launcher_1.6.900.v20240613-2009.jar -configuration /home/rafayahmad/.config/Code/User/globalStorage/redhat.java/1.32.0/config_linux -data /home/rafayahmad/.config/Code/User/workspaceStorage/58f5800464b77b7bf14dbf3202bc13b5/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2024-07-03 06:44:25.956'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:44:26.056'
+}
+{
+  message: 'Jul 03, 2024 6:44:27 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.servlet.LogbackServletContainerInitializer of service jakarta.servlet.ServletContainerInitializer in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:44:27.176'
+}
+{
+  message: 'Jul 03, 2024 6:44:27 AM org.apache.aries.spifly.BaseActivator log\n' +
+    'INFO: Registered provider ch.qos.logback.classic.spi.LogbackServiceProvider of service org.slf4j.spi.SLF4JServiceProvider in bundle ch.qos.logback.classic\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:44:27.179'
+}
+{
+  message: 'Jul 03, 2024 6:44:33 AM com.microsoft.java.debug.plugin.internal.JavaDebuggerServerPlugin start\n' +
+    'INFO: Starting com.microsoft.java.debug.plugin\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:44:33.411'
+}
+{
+  message: 'Jul 03, 2024 6:44:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation\n' +
+    'WARNING: Unmatched cancel notification for request id 11\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:44:35.223'
+}
+{
+  message: 'Jul 03, 2024 6:48:01 AM com.microsoft.java.debug.core.UsageDataSession recordInfo\n' +
+    'INFO: launch debug info\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:48:01.044'
+}
+{
+  message: 'Jul 03, 2024 6:48:02 AM com.microsoft.java.debug.core.UsageDataSession recordResponse\n' +
+    'WARNING: abnormal response\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:48:02.183'
+}
+{
+  message: 'Jul 03, 2024 6:49:01 AM com.microsoft.java.debug.core.UsageDataSession submitUsageData\n' +
+    'INFO: session usage data summary\n',
+  level: 'info',
+  timestamp: '2024-07-03 06:49:01.560'
+}

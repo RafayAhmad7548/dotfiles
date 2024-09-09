@@ -8,8 +8,6 @@
             "file:///home/rafayahmad/Stuff/a3": "__default__profile__",
             "file:///home/rafayahmad/Stuff/lab8": "__default__profile__",
             "file:///home/rafayahmad/Stuff/lab9": "__default__profile__",
-            "file:///home/rafayahmad/Stuff/Hibernate": "__default__profile__",
-            "file:///home/rafayahmad/Stuff/Hibernate/hibernate": "__default__profile__",
             "file:///home/rafayahmad/Stuff/lab10": "__default__profile__",
             "file:///media/ubuntu/home/rafayahmad/Launcher/build/instances/1.20.11/.minecraft": "__default__profile__",
             "file:///home/rafayahmad/Stuff/JBrowse": "__default__profile__",
@@ -30,7 +28,6 @@
             "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/STracker": "__default__profile__",
             "file:///home/rafayahmad": "__default__profile__",
             "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/sttracker": "__default__profile__",
-            "file:///home/rafayahmad/Stuff/Coding/Java": "__default__profile__",
             "file:///home/rafayahmad/Stuff/Coding/Java/keypress-getter": "__default__profile__",
             "file:///home/rafayahmad/Downloads/232526": "__default__profile__",
             "file:///home/rafayahmad/.local/share/UltimMC/instances/1.20.1/.minecraft/saves": "__default__profile__",
@@ -38,11 +35,29 @@
             "file:///home/rafayahmad/Stuff/Coding/Java/mcatest/mcaselector": "__default__profile__",
             "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/morebinds/build": "__default__profile__",
             "file:///home/rafayahmad/.local/share/UltimMC/instances/1.20.1/.minecraft": "__default__profile__",
-            "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/morebinds": "__default__profile__"
+            "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/morebinds": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Hibernate": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Hibernate/hibernate": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Java": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Java/hcloudserver": "__default__profile__",
+            "file:///home/rafayahmad/Downloads/WhatsappWebToGo": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Java/HCloud/hcloudclient": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Java/HCloud/hcloudserver": "__default__profile__",
+            "vscode-remote://ssh-remote%2Bpserver/home/rafayahmad/hcloudserver": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Java/hcloudclient": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Flutter/firstthing/firstproject": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Python/IDS/lab1": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/DS/lab1": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Python/IDS/lab2": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Python": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/DS/lab2": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Python/dld_test": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Python/IDS/lab3": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Python/IDS/Assg1": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/Flutter/filemanager": "__default__profile__",
+            "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/DS/lab3": "__default__profile__"
         },
-        "emptyWindows": {
-            "1718545562299": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "",
@@ -51,24 +66,21 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/morebinds"
+                "folderUri": "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/DS/lab3"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1718545562299"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/rafayahmad/.config/Code/Backups/1718545562299",
+            "folder": "file:///home/rafayahmad/Stuff/Coding/C%2B%2B/DS/lab3",
+            "backupPath": "/home/rafayahmad/.config/Code/Backups/49c38a7ed28f133f53cf43fc4e91607a",
             "uiState": {
                 "mode": 1,
                 "x": 22,
-                "y": 566,
-                "width": 931,
-                "height": 492
+                "y": 59,
+                "width": 1876,
+                "height": 999
             }
         },
         "openedWindows": []
@@ -1749,10 +1761,11 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 410,
+            "sideBarWidth": 363,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
-    "telemetry.devDeviceId": "d588a0f5-5e4a-44e3-9cf1-6890e86c31a1"
+    "telemetry.devDeviceId": "d588a0f5-5e4a-44e3-9cf1-6890e86c31a1",
+    "windowControlHeight": 35
 }

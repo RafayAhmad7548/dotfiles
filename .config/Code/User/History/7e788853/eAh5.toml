@@ -1,0 +1,11 @@
+[repository]
+name = "morebinds"
+authors = ["rafay"]
+
+[plugin-name]
+description = "An epic plugin that will change the world!"
+authors = ["Me"]
+output = "plugin.so"
+build = [
+    "make all"
+]

@@ -1,0 +1,11 @@
+INDEX VERSION 1.134+/home/rafayahmad/dotfiles/.config/Code/User/workspaceStorage/96c8a08f819d97d495904ed3d15391f2/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+1410339880.index
+3869283380.index
+3625032463.index
+4046206475.index
+868652530.index
+3655125746.index
+1865797976.index
+993050864.index
+736847430.index
+2333984116.index
