@@ -37,7 +37,6 @@
         "keyboard-state",
         "pulseaudio",
         "battery", 
-        "network",
-        "custom/exit"
+        "network"
     ]
 }

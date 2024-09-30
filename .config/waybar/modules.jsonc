@@ -106,7 +106,8 @@
         "format-disconnected": "󰤭",
         "tooltip-format-wifi": "{essid}",
         "max-length": 50,
-        "on-click": "kitty nmtui"
+        "on-click": "kitty nmtui",
+        "interval": 5
     },
 
     // Battery

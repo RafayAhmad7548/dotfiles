@@ -5,6 +5,4 @@
 .config/libreoffice/4/user
 .config/vlc
 
-.config/Code/*
-!.config/Code/User/
-!.config/Code/User/**
+.config/Code

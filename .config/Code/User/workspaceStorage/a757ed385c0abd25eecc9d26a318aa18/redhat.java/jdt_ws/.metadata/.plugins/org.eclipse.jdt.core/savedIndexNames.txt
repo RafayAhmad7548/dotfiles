@@ -1,5 +1,0 @@
-INDEX VERSION 1.134+/home/rafayahmad/dotfiles/.config/Code/User/workspaceStorage/a757ed385c0abd25eecc9d26a318aa18/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-4013607337.index
-3672224818.index
-179198112.index

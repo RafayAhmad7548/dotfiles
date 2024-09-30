@@ -1,1 +1,0 @@
-pass_fail = lambda marks : marks > 50 ? "Pass" : "Fail"
