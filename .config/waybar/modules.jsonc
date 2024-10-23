@@ -66,7 +66,7 @@
 
     "custom/arch": {
         "format": "󰣇",
-        "on-click": "~/Stuff/scripts/changeWallpaper.sh",
+        "on-click": "~/dotfiles/scripts/changeWallpaper.sh",
         "tooltip": false
     },
 

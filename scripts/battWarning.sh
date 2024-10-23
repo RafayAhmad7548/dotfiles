@@ -7,7 +7,7 @@ while true; do
 	currentPowerSetting=$(powerprofilesctl get)
 
 	if [ "$batteryLevel" -le "25" ] && [ "$batteryStatus" == "Discharging" ]; then
-		notify-send -u critical -i ~/Stuff/scripts/battery-alert.svg "Low Battery" "25% battery remaining"
+		notify-send -u critical -i ~/dotfiles/scripts/battery-alert.svg "Low Battery" "25% battery remaining"
 	fi
 
 
