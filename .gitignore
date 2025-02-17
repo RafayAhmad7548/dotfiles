@@ -4,5 +4,11 @@
 .config/eog
 .config/libreoffice/4/user
 .config/vlc
+.config/clipse/tmp_files
+.config/clipse/clipboard_history.json
+.config/chromium
+.config/balenaEtcher
+.config/configstore
+.config/github-copilot
 
 .config/Code

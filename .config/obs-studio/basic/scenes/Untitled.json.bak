@@ -1,6 +1,6 @@
 {
     "DesktopAudioDevice1": {
-        "prev_ver": 520093696,
+        "prev_ver": 520093697,
         "name": "Desktop Audio",
         "uuid": "3f25b6cd-bc12-4abc-ad61-5e43a7688fe1",
         "id": "pulse_output_capture",
@@ -31,7 +31,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 520093696,
+        "prev_ver": 520093697,
         "name": "Mic/Aux",
         "uuid": "aacbf50d-99b5-4d90-80f3-286e28e038ff",
         "id": "pulse_input_capture",
@@ -71,7 +71,7 @@
     "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 520093696,
+            "prev_ver": 520093697,
             "name": "Scene",
             "uuid": "8f01b826-fb0a-4178-be63-d7accb730f06",
             "id": "scene",
@@ -84,7 +84,7 @@
                         "name": "Main",
                         "source_uuid": "af5b79c5-0f90-4f92-9e98-a772d1dd5cc2",
                         "visible": true,
-                        "locked": false,
+                        "locked": true,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
@@ -159,7 +159,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 520093696,
+            "prev_ver": 520093697,
             "name": "Main",
             "uuid": "af5b79c5-0f90-4f92-9e98-a772d1dd5cc2",
             "id": "pipewire-screen-capture-source",

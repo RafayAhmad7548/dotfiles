@@ -224,4 +224,5 @@
     "editor.insertSpaces": false
   },
   "python.createEnvironment.trigger": "off",
+  "debug.allowBreakpointsEverywhere": true,
 }
