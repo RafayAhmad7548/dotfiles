@@ -3,13 +3,13 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpBucketFillOptions"
-        (tool "gimp-bucket-fill-tool")
+    (tool-options "GimpCropOptions"
+        (aspect-denominator 1320)
+        (aspect-numerator 732)
+        (tool "gimp-crop-tool")
         (foreground (color-rgb 1 1 1))
         (background (color-rgb 0 0 0))
-        (pattern "Pine")
-        (brush-size 51)
-        (brush-hardness 0.5))
+        (pattern "Pine"))
     (use-fg-bg yes)
     (use-opacity-paint-mode no)
     (use-brush no)

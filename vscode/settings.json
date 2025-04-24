@@ -225,4 +225,5 @@
   },
   "python.createEnvironment.trigger": "off",
   "debug.allowBreakpointsEverywhere": true,
+  "sqltools.useNodeRuntime": true,
 }

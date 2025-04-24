@@ -90,7 +90,7 @@
     (size 765 650))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
-    (position 193 37)
+    (position 292 135)
     (size 765 650))
 (session-info "toplevel"
     (factory-entry "gimp-offset-tool-dialog")
@@ -101,7 +101,7 @@
     (size 807 478))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 224 42)
+    (position 222 196)
     (size 765 650))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")

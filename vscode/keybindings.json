@@ -201,12 +201,6 @@
         "when": "openFolderWorkspaceSupport"
     },
     {
-        "key": "ctrl+alt+o",
-        "command": "workbench.action.files.openFile",
-        "when": "true"
-    },
-    //--------------VIM STUFF----------------------//
-    {
          "key": "capslock",
          "command": "extension.vim_escape",
          "when": "editorTextFocus && !inDebugRepl && !suggestWidgetVisible"
@@ -214,6 +208,10 @@
     {
         "key": "ctrl+w",
         "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl-o",
+        "command": "workbench.action.quickOpen"
     },
     //terminal
     {
@@ -249,14 +247,9 @@
     },
     //file tree
     {
-        "key": "ctrl+shift+k",
+        "key": "ctrl+e",
         "command": "workbench.explorer.fileView.focus",
-        "when":  "terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "terminal.focus",
-        "when": "explorerViewletFocus"
+        "when":  ""
     },
     {
         "key": "ctrl+j",
@@ -280,14 +273,9 @@
     },
     // copilot
     {
-        "key": "ctrl+shift+k",
+        "key": "ctrl+g",
         "command": "workbench.panel.chat.view.copilot.focus",
-        "when": "explorerViewletFocus"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "workbench.explorer.fileView.focus",
-        "when": "!editorFocus && !terminalFocus && !explorerViewletFocus"
+        "when": ""
     },
     {
         "key": "ctrl+j",
@@ -536,5 +524,31 @@
         "key": "shift+up",
         "command": "-list.expandSelectionUp",
         "when": "listFocus && listSupportsMultiselect && !inputFocus && !treestickyScrollFocused"
+    },
+    {
+        "key": "meta+enter",
+        "command": "sqltools.executeCurrentQuery"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-editor.action.toggleScreenReaderAccessibilityMode",
+        "when": "accessibilityHelpIsShown"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-workbench.action.openRecent"
     }
 ]
