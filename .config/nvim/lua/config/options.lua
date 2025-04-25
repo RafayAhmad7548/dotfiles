@@ -38,6 +38,5 @@ vim.opt.scrolloff = 10
 -- See `:help 'confirm'`
 vim.opt.confirm = true
 
-vim.opt.signcolumn = yes
+vim.opt.fillchars:append({ eob = " " })
 
-vim.o.showtabline = 2
