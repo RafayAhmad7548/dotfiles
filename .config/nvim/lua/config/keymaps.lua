@@ -13,73 +13,42 @@ vim.keymap.set({ 'v', 'o' }, '<Tab>', '>', { desc = 'tab indent ' })
 vim.keymap.set({ 'v', 'o' }, '<S-Tab>', '<', { desc = 'S-tab unindent ' })
 
 -- scrolling
-vim.keymap.set({ 'n', 'v', 'o' }, '<C-d>', '<C-d>zz', { desc = 'centered scroll' })
-vim.keymap.set({ 'n', 'v', 'o' }, '<C-u>', '<C-u>zz', { desc = 'centered scroll' })
+vim.keymap.set({ 'n', 'v' }, '<C-d>', '<C-d>zz', { desc = 'centered scroll' })
+vim.keymap.set({ 'n', 'v' }, '<C-u>', '<C-u>zz', { desc = 'centered scroll' })
 
 -- start of line
 vim.keymap.set({ 'n', 'v', 'o' }, '#', '_', { desc = '# start of line' })
 
--- save 
+-- save / quit
 vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'ctrl-s save' })
+vim.keymap.set('n', '<C-w>', ':bd<CR>', { desc = 'save and close', nowait = true })
 
 -- tabs 
+-- TODO: redo with telescope and ctrl tab
 vim.keymap.set('n', '<leader><Tab>', ':tabnext<CR>', { desc = 'next buffer' })
-vim.keymap.set('n', '<leader><S-Tab>', ':tabprev<CR>', { desc = 'previous buffer' })
+vim.keymap.set('n', '<leader><S-Tab>', ':tabprev<CR>', { desc = 'previous buffer', noremap = true })
 
 -- delete word in insert mode
 vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })
 
--- tab luasnip
--- TODO: fix this for snippets
-vim.keymap.del('i', '<Tab>', { desc = 'remove keymap cause not be worky' })
+-- NOTE: Right Dock: Terminal & Oil
 
--- NOTE: Terminal
+local util = require('config.util')
 
-vim.keymap.set('n', '<C-l>', function ()
-  local buffers = vim.api.nvim_list_bufs()
-  local terminal_exists = false
-  for _, buf in ipairs(buffers) do
-    local buf_name = vim.api.nvim_buf_get_name(buf)
-    -- find all terminal buffers
-    if vim.api.nvim_buf_is_loaded(buf) and string.find(buf_name, '^term://') ~= nil then
-
-      -- find window of first terminal window if exists
-      local window_exists = false
-      local windows = vim.api.nvim_list_wins()
-      for _, win in ipairs(windows) do
-        if vim.api.nvim_win_get_buf(win) == buf then
-          vim.api.nvim_set_current_win(win)
-          window_exists = true
-          break
-        end
-      end
-
-      -- window dosnt exist so create and put existing terminal there
-      if not window_exists then
-        vim.cmd.vnew()
-        vim.api.nvim_win_set_width(0, 60)
-        vim.api.nvim_set_current_buf(buf)
-      end
-
-      terminal_exists = true
-    end
-  end
-
-  -- if no terminal then create new one
-  if not terminal_exists then
-    vim.cmd.vnew()
-    vim.cmd.term()
-    vim.api.nvim_win_set_width(0, 60)
-  end
-
-  vim.api.nvim_feedkeys('a', 'n', true)
-
-end, { desc = 'open terminal', silent = true })
+vim.keymap.set('n', '<C-l>', function()
+  util.open_in_right_dock('term://')
+end, { desc = 'open terminal' })
 
 vim.keymap.set('t', '<C-j>', '<cmd>wincmd h<CR>', { desc = 'focus editor', silent = true })
 vim.keymap.set('t', '<C-w>', '<C-d>', { desc = 'kill terminal' })
 
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'normal mode in terminal' })
+
+
+vim.keymap.set('n', '<C-e>', function()
+  util.open_in_right_dock('oil://')
+end, { desc = 'open oil' })
+
 
 -- NOTE: Windows
 
@@ -90,31 +59,110 @@ vim.keymap.set({ 'n', 'v', 'o' }, '<Down><C-l>', ':wincmd l<CR>', { desc = 'movi
 vim.keymap.set({ 'n', 'v', 'o' }, '<Down><C-j>', ':wincmd h<CR>', { desc = 'moving around window using ctrl-k ijkl', silent = true })
 
 
--- NOTE: Telescope --
+-- NOTE: LSP
 
-local builtin = require('telescope.builtin')
+--  This function gets run when an LSP attaches to a particular buffer.
+--    That is to say, every time a new file is opened that is associated with
+--    an lsp (for example, opening `main.rs` is associated with `rust_analyzer`) this
+--    function will be executed to configure the current buffer
+vim.api.nvim_create_autocmd('LspAttach', {
+  group = vim.api.nvim_create_augroup('kickstart-lsp-attach', { clear = true }),
+  callback = function(event)
 
-vim.keymap.set('n', '<C-o>', builtin.find_files, { desc = 'Telescope find files' })
+    local builtin = require('telescope.builtin')
 
-vim.keymap.set('n', '<leader>/', function()
-  -- You can pass additional configuration to Telescope to change the theme, layout, etc.
-  builtin.current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
-    winblend = 10,
-    previewer = false,
-  })
-end, { desc = 'Fuzzily search in current buffer' })
+    local map = function(keys, func, desc, mode)
+      mode = mode or 'n'
+      vim.keymap.set(mode, keys, func, { buffer = event.buf, desc = 'LSP: ' .. desc, nowait = true })
+    end
 
+    -- Rename the variable under your cursor.
+    --  Most Language Servers support renaming across files, etc.
+    map('<F2>', vim.lsp.buf.rename, '[R]e[n]ame')
 
-local mappings = {
-  telescope_defaults = function(actions)
-    return {
-      i = {
-        ["<esc>"] = actions.close,
-        ["<C-k>"] = actions.move_selection_next,
-        ["<C-i>"] = actions.move_selection_previous,
-      }
-    }
-  end
+    -- Execute a code action, usually your cursor needs to be on top of an error
+    -- or a suggestion from your LSP for this to activate.
+    map('ga', vim.lsp.buf.code_action, '[G]oto Code [A]ction', { 'n', 'x' })
 
-}
-return mappings
+    -- Find references for the word under your cursor.
+    map('gr', builtin.lsp_references, '[G]oto [R]eferences')
+
+    -- Jump to the implementation of the word under your cursor.
+    --  Useful when your language has ways of declaring types without an actual implementation.
+    map('gi', builtin.lsp_implementations, '[G]oto [I]mplementation')
+
+    -- Jump to the definition of the word under your cursor.
+    --  This is where a variable was first declared, or where a function is defined, etc.
+    --  To jump back, press <C-t>.
+    map('gd', builtin.lsp_definitions, '[G]oto [D]efinition')
+
+    -- WARN: This is not Goto Definition, this is Goto Declaration.
+    --  For example, in C this would take you to the header.
+    map('gD', vim.lsp.buf.declaration, '[G]oto [D]eclaration')
+
+    -- Fuzzy find all the symbols in your current document.
+    --  Symbols are things like variables, functions, types, etc.
+    map('go', builtin.lsp_document_symbols, 'Open Document Symbols')
+
+    -- Fuzzy find all the symbols in your current workspace.
+    --  Similar to document symbols, except searches over your entire project.
+    map('gO', builtin.lsp_dynamic_workspace_symbols, 'Open Workspace Symbols')
+
+    -- Jump to the type of the word under your cursor.
+    --  Useful when you're not sure what type a variable is and you want to see
+    --  the definition of its *type*, not where it was *defined*.
+    map('gt', builtin.lsp_type_definitions, '[G]oto [T]ype Definition')
+
+    -- This function resolves a difference between neovim nightly (version 0.11) and stable (version 0.10)
+    ---@param client vim.lsp.Client
+    ---@param method vim.lsp.protocol.Method
+    ---@param bufnr? integer some lsp support methods only in specific files
+    ---@return boolean
+    local function client_supports_method(client, method, bufnr)
+      if vim.fn.has 'nvim-0.11' == 1 then
+        return client:supports_method(method, bufnr)
+      else
+        return client.supports_method(method, { bufnr = bufnr })
+      end
+    end
+
+    -- The following two autocommands are used to highlight references of the
+    -- word under your cursor when your cursor rests there for a little while.
+    --    See `:help CursorHold` for information about when this is executed
+    --
+    -- When you move your cursor, the highlights will be cleared (the second autocommand).
+    local client = vim.lsp.get_client_by_id(event.data.client_id)
+    if client and client_supports_method(client, vim.lsp.protocol.Methods.textDocument_documentHighlight, event.buf) then
+      local highlight_augroup = vim.api.nvim_create_augroup('kickstart-lsp-highlight', { clear = false })
+      vim.api.nvim_create_autocmd({ 'CursorHold', 'CursorHoldI' }, {
+        buffer = event.buf,
+        group = highlight_augroup,
+        callback = vim.lsp.buf.document_highlight,
+      })
+
+      vim.api.nvim_create_autocmd({ 'CursorMoved', 'CursorMovedI' }, {
+        buffer = event.buf,
+        group = highlight_augroup,
+        callback = vim.lsp.buf.clear_references,
+      })
+
+      vim.api.nvim_create_autocmd('LspDetach', {
+        group = vim.api.nvim_create_augroup('kickstart-lsp-detach', { clear = true }),
+        callback = function(event2)
+          vim.lsp.buf.clear_references()
+          vim.api.nvim_clear_autocmds { group = 'kickstart-lsp-highlight', buffer = event2.buf }
+        end,
+      })
+    end
+
+    -- The following code creates a keymap to toggle inlay hints in your
+    -- code, if the language server you are using supports them
+    --
+    -- This may be unwanted, since they displace some of your code
+    if client and client_supports_method(client, vim.lsp.protocol.Methods.textDocument_inlayHint, event.buf) then
+      map('<leader>th', function()
+        vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled { bufnr = event.buf })
+      end, '[T]oggle Inlay [H]ints')
+    end
+  end,
+})

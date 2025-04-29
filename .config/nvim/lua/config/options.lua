@@ -31,12 +31,18 @@ vim.opt.splitbelow = true
 vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 20
 
 -- if performing an operation that would fail due to unsaved changes in the buffer (like `:q`),
 -- instead raise a dialog asking if you wish to save the current file(s)
 -- See `:help 'confirm'`
 vim.opt.confirm = true
 
-vim.opt.fillchars:append({ eob = " " })
+vim.opt.fillchars:append({ eob = ' ' })
 
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+
+-- Example for configuring Neovim to load user-installed installed Lua rocks:
+package.path = package.path .. ';' .. vim.fn.expand('$HOME') .. '/.luarocks/share/lua/5.1/?/init.lua;'
+package.path = package.path .. ';' .. vim.fn.expand('$HOME') .. '/.luarocks/share/lua/5.1/?.lua;'
