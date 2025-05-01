@@ -13,7 +13,6 @@ return {
   },
   config = function()
     local actions = require('telescope.actions')
-    local actions_state = require('telescope.actions.state')
     require('telescope').setup({
       defaults = {
         mappings = {
@@ -23,23 +22,10 @@ return {
         }
       },
       pickers = {
-        find_files = {
-          mappings = {
-            i = {
-              ['<CR>'] = function(prompt_bufnr)
-                local selection = actions_state.get_selected_entry()
-                actions.close(prompt_bufnr)
-
-                local bufname = vim.api.nvim_buf_get_name(0)
-                local is_empty = bufname == '' and not vim.bo.modified
-
-                if is_empty then
-                  vim.cmd('edit' .. vim.fn.fnameescape(selection.path or selection.filename))
-                else
-                  vim.cmd('tabnew ' .. vim.fn.fnameescape(selection.path or selection.filename))
-                end
-              end
-            }
+        mappings = {
+          i = {
+            ['<C-s>'] = actions.file_split,
+            ['<C-v>'] = actions.file_vsplit
           }
         }
       }
@@ -50,7 +36,9 @@ return {
 
     local builtin = require('telescope.builtin')
 
-    vim.keymap.set('n', '<C-o>', builtin.find_files, { desc = 'Telescope find files' })
+    vim.keymap.set('n', '<leader>sf', builtin.find_files, { desc = 'Telescope find files' })
+
+    vim.keymap.set('n', '<leader>sp', '<cmd>SessionSearch<CR>', { desc = 'Search Sessions' })
 
     vim.keymap.set('n', '<leader>/', function()
       -- You can pass additional configuration to Telescope to change the theme, layout, etc.

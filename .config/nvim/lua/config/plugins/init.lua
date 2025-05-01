@@ -34,6 +34,8 @@ require('lazy').setup({
     opts = {},
   },
 
+  'ThePrimeagen/vim-be-good',
+
   require('config.plugins.oil'),
   require('config.plugins.git'),
   require('config.plugins.ui'),
@@ -41,6 +43,8 @@ require('lazy').setup({
   require('config.plugins.blinkcmp'),
   require('config.plugins.lsp'),
   require('config.plugins.treesitter'),
+  require('config.plugins.autosession'),
+  require('config.plugins.harpoon'),
 
   require('config.plugins.molten'),
 

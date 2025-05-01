@@ -1,3 +1,5 @@
+local util = require('config.util')
+
 -- NOTE: General --
 
 -- hjkl to ijkl remap
@@ -15,6 +17,7 @@ vim.keymap.set({ 'v', 'o' }, '<S-Tab>', '<', { desc = 'S-tab unindent ' })
 -- scrolling
 vim.keymap.set({ 'n', 'v' }, '<C-d>', '<C-d>zz', { desc = 'centered scroll' })
 vim.keymap.set({ 'n', 'v' }, '<C-u>', '<C-u>zz', { desc = 'centered scroll' })
+vim.keymap.set({ 'n', 'v' }, '<C-o>', '<C-o>zz', { desc = 'centered jump back' })
 
 -- start of line
 vim.keymap.set({ 'n', 'v', 'o' }, '#', '_', { desc = '# start of line' })
@@ -25,15 +28,15 @@ vim.keymap.set('n', '<C-w>', ':bd<CR>', { desc = 'save and close', nowait = true
 
 -- tabs 
 -- TODO: redo with telescope and ctrl tab
-vim.keymap.set('n', '<leader><Tab>', ':tabnext<CR>', { desc = 'next buffer' })
-vim.keymap.set('n', '<leader><S-Tab>', ':tabprev<CR>', { desc = 'previous buffer', noremap = true })
+
+-- vim.keymap.set('n', '<leader><Tab>', ':bnext<CR>', { desc = 'next buffer' })
+-- vim.keymap.set('n', '<leader><S-Tab>', ':bprev<CR>', { desc = 'previous buffer', noremap = true })
 
 -- delete word in insert mode
 vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })
 
 -- NOTE: Right Dock: Terminal & Oil
 
-local util = require('config.util')
 
 vim.keymap.set('n', '<C-l>', function()
   util.open_in_right_dock('term://')
@@ -41,6 +44,7 @@ end, { desc = 'open terminal' })
 
 vim.keymap.set('t', '<C-j>', '<cmd>wincmd h<CR>', { desc = 'focus editor', silent = true })
 vim.keymap.set('t', '<C-w>', '<C-d>', { desc = 'kill terminal' })
+vim.keymap.set('t', '<F28>', '<cmd>q<CR>', { desc = 'close terminal window' })
 
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'normal mode in terminal' })
 
@@ -166,3 +170,15 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end
   end,
 })
+
+-- NOTE: Molten
+vim.keymap.set("n", "<leader>mi", ":MoltenInit<CR>",
+    { silent = true, desc = "Initialize the plugin" })
+vim.keymap.set("n", "<leader>mo", ":MoltenEvaluateOperator<CR>",
+    { silent = true, desc = "run operator selection" })
+vim.keymap.set("n", "<leader>ml", ":MoltenEvaluateLine<CR>",
+    { silent = true, desc = "evaluate line" })
+vim.keymap.set("v", "<leader>mv", ":<C-u>MoltenEvaluateVisual<CR>gv",
+    { silent = false, desc = "evaluate visual selection" })
+vim.keymap.set("n", "<leader>mh", ":MoltenHideOutput<CR>",
+    { silent = true, desc = "hide output" })
