@@ -36,9 +36,12 @@ return {
 
     local builtin = require('telescope.builtin')
 
-    vim.keymap.set('n', '<leader>sf', builtin.find_files, { desc = 'Telescope find files' })
+    vim.keymap.set('n', '<leader>sf', builtin.find_files, { desc = 'find files' })
+    vim.keymap.set('n', '<leader>sw', builtin.grep_string, { desc = 'grep string' })
+    vim.keymap.set('n', '<leader>ss', builtin.lsp_document_symbols, { desc = 'document symbols' })
+    vim.keymap.set('n', '<leader>sS', builtin.lsp_workspace_symbols, { desc = 'workspace symbols' })
 
-    vim.keymap.set('n', '<leader>sp', '<cmd>SessionSearch<CR>', { desc = 'Search Sessions' })
+    vim.keymap.set('n', '<leader>sp', '<cmd>SessionSearch<CR>', { desc = 'search sessions' })
 
     vim.keymap.set('n', '<leader>/', function()
       -- You can pass additional configuration to Telescope to change the theme, layout, etc.
