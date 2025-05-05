@@ -20,22 +20,22 @@ local function open_floating_win(buf, w_percent, h_percent, opts)
   vim.api.nvim_open_win(buf, true, opts)
 end
 
+---@class TermState
+---@field bufs integer[]
+---@field last_used integer[]
+---@field win integer
 local term_state = {
-  -1,
-  -1,
-  -1,
-  -1,
-  last_used = 1,
+  bufs = { -1, -1, -1, -1 },
+  last_used = { 1, 2, 3, 4 },
   win = -1,
 }
 
-vim.api.nvim_create_user_command('Floaterminal', function(table)
-  -- TODO: update last_used buffer if it gets deleted
+vim.api.nvim_create_user_command('Floaterminal', function(args_table)
 
   local is_new = false
-  if table.args ~= '' then
+  if args_table.args ~= '' then
 
-    local num = tonumber(table.args)
+    local num = tonumber(args_table.args)
     if num < 1 or num > 4 then
       error('numbers from 1 to 4 allowed only')
     end
@@ -43,22 +43,36 @@ vim.api.nvim_create_user_command('Floaterminal', function(table)
       error('only specify arguments after opening the floaterminal')
     end
 
-    if not vim.api.nvim_buf_is_valid(term_state[num]) then
-      term_state[num] = vim.api.nvim_create_buf(true, false)
+    if not vim.api.nvim_buf_is_valid(term_state.bufs[num]) then
+      term_state.bufs[num] = vim.api.nvim_create_buf(true, false)
       is_new = true
     end
 
-    term_state.last_used = num
-    vim.api.nvim_set_current_buf(term_state[num])
+    for index, value in ipairs(term_state.last_used) do
+      if value == num then
+        table.remove(term_state.last_used, index)
+        break
+      end
+    end
+    table.insert(term_state.last_used, 1, num)
+
+    vim.api.nvim_set_current_buf(term_state.bufs[num])
 
   else
 
-    if not vim.api.nvim_buf_is_valid(term_state[term_state.last_used]) then
-      term_state[term_state.last_used] = vim.api.nvim_create_buf(true, false)
+    for _ = 1, 4 do
+      if not vim.api.nvim_buf_is_valid(term_state.bufs[term_state.last_used[1]]) then
+        local invalid_buf_index = table.remove(term_state.last_used, 1)
+        table.insert(term_state.last_used, 4, invalid_buf_index)
+      end
+    end
+
+    if not vim.api.nvim_buf_is_valid(term_state.bufs[term_state.last_used[1]]) then
+      term_state.bufs[term_state.last_used[1]] = vim.api.nvim_create_buf(true, false)
       is_new = true
     end
 
-    open_floating_win(term_state[term_state.last_used])
+    open_floating_win(term_state.bufs[term_state.last_used[1]])
 
     term_state.win = vim.api.nvim_get_current_win()
 
