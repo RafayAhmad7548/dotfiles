@@ -6,7 +6,7 @@ return {
 		opts = {
 			backend = 'kitty', -- whatever backend you would like to use
 			max_width = 100,
-			max_height = 12,
+			max_height = 20,
 			max_height_window_percentage = math.huge,
 			max_width_window_percentage = math.huge,
 			window_overlap_clear_enabled = true, -- toggles images when windows are overlapped
@@ -22,7 +22,6 @@ return {
 		init = function()
 			-- these are examples, not defaults. Please see the readme
 			vim.g.molten_image_provider = 'image.nvim'
-			vim.g.molten_output_win_max_height = 20
 		end,
 	}
 }

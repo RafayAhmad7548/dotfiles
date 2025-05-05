@@ -41,7 +41,14 @@ return {
     vim.keymap.set('n', '<leader>ss', builtin.lsp_document_symbols, { desc = 'document symbols' })
     vim.keymap.set('n', '<leader>sS', builtin.lsp_workspace_symbols, { desc = 'workspace symbols' })
 
+    vim.keymap.set('n', '<leader>st', '<cmd>TodoTelescope<CR>', { desc = 'search todos' })
     vim.keymap.set('n', '<leader>sp', '<cmd>SessionSearch<CR>', { desc = 'search sessions' })
+
+    vim.keymap.set('n', '<leader>sh', function ()
+      builtin.help_tags({
+        previewer = false
+      })
+    end, { desc = 'help' })
 
     vim.keymap.set('n', '<leader>/', function()
       -- You can pass additional configuration to Telescope to change the theme, layout, etc.

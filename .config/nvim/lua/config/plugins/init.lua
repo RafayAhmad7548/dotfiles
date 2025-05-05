@@ -41,12 +41,13 @@ require('lazy').setup({
   require('config.plugins.ui'),
   require('config.plugins.telescope'),
   require('config.plugins.blinkcmp'),
-  require('config.plugins.lsp'),
-  require('config.plugins.treesitter'),
+  require('config.plugins.languages.lsp'),
+  require('config.plugins.languages.treesitter'),
   require('config.plugins.harpoon'),
   require('config.plugins.autosession'),
 
-  require('config.plugins.molten'),
+  require('config.plugins.languages.molten'),
+  require('config.plugins.languages.flutter'),
 
 
   -- NOTE: maybe revisit this later

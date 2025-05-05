@@ -44,7 +44,8 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
 vim.opt.hlsearch = false
+vim.opt.wrap = false
 
--- Example for configuring Neovim to load user-installed installed Lua rocks:
+-- Example for configring Neovim to load user-installed installed Lua rocks:
 package.path = package.path .. ';' .. vim.fn.expand('$HOME') .. '/.luarocks/share/lua/5.1/?/init.lua;'
 package.path = package.path .. ';' .. vim.fn.expand('$HOME') .. '/.luarocks/share/lua/5.1/?.lua;'

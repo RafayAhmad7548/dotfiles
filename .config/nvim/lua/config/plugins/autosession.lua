@@ -7,6 +7,16 @@ return {
   ---@type AutoSession.Config
   opts = {
     suppressed_dirs = { '~/', '~/Downloads', '/' },
+    pre_save_cmds = {
+      function()
+        local bufs = vim.api.nvim_list_bufs()
+        for _, buf in ipairs(bufs) do
+          if vim.bo[buf].buftype == 'terminal' then
+            vim.api.nvim_buf_delete(buf, { force = true, unload = false })
+          end
+        end
+      end
+    },
     pre_restore_cmds = {
       -- might not be necessary, but save current harpoon data when we're about to restore a session
       function() require('harpoon'):sync() end,
