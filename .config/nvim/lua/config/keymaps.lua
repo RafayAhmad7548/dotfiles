@@ -29,7 +29,7 @@ vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })
 
 
 
--- NOTE: Right Dock: Terminal & Oil
+-- NOTE: Right Dock: Terminal & MiniOilFiles
 
 -- NOTE: ctrl m
 vim.keymap.set('n', '<F27>', '<cmd>Floaterminal<CR>', { desc = 'open terminal', nowait = true })
@@ -37,23 +37,23 @@ vim.keymap.set('t', '<F27>', '<cmd>q<CR>', { desc = 'close terminal window' })
 
 vim.keymap.set('t', '<C-l>', '<cmd>Floaterminal 1<CR>', { desc = 'terminal 1' })
 vim.keymap.set('t', '<C-j>', '<cmd>Floaterminal 2<CR>', { desc = 'terminal 2' })
-vim.keymap.set('t', '<C-f>', '<cmd>Floaterminal 3<CR>', { desc = 'terminal 3' })
-vim.keymap.set('t', '<C-g>', '<cmd>Floaterminal 4<CR>', { desc = 'terminal 4' })
+vim.keymap.set('t', '<Down>', '<cmd>Floaterminal 3<CR>', { desc = 'terminal 3' })
+vim.keymap.set('t', '<Up>', '<cmd>Floaterminal 4<CR>', { desc = 'terminal 4' })
 
 vim.keymap.set('t', '<C-w>', '<C-d>', { desc = 'kill terminal' })
 
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'normal mode in terminal' })
 
-vim.keymap.set('n', '<C-e>', '<cmd>Floateroil<CR>', { desc = 'open oil' })
+vim.keymap.set('n', '<C-e>', require('mini.files').open, { desc = 'open mini files' })
 
 
 -- NOTE: Windows
 
 -- this is weird because ctrl-i => Up & ctrl-k => Down in Kitty conf
-vim.keymap.set({ 'n', 'v', 'o' }, '<Down><Up>', ':wincmd k<CR>', { desc = 'moving around window using ctrl-k ijkl', silent = true })
-vim.keymap.set({ 'n', 'v', 'o' }, '<Down><Down>', ':wincmd j<CR>', { desc = 'moving around window using ctrl-k ijkl', silent = true })
-vim.keymap.set({ 'n', 'v', 'o' }, '<Down><C-l>', ':wincmd l<CR>', { desc = 'moving around window using ctrl-k ijkl', silent = true })
-vim.keymap.set({ 'n', 'v', 'o' }, '<Down><C-j>', ':wincmd h<CR>', { desc = 'moving around window using ctrl-k ijkl', silent = true })
+vim.keymap.set({ 'n', 'v', 'o' }, '<leader>ki', ':wincmd k<CR>', { desc = 'move focus between windows', silent = true })
+vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kk', ':wincmd j<CR>', { desc = 'move focus between windows', silent = true })
+vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kl', ':wincmd l<CR>', { desc = 'move focus between windows', silent = true })
+vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kj', ':wincmd h<CR>', { desc = 'move focus between windows', silent = true })
 
 
 -- NOTE: LSP
@@ -75,7 +75,18 @@ vim.api.nvim_create_autocmd('LspAttach', {
 
     -- Rename the variable under your cursor.
     --  Most Language Servers support renaming across files, etc.
-    map('<F2>', vim.lsp.buf.rename, '[R]e[n]ame')
+    map('<F2>', function()
+      vim.api.nvim_exec_autocmds("User", { pattern = "SnacksInputRename" })
+      vim.lsp.buf.rename()
+      vim.api.nvim_create_autocmd("WinClosed", {
+        callback = function (args)
+          vim.api.nvim_exec_autocmds("User", {
+            pattern = "SnacksInputReset"
+          })
+          vim.api.nvim_del_autocmd(args.id)
+        end
+      })
+    end, '[R]e[n]ame')
 
     -- Execute a code action, usually your cursor needs to be on top of an error
     -- or a suggestion from your LSP for this to activate.
