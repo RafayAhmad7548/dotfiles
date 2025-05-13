@@ -1,4 +1,4 @@
--- NOTE: General --
+-- INFO: General --
 
 -- hjkl to ijkl remap
 vim.keymap.set({ 'n', 'v', 'o' }, 'j', 'h', { desc = 'hjkl to ijkl' })
@@ -29,9 +29,9 @@ vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })
 
 
 
--- NOTE: Right Dock: Terminal & MiniOilFiles
+-- INFO: Right Dock: Terminal & MiniOilFiles
 
--- NOTE: ctrl m
+-- INFO: ctrl m
 vim.keymap.set('n', '<F27>', '<cmd>Floaterminal<CR>', { desc = 'open terminal', nowait = true })
 vim.keymap.set('t', '<F27>', '<cmd>q<CR>', { desc = 'close terminal window' })
 
@@ -47,7 +47,7 @@ vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'normal mode in terminal' }
 vim.keymap.set('n', '<C-e>', require('mini.files').open, { desc = 'open mini files' })
 
 
--- NOTE: Windows
+-- INFO: Windows
 
 -- this is weird because ctrl-i => Up & ctrl-k => Down in Kitty conf
 vim.keymap.set({ 'n', 'v', 'o' }, '<leader>ki', ':wincmd k<CR>', { desc = 'move focus between windows', silent = true })
@@ -55,8 +55,25 @@ vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kk', ':wincmd j<CR>', { desc = 'move 
 vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kl', ':wincmd l<CR>', { desc = 'move focus between windows', silent = true })
 vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kj', ':wincmd h<CR>', { desc = 'move focus between windows', silent = true })
 
+-- INFO: Picker
 
--- NOTE: LSP
+local Snacks = require('snacks')
+
+vim.keymap.set('n', '<leader>sf', Snacks.picker.files, { desc = 'pick files' })
+vim.keymap.set('n', '<leader>sw', Snacks.picker.grep, { desc = 'grep' })
+vim.keymap.set('n', '<leader>st', function()
+  Snacks.picker.todo_comments()
+end, { desc = 'search todos' })
+vim.keymap.set('n', '<leader>sh', Snacks.picker.help, { desc = 'help' })
+
+vim.keymap.set('n', '<leader>/', function()
+  Snacks.picker.lines({ layout = 'select' })
+end, { desc = 'fuzzily search in current buffer' })
+
+vim.keymap.set('n', '<leader>sp', '<cmd>Autosession search<CR>', { desc = 'search sessions' })
+
+
+-- INFO: LSP
 
 --  This function gets run when an LSP attaches to a particular buffer.
 --    That is to say, every time a new file is opened that is associated with
@@ -66,8 +83,6 @@ vim.api.nvim_create_autocmd('LspAttach', {
   group = vim.api.nvim_create_augroup('kickstart-lsp-attach', { clear = true }),
   callback = function(event)
 
-    local builtin = require('telescope.builtin')
-
     local map = function(keys, func, desc, mode)
       mode = mode or 'n'
       vim.keymap.set(mode, keys, func, { buffer = event.buf, desc = 'LSP: ' .. desc, nowait = true })
@@ -76,12 +91,12 @@ vim.api.nvim_create_autocmd('LspAttach', {
     -- Rename the variable under your cursor.
     --  Most Language Servers support renaming across files, etc.
     map('<F2>', function()
-      vim.api.nvim_exec_autocmds("User", { pattern = "SnacksInputRename" })
+      vim.api.nvim_exec_autocmds('User', { pattern = 'SnacksInputRename' })
       vim.lsp.buf.rename()
-      vim.api.nvim_create_autocmd("WinClosed", {
+      vim.api.nvim_create_autocmd('WinClosed', {
         callback = function (args)
-          vim.api.nvim_exec_autocmds("User", {
-            pattern = "SnacksInputReset"
+          vim.api.nvim_exec_autocmds('User', {
+            pattern = 'SnacksInputReset'
           })
           vim.api.nvim_del_autocmd(args.id)
         end
@@ -93,16 +108,16 @@ vim.api.nvim_create_autocmd('LspAttach', {
     map('ga', vim.lsp.buf.code_action, '[G]oto Code [A]ction', { 'n', 'x' })
 
     -- Find references for the word under your cursor.
-    map('gr', builtin.lsp_references, '[G]oto [R]eferences')
+    map('gr', Snacks.picker.lsp_references, '[G]oto [R]eferences')
 
     -- Jump to the implementation of the word under your cursor.
     --  Useful when your language has ways of declaring types without an actual implementation.
-    map('gi', builtin.lsp_implementations, '[G]oto [I]mplementation')
+    map('gi', Snacks.picker.lsp_implementations, '[G]oto [I]mplementation')
 
     -- Jump to the definition of the word under your cursor.
     --  This is where a variable was first declared, or where a function is defined, etc.
     --  To jump back, press <C-t>.
-    map('gd', builtin.lsp_definitions, '[G]oto [D]efinition')
+    map('gd', Snacks.picker.lsp_definitions, '[G]oto [D]efinition')
 
     -- WARN: This is not Goto Definition, this is Goto Declaration.
     --  For example, in C this would take you to the header.
@@ -110,16 +125,16 @@ vim.api.nvim_create_autocmd('LspAttach', {
 
     -- Fuzzy find all the symbols in your current document.
     --  Symbols are things like variables, functions, types, etc.
-    map('go', builtin.lsp_document_symbols, 'Open Document Symbols')
+    map('go', Snacks.picker.lsp_symbols, 'Open Document Symbols')
 
     -- Fuzzy find all the symbols in your current workspace.
     --  Similar to document symbols, except searches over your entire project.
-    map('gO', builtin.lsp_dynamic_workspace_symbols, 'Open Workspace Symbols')
+    map('gO', Snacks.picker.lsp_workspace_symbols, 'Open Workspace Symbols')
 
     -- Jump to the type of the word under your cursor.
     --  Useful when you're not sure what type a variable is and you want to see
     --  the definition of its *type*, not where it was *defined*.
-    map('gt', builtin.lsp_type_definitions, '[G]oto [T]ype Definition')
+    map('gt', Snacks.picker.lsp_type_definitions, '[G]oto [T]ype Definition')
 
     -- This function resolves a difference between neovim nightly (version 0.11) and stable (version 0.10)
     ---@param client vim.lsp.Client
@@ -175,18 +190,18 @@ vim.api.nvim_create_autocmd('LspAttach', {
   end,
 })
 
--- NOTE: Molten
-vim.keymap.set("n", "<leader>mi", ":MoltenInit<CR>",
-    { silent = true, desc = "Initialize the plugin" })
-vim.keymap.set("n", "<leader>mo", ":MoltenEvaluateOperator<CR>",
-    { silent = true, desc = "run operator selection" })
-vim.keymap.set("n", "<leader>ml", ":MoltenEvaluateLine<CR>",
-    { silent = true, desc = "evaluate line" })
-vim.keymap.set("v", "<leader>mv", ":<C-u>MoltenEvaluateVisual<CR>gv",
-    { silent = false, desc = "evaluate visual selection" })
-vim.keymap.set("n", "<leader>mc", ":MoltenReevaluateCell<CR>",
-    { silent = false, desc = "reevaluate cell" })
-vim.keymap.set("n", "<leader>me", ":noautocmd MoltenEnterOutput<CR>",
-    { silent = true, desc = "show/enter output" })
-vim.keymap.set("n", "<leader>mh", ":MoltenHideOutput<CR>",
-    { silent = true, desc = "hide output" })
+-- INFO: Molten
+vim.keymap.set('n', '<leader>mi', ':MoltenInit<CR>',
+    { silent = true, desc = 'Initialize the plugin' })
+vim.keymap.set('n', '<leader>mo', ':MoltenEvaluateOperator<CR>',
+    { silent = true, desc = 'run operator selection' })
+vim.keymap.set('n', '<leader>ml', ':MoltenEvaluateLine<CR>',
+    { silent = true, desc = 'evaluate line' })
+vim.keymap.set('v', '<leader>mv', ':<C-u>MoltenEvaluateVisual<CR>gv',
+    { silent = false, desc = 'evaluate visual selection' })
+vim.keymap.set('n', '<leader>mc', ':MoltenReevaluateCell<CR>',
+    { silent = false, desc = 'reevaluate cell' })
+vim.keymap.set('n', '<leader>me', ':noautocmd MoltenEnterOutput<CR>',
+    { silent = true, desc = 'show/enter output' })
+vim.keymap.set('n', '<leader>mh', ':MoltenHideOutput<CR>',
+    { silent = true, desc = 'hide output' })

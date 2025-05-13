@@ -38,7 +38,7 @@ return {
 		},
 	},
 	{
-		"sindrets/diffview.nvim",
+		'sindrets/diffview.nvim',
 		config = function ()
 			local actions = require('diffview.config').actions
 			require('diffview').setup({
@@ -57,10 +57,10 @@ return {
 		end
 	},
 	-- {
-	-- 	"NeogitOrg/neogit",
+	-- 	'NeogitOrg/neogit',
 	-- 	dependencies = {
-	-- 		"nvim-lua/plenary.nvim",
-	-- 		"nvim-telescope/telescope.nvim",
+	-- 		'nvim-lua/plenary.nvim',
+	-- 		'nvim-telescope/telescope.nvim',
 	-- 	},
 	-- 	config = function()
 	-- 		require('neogit').setup({
@@ -73,41 +73,41 @@ return {
 	-- 				kind = 'floating',
 	-- 			},
 	-- 			commit_select_view = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			commit_view = {
-	-- 				kind = "floating",
-	-- 				verify_commit = vim.fn.executable("gpg") == 1, -- Can be set to true or false, otherwise we try to find the binary
+	-- 				kind = 'floating',
+	-- 				verify_commit = vim.fn.executable('gpg') == 1, -- Can be set to true or false, otherwise we try to find the binary
 	-- 			},
 	-- 			log_view = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			rebase_editor = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			reflog_view = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			merge_editor = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			description_editor = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			tag_editor = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			preview_buffer = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			popup = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			stash = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			refs_view = {
-	-- 				kind = "floating",
+	-- 				kind = 'floating',
 	-- 			},
 	-- 			mappings = {
 	-- 				status = {

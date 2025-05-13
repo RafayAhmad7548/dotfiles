@@ -6,15 +6,15 @@ return {
 	},
 
 	{
-		'navarasu/onedark.nvim',
-		config = function ()
-			require('onedark').setup({
-				style = 'darker',
-				code_style = {
-					comments = 'none'
-				}
-			})
-			require('onedark').load()
+		'catppuccin/nvim',
+		name = 'catppuccin',
+		priority = 1000,
+		opts = {
+			flavour = 'mocha',
+			no_italic = true,
+		},
+		config = function()
+			vim.cmd('colorscheme catppuccin')
 		end
-	},
+	}
 }

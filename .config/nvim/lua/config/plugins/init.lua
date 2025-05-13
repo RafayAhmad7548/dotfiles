@@ -13,23 +13,23 @@ vim.opt.rtp:prepend(lazypath)
 -- local keymaps = require('config.pluginmaps')
 
 require('lazy').setup({
-  -- NOTE: General Editing --
+  -- INFO: General Editing --
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = {} },
 
   -- TODO: i dunno about this one
   -- {
-  --   "folke/noice.nvim",
-  --   event = "VeryLazy",
+  --   'folke/noice.nvim',
+  --   event = 'VeryLazy',
   --   opts = {
   --   },
   --   dependencies = {
-  --     -- if you lazy-load any plugin below, make sure to add proper `module="..."` entries
-  --     "MunifTanjim/nui.nvim",
+  --     -- if you lazy-load any plugin below, make sure to add proper `module='...'` entries
+  --     'MunifTanjim/nui.nvim',
   --     -- OPTIONAL:
   --     --   `nvim-notify` is only needed, if you want to use the notification view.
   --     --   If not available, we use `mini` as the fallback
-  --     "rcarriga/nvim-notify",
+  --     'rcarriga/nvim-notify',
   --   }
   -- },
 
@@ -40,7 +40,7 @@ require('lazy').setup({
 
   require('config.plugins.git'),
   require('config.plugins.ui'),
-  require('config.plugins.telescope'),
+  -- require('config.plugins.telescope'),
   require('config.plugins.blinkcmp'),
   require('config.plugins.languages.lsp'),
   require('config.plugins.languages.treesitter'),
