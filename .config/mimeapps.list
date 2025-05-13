@@ -9,6 +9,7 @@ x-scheme-handler/about=librewolf.desktop
 x-scheme-handler/unknown=librewolf.desktop
 image/webp=org.gnome.eog.desktop
 application/pdf=librewolf.desktop
+text/plain=dev.zed.Zed.desktop
 
 [Added Associations]
 image/png=org.gnome.eog.desktop;
@@ -16,3 +17,4 @@ application/x-executable=kitty-open.desktop;
 image/jpeg=org.gnome.eog.desktop;
 image/webp=org.gnome.eog.desktop;
 application/pdf=firefox.desktop;librewolf.desktop;
+text/plain=nvim.desktop;dev.zed.Zed.desktop;

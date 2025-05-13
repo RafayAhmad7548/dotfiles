@@ -86,7 +86,8 @@
         "format-icons": {
             "locked": "󰎦",
             "unlocked": ""
-        }
+        },
+        "interval": 0.1
     },
 
     // Clock
