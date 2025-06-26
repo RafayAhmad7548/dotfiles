@@ -33,6 +33,7 @@
     // Modules Right    
     "modules-right": [
         "hyprland/language",
+        "custom/notification",
         "keyboard-state",
         "pulseaudio",
         "battery", 

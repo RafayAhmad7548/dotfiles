@@ -199,8 +199,18 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #keyboard-state {
-    margin-right: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
     font-size: 20px;
+}
+
+/* -----------------------------------------------------
+ * Notifications
+ * ----------------------------------------------------- */
+
+#custom-notification {
+    padding-right: 10px;
+    font-size: 16px;
 }
 
 /* -----------------------------------------------------
