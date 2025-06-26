@@ -32,7 +32,6 @@
 
     // Modules Right    
     "modules-right": [
-        "custom/updates",
         "hyprland/language",
         "keyboard-state",
         "pulseaudio",

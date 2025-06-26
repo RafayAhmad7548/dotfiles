@@ -23,10 +23,12 @@ end
 ---@class TermState
 ---@field bufs integer[]
 ---@field last_used integer[]
+---@field curr_buf_index integer
 ---@field win integer
 local term_state = {
   bufs = { -1, -1, -1, -1 },
   last_used = { 1, 2, 3, 4 },
+  curr_buf_index = 1,
   win = -1,
 }
 
@@ -35,28 +37,36 @@ vim.api.nvim_create_user_command('Floaterminal', function(args_table)
   local is_new = false
   if args_table.args ~= '' then
 
-    local num = tonumber(args_table.args)
-    if num < 1 or num > 4 then
-      error('numbers from 1 to 4 allowed only')
-    end
-    if not vim.api.nvim_win_is_valid(term_state.win) then
-      error('only specify arguments after opening the floaterminal')
+    local operation = args_table.args
+
+    if operation == 'next' then
+      term_state.curr_buf_index = term_state.curr_buf_index + 1
+      if term_state.curr_buf_index > 4 then
+        term_state.curr_buf_index = 1
+      end
+    elseif operation == 'prev' then
+      term_state.curr_buf_index = term_state.curr_buf_index - 1
+      if term_state.curr_buf_index < 1 then
+        term_state.curr_buf_index = 4
+      end
+    else
+      error('invalid argument, use next or prev')
     end
 
-    if not vim.api.nvim_buf_is_valid(term_state.bufs[num]) then
-      term_state.bufs[num] = vim.api.nvim_create_buf(true, false)
+    if not vim.api.nvim_buf_is_valid(term_state.bufs[term_state.curr_buf_index]) then
+      term_state.bufs[term_state.curr_buf_index] = vim.api.nvim_create_buf(true, false)
       is_new = true
     end
 
     for index, value in ipairs(term_state.last_used) do
-      if value == num then
+      if value == term_state.curr_buf_index then
         table.remove(term_state.last_used, index)
         break
       end
     end
-    table.insert(term_state.last_used, 1, num)
+    table.insert(term_state.last_used, 1, term_state.curr_buf_index)
 
-    vim.api.nvim_set_current_buf(term_state.bufs[num])
+    vim.api.nvim_set_current_buf(term_state.bufs[term_state.curr_buf_index])
 
   else
 
@@ -104,3 +114,14 @@ vim.api.nvim_create_user_command('Floateroil', function()
 
 end, { desc = 'open the floateroil' })
 
+
+local dev_log_buf = -1
+vim.api.nvim_create_user_command('FloutterLog', function (args)
+  local name = args.args
+  if not vim.api.nvim_buf_is_valid(dev_log_buf) then
+    dev_log_buf = vim.api.nvim_create_buf(true, false)
+    vim.api.nvim_buf_set_name(dev_log_buf, name)
+  end
+  vim.keymap.set('n', '<F27>', '<cmd>q<CR>', { desc = 'close dev log', buffer = dev_log_buf })
+  open_floating_win(dev_log_buf)
+end, { desc = 'flutter dev log floating', nargs = 1 })

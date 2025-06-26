@@ -35,10 +35,13 @@ vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })
 vim.keymap.set('n', '<F27>', '<cmd>Floaterminal<CR>', { desc = 'open terminal', nowait = true })
 vim.keymap.set('t', '<F27>', '<cmd>q<CR>', { desc = 'close terminal window' })
 
-vim.keymap.set('t', '<C-l>', '<cmd>Floaterminal 1<CR>', { desc = 'terminal 1' })
-vim.keymap.set('t', '<C-j>', '<cmd>Floaterminal 2<CR>', { desc = 'terminal 2' })
-vim.keymap.set('t', '<Down>', '<cmd>Floaterminal 3<CR>', { desc = 'terminal 3' })
-vim.keymap.set('t', '<Up>', '<cmd>Floaterminal 4<CR>', { desc = 'terminal 4' })
+vim.keymap.set('t', '<C-n>', '<cmd>Floaterminal next<CR>', { desc = 'next terminal' })
+vim.keymap.set('t', '<C-p>', '<cmd>Floaterminal prev<CR>', { desc = 'prev terminal' })
+
+-- vim.keymap.set('t', '<C-l>', '<cmd>Floaterminal 1<CR>', { desc = 'terminal 1' })
+-- vim.keymap.set('t', '<C-j>', '<cmd>Floaterminal 2<CR>', { desc = 'terminal 2' })
+-- vim.keymap.set('t', '<Down>', '<cmd>Floaterminal 3<CR>', { desc = 'terminal 3' })
+-- vim.keymap.set('t', '<Up>', '<cmd>Floaterminal 4<CR>', { desc = 'terminal 4' })
 
 vim.keymap.set('t', '<C-w>', '<C-d>', { desc = 'kill terminal' })
 
@@ -191,17 +194,20 @@ vim.api.nvim_create_autocmd('LspAttach', {
 })
 
 -- INFO: Molten
-vim.keymap.set('n', '<leader>mi', ':MoltenInit<CR>',
-    { silent = true, desc = 'Initialize the plugin' })
-vim.keymap.set('n', '<leader>mo', ':MoltenEvaluateOperator<CR>',
-    { silent = true, desc = 'run operator selection' })
-vim.keymap.set('n', '<leader>ml', ':MoltenEvaluateLine<CR>',
-    { silent = true, desc = 'evaluate line' })
-vim.keymap.set('v', '<leader>mv', ':<C-u>MoltenEvaluateVisual<CR>gv',
-    { silent = false, desc = 'evaluate visual selection' })
-vim.keymap.set('n', '<leader>mc', ':MoltenReevaluateCell<CR>',
-    { silent = false, desc = 'reevaluate cell' })
-vim.keymap.set('n', '<leader>me', ':noautocmd MoltenEnterOutput<CR>',
-    { silent = true, desc = 'show/enter output' })
-vim.keymap.set('n', '<leader>mh', ':MoltenHideOutput<CR>',
-    { silent = true, desc = 'hide output' })
+vim.keymap.set('n', '<leader>mi', ':MoltenInit<CR>', { silent = true, desc = 'Initialize the plugin' })
+vim.keymap.set('n', '<leader>mo', ':MoltenEvaluateOperator<CR>', { silent = true, desc = 'run operator selection' })
+vim.keymap.set('n', '<leader>ml', ':MoltenEvaluateLine<CR>', { silent = true, desc = 'evaluate line' })
+vim.keymap.set('v', '<leader>mv', ':<C-u>MoltenEvaluateVisual<CR>gv', { silent = false, desc = 'evaluate visual selection' })
+vim.keymap.set('n', '<leader>mc', ':MoltenReevaluateCell<CR>', { silent = false, desc = 'reevaluate cell' })
+vim.keymap.set('n', '<leader>me', ':noautocmd MoltenEnterOutput<CR>', { silent = true, desc = 'show/enter output' })
+vim.keymap.set('n', '<leader>mh', ':MoltenHideOutput<CR>', { silent = true, desc = 'hide output' })
+
+
+-- INFO: Flutter
+vim.keymap.set('n', '<leader>fd', '<cmd>FlutterDevices<CR>', { desc = 'show flutter devices' })
+vim.keymap.set('n', '<leader>fe', '<cmd>FlutterEmulators<CR>', { desc = 'show emulators' })
+vim.keymap.set('n', '<leader>fs', '<cmd>FlutterRun<CR>', { desc = 'flutter run' })
+vim.keymap.set('n', '<leader>fr', '<cmd>FlutterRestart<CR>', { desc = 'flutter restart' })
+vim.keymap.set('n', '<leader>fq', '<cmd>FlutterQuit<CR>', { desc = 'stop flutter' })
+vim.keymap.set('n', '<leader>fl', '<cmd>FlutterLogToggle<CR>', { desc = 'flutter log' })
+vim.keymap.set('n', '<leader>fc', '<cmd>FlutterLogClear<CR>', { desc = 'clear log' })

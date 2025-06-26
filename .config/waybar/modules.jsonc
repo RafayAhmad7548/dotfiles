@@ -33,37 +33,17 @@
         "on-click": "activate",
         "on-click-middle": "close",
         "ignore-list": [
-           "Alacritty"
-        ],
-        "app_ids-mapping": {
-            "firefoxdeveloperedition": "firefox-developer-edition"
-        },
-        "rewrite": {
-            "Firefox Web Browser": "Firefox",
-            "Foot Server": "Terminal"
-        }
+           "thunderbird",
+           "com.rtosta.zapzap"
+        ]
     },
 
     // Hyprland Window
     "hyprland/window": {
-        "rewrite": {
-            "(.*) - Brave": "$1",
-            "(.*) - Chromium": "$1",
-            "(.*) - Brave Search": "$1",
-            "(.*) - Outlook": "$1",
-            "(.*) Microsoft Teams": "$1"
-        },
         "separate-outputs": true
     },
 
     
-
-    "custom/exit": {
-        "format": "",
-        "on-click": "~/Stuff/scripts/blurWlogout.sh",
-        "tooltip": false
-    },
-
     "custom/arch": {
         "format": "󰣇",
         "on-click": "~/dotfiles/scripts/changeWallpaper.sh",

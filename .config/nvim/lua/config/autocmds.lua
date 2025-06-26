@@ -12,3 +12,11 @@ vim.api.nvim_create_autocmd('User', {
     require('snacks').rename.on_rename_file(event.data.from, event.data.to)
   end,
 })
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "man",
+  callback = function()
+    vim.keymap.del("n", "k", { buffer = true })
+    vim.keymap.del("n", "j", { buffer = true })
+  end,
+})

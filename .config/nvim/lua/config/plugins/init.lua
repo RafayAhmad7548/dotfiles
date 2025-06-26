@@ -51,5 +51,6 @@ require('lazy').setup({
 
   require('config.plugins.languages.molten'),
   require('config.plugins.languages.flutter'),
+  require('config.plugins.languages.markdown'),
 
 })

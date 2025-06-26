@@ -88,8 +88,9 @@
     (monitor 0))
 (session-info "toplevel"
     (factory-entry "gimp-file-open-dialog")
-    (position 587 141)
-    (size 765 650))
+    (position 0 0)
+    (size 986 553)
+    (monitor 0))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
     (position 0 0)

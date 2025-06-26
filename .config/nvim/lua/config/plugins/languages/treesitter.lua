@@ -6,6 +6,7 @@ return {
 		ensure_installed = {
 			'bash',
 			'c',
+			'cpp',
 			'diff',
 			'html',
 			'css',
@@ -24,7 +25,8 @@ return {
 			'javascript',
 			'typescript',
 			'tsx',
-			'regex'
+			'regex',
+			'kotlin'
 		},
 		auto_install = false,
 		highlight = { enable = true, },

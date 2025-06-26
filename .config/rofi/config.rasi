@@ -1,3 +1,9 @@
+configuration {
+  kb-remove-to-eol: "";
+  kb-row-up: "Control+i";
+  kb-row-down: "Control+k";
+}
+
 * {
     font: "HackNerdFont 13";
     g-spacing: 10px;

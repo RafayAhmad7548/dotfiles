@@ -21,9 +21,10 @@
   },
   "show_edit_predictions": false,
   "assistant": {
+    "default_profile": "minimal",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3-7-sonnet"
+      "model": "claude-3.7-sonnet"
     },
     "version": "2"
   },

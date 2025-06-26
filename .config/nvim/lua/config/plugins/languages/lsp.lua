@@ -55,7 +55,9 @@ return {
 
 			local capabilities = require('blink.cmp').get_lsp_capabilities()
 			local servers = {
-				-- clangd = {},
+				bashls = {},
+
+				clangd = {},
 				rust_analyzer = {},
 				pyright = {},
 
@@ -63,6 +65,14 @@ return {
 				html = { filetypes = { 'html', 'htmldjango' }, },
 				cssls = {},
 				vtsls = {},
+
+				kotlin_lsp = {},
+
+				-- kotlin_language_server = {
+				-- 	init_options = {
+				-- 		storagePath = vim.fn.stdpath('cache') .. '/kotlin_language_server', -- Explicit storage path
+				-- 	},
+				-- },
 
 				-- -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 				--
