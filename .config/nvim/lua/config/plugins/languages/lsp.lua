@@ -66,7 +66,7 @@ return {
 				cssls = {},
 				vtsls = {},
 
-				kotlin_lsp = {},
+				-- kotlin_lsp = {},
 
 				-- kotlin_language_server = {
 				-- 	init_options = {

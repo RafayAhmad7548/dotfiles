@@ -6,8 +6,7 @@ return {
         require('flutter-tools').setup({
             fvm = true,
             dev_log = {
-                -- enabled = false,
-                open_cmd = 'FloutterLog'
+                open_cmd = 'FloutterLog',
             }
         })
     end,

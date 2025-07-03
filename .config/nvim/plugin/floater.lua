@@ -124,4 +124,25 @@ vim.api.nvim_create_user_command('FloutterLog', function (args)
   end
   vim.keymap.set('n', '<F27>', '<cmd>q<CR>', { desc = 'close dev log', buffer = dev_log_buf })
   open_floating_win(dev_log_buf)
+
+  -- AutoScroll Logic
+  local lines = vim.api.nvim_buf_line_count(dev_log_buf)
+  local cursor = vim.api.nvim_win_get_cursor(0)[1]
+  vim.api.nvim_create_autocmd('TextChanged', {
+    buffer = dev_log_buf,
+    callback = function ()
+      if cursor == lines then
+        vim.cmd('normal! G')
+      end
+      lines = vim.api.nvim_buf_line_count(dev_log_buf)
+    end
+  })
+  vim.api.nvim_create_autocmd('CursorMoved', {
+    buffer = dev_log_buf,
+    callback = function ()
+      cursor = vim.api.nvim_win_get_cursor(0)[1]
+    end
+  })
+
 end, { desc = 'flutter dev log floating', nargs = 1 })
+

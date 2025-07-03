@@ -62,7 +62,9 @@ vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kj', ':wincmd h<CR>', { desc = 'move 
 
 local Snacks = require('snacks')
 
-vim.keymap.set('n', '<leader>sf', Snacks.picker.files, { desc = 'pick files' })
+vim.keymap.set('n', '<leader>sf', function ()
+  Snacks.picker.files({ hidden = true })
+end , { desc = 'pick files' })
 vim.keymap.set('n', '<leader>sw', Snacks.picker.grep, { desc = 'grep' })
 vim.keymap.set('n', '<leader>st', function()
   Snacks.picker.todo_comments()
@@ -73,10 +75,12 @@ vim.keymap.set('n', '<leader>/', function()
   Snacks.picker.lines({ layout = 'select' })
 end, { desc = 'fuzzily search in current buffer' })
 
-vim.keymap.set('n', '<leader>sp', '<cmd>Autosession search<CR>', { desc = 'search sessions' })
+vim.keymap.set('n', '<leader>sp', '<cmd>SessionSearch<CR>', { desc = 'search sessions' })
 
 
 -- INFO: LSP
+
+vim.keymap.set('n', 'L', vim.diagnostic.open_float, { desc = 'open floating diagnostic' })
 
 --  This function gets run when an LSP attaches to a particular buffer.
 --    That is to say, every time a new file is opened that is associated with
