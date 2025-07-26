@@ -1,0 +1,46 @@
+add_newline = false
+format = """
+ \
+[](#3B4252)\
+$os\
+[ ](bg:#1793d1  fg:#3B4252)\
+$username\
+[ ](bg:#3B4252 fg:#1793d1)\
+$directory\
+[ ](bg:#33658A fg:#3B4252)\
+$git_branch\
+[](fg:#33658A) \
+"""
+# format = """$os$username$directory$git_branch"""
+
+[character]
+success_symbol = ''
+error_symbol = ''
+
+[os]
+format = '[$symbol]($style)'
+style = 'fg:#1793d1 bg:#3B4252'
+disabled = false
+
+[os.symbols]
+Arch = "󰣇 "
+
+# Shows the username
+[username]
+style_root = "bg:#1793d1 fg:#800000 bold"
+style_user = "bg:#1793d1 fg:#ffffff"
+format = '[$user ]($style)'
+disabled = false
+show_always = true
+
+[directory]
+home_symbol = '󰋜 ~'
+read_only_style = 'bg:#3B4252 fg:#FB0202'
+read_only = ' '
+style = '#00B1D4 bg:#3B4252'
+format = '[$path ]($style)[$read_only]($read_only_style)'
+
+[git_branch]
+format = '[$symbol $branch ]($style)'
+symbol = ''
+style = 'fg:#00fff2 bg:#33658A  bold'

@@ -1,0 +1,137 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "bindings": {
+      "ctrl-o": "file_finder::Toggle",
+      "ctrl-shift-o": "workspace::Open",
+      "ctrl-m": "workspace::ToggleRightDock",
+
+      "ctrl-l": "terminal_panel::ToggleFocus",
+      "ctrl-e": "project_panel::ToggleFocus",
+      "ctrl-g": "assistant::ToggleFocus"
+    }
+  },
+  {
+    "context": "EmptyPane",
+    "bindings": {
+    }
+  },
+  {
+    "context": "FileFinder && menu_open",
+    "bindings": {
+      "j": "pane::SplitLeft",
+      "i": "pane::SplitUp",
+      "k": "pane::SplitDown"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-i": ["workspace::SendKeystrokes", "up"],
+      "ctrl-k": ["workspace::SendKeystrokes", "down"],
+      "ctrl-w": "pane::CloseActiveItem",
+
+      "ctrl-shift-i": "editor::AddSelectionAbove",
+      "ctrl-shift-k": "editor::AddSelectionBelow"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-w": "pane::CloseActiveItem",
+      "ctrl-n": "workspace::NewTerminal",
+
+      "ctrl-i": ["workspace::SendKeystrokes", "up"],
+      "ctrl-k": ["workspace::SendKeystrokes", "down"],
+      "ctrl-l": null,
+
+      "ctrl-j": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "i": ["workspace::SendKeystrokes", "up"],
+      "k": ["workspace::SendKeystrokes", "down"],
+      "j": ["workspace::SendKeystrokes", "left"],
+      "l": ["workspace::SendKeystrokes", "right"],
+
+      "n": "project_panel::NewFile",
+      "shift-n": "project_panel::NewDirectory",
+      "d": "project_panel::Delete",
+      "o": "project_panel::RevealInFileManager",
+      "x": "project_panel::Cut",
+      "c": "project_panel::Copy",
+      "p": "project_panel::Paste"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "ctrl-j": "project_panel::ToggleFocus",
+      "ctrl-m": "workspace::ToggleRightDock",
+      "ctrl-e": null
+    }
+  },
+  {
+    "context": "ContextEditor > Editor", // this is AssistantPanel
+    "bindings": {
+      "ctrl-j": "assistant::ToggleFocus",
+      "ctrl-g": null
+    }
+  },
+  {
+    "context": "VimControl && !menu",
+    "bindings": {
+      "h": ["vim::PushObject", { "around": false }],
+      "i": "vim::Up",
+      "j": "vim::Left",
+      "k": "vim::Down",
+
+      "tab": ["workspace::SendKeystrokes", "> >"],
+      "shift-tab": ["workspace::SendKeystrokes", "< <"],
+
+      "ctrl-d": ["workspace::SendKeystrokes", "ctrl-d z z"],
+      "ctrl-u": ["workspace::SendKeystrokes", "ctrl-u z z"],
+
+      "#": "vim::StartOfLineDownward",
+
+      "ctrl-k ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-k ctrl-j": "workspace::ActivatePaneLeft",
+      "ctrl-k ctrl-i": "workspace::ActivatePaneUp",
+      "ctrl-k ctrl-k": "workspace::ActivatePaneDown",
+
+      "ctrl-space": "editor::GoToDefinitionSplit"
+    }
+  },
+  {
+    "context": "vim_mode == normal",
+    "bindings": {
+      "h": "vim::InsertBefore"
+    }
+  },
+  {
+    "context": "vim_mode == visual",
+    "bindings": {
+      "h": ["vim::PushObject", { "around": false }]
+    }
+  },
+  {
+    "context": "vim_operator == a || vim_operator == i || vim_operator == cs",
+    "bindings": {
+      "h": "vim::IndentObj"
+    }
+  },
+  {
+    "context": "ProjectPanel || CollabPanel || OutlinePanel || ChatPanel || VimControl || EmptyPane || SharedScreen || MarkdownPreview || KeyContextView",
+    "bindings": {
+      "ctrl-w": "pane::CloseActiveItem"
+    }
+  }
+]
