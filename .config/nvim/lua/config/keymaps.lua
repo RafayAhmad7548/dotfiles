@@ -80,6 +80,7 @@ vim.keymap.set('n', '<leader>sp', '<cmd>SessionSearch<CR>', { desc = 'search ses
 
 -- INFO: LSP
 
+vim.keymap.set('n', 'K', vim.lsp.buf.hover, { desc = 'lsp hover' })
 vim.keymap.set('n', 'L', vim.diagnostic.open_float, { desc = 'open floating diagnostic' })
 
 --  This function gets run when an LSP attaches to a particular buffer.

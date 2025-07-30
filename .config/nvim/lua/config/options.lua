@@ -42,6 +42,7 @@ vim.opt.fillchars:append({ eob = ' ' })
 
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
+vim.o.winborder = 'rounded'
 
 vim.opt.hlsearch = false
 vim.opt.wrap = false

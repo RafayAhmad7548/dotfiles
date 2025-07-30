@@ -25,7 +25,6 @@ require('lazy').setup({
   require('config.plugins.git'),
   require('config.plugins.ui'),
   -- require('config.plugins.telescope'),
-  require('config.plugins.blinkcmp'),
   require('config.plugins.languages.lsp'),
   require('config.plugins.languages.treesitter'),
   require('config.plugins.harpoon'),
