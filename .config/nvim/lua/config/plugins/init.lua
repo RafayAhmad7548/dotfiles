@@ -17,6 +17,7 @@ require('lazy').setup({
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = {} },
 
+  { 'meatballs/notebook.nvim', opts = {} },
   -- { 'stevearc/dressing.nvim', opts = {}, },
 
   -- 'ThePrimeagen/vim-be-good',

@@ -1,16 +1,16 @@
 -- INFO: General --
 
 -- hjkl to ijkl remap
-vim.keymap.set({ 'n', 'v', 'o' }, 'j', 'h', { desc = 'hjkl to ijkl' })
-vim.keymap.set({ 'n', 'v', 'o' }, 'h', 'i', { desc = 'hjkl to ijkl' })
-vim.keymap.set({ 'n', 'v', 'o' }, 'i', 'k', { desc = 'hjkl to ijkl' })
-vim.keymap.set({ 'n', 'v', 'o' }, 'k', 'j', { desc = 'hjkl to ijkl' })
+vim.keymap.set({ 'n', 'x', 'o' }, 'j', 'h', { desc = 'hjkl to ijkl' })
+vim.keymap.set({ 'n', 'x', 'o' }, 'h', 'i', { desc = 'hjkl to ijkl' })
+vim.keymap.set({ 'n', 'x', 'o' }, 'i', 'k', { desc = 'hjkl to ijkl' })
+vim.keymap.set({ 'n', 'x', 'o' }, 'k', 'j', { desc = 'hjkl to ijkl' })
 
 -- indentation
-vim.keymap.set('n', '<Tab>', '>>', { desc = 'tab indent ' })
-vim.keymap.set('n', '<S-Tab>', '<<', { desc = 'S-tab unindent ' })
-vim.keymap.set({ 'v', 'o' }, '<Tab>', '>', { desc = 'tab indent ' })
-vim.keymap.set({ 'v', 'o' }, '<S-Tab>', '<', { desc = 'S-tab unindent ' })
+vim.keymap.set('n', '<Tab>', '>>', { desc = 'tab indent' })
+vim.keymap.set('n', '<S-Tab>', '<<', { desc = 'S-tab unindent' })
+vim.keymap.set({ 'x', 'o' }, '<Tab>', '>', { desc = 'tab indent' })
+vim.keymap.set({ 'x', 'o' }, '<S-Tab>', '<', { desc = 'S-tab unindent' })
 
 -- scrolling
 vim.keymap.set({ 'n', 'v' }, '<C-d>', '<C-d>zz', { desc = 'centered scroll' })
