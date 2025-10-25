@@ -79,6 +79,8 @@ return {
 
             ['<c-h>'] = { 'toggle_hidden', mode = 'i' },
             ['<c-l>'] = { 'toggle_ignored', mode = 'i' },
+
+            ['<a-q>'] = { 'qflist', mode = 'i' },
           }
         }
       },

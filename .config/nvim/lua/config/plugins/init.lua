@@ -17,7 +17,6 @@ require('lazy').setup({
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = {} },
 
-  { 'meatballs/notebook.nvim', opts = {} },
   -- { 'stevearc/dressing.nvim', opts = {}, },
 
   -- 'ThePrimeagen/vim-be-good',
@@ -33,7 +32,7 @@ require('lazy').setup({
   require('config.plugins.snacks'),
   require('config.plugins.mini'),
 
-  require('config.plugins.languages.molten'),
+  require('config.plugins.languages.notebook'),
   require('config.plugins.languages.flutter'),
   require('config.plugins.languages.markdown'),
 

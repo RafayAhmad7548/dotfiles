@@ -47,6 +47,9 @@ vim.o.winborder = 'rounded'
 vim.opt.hlsearch = false
 vim.opt.wrap = false
 
+vim.o.swapfile = false
+vim.o.undofile = false
+
 vim.o.sessionoptions='blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions'
 -- Example for configring Neovim to load user-installed installed Lua rocks:
 package.path = package.path .. ';' .. vim.fn.expand('$HOME') .. '/.luarocks/share/lua/5.1/?/init.lua;'

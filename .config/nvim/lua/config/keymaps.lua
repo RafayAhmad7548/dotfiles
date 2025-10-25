@@ -75,7 +75,7 @@ vim.keymap.set('n', '<leader>/', function()
   Snacks.picker.lines({ layout = 'select' })
 end, { desc = 'fuzzily search in current buffer' })
 
-vim.keymap.set('n', '<leader>sp', '<cmd>SessionSearch<CR>', { desc = 'search sessions' })
+vim.keymap.set('n', '<leader>sp', '<cmd>AutoSession search<CR>', { desc = 'search sessions' })
 
 
 -- INFO: LSP
@@ -204,7 +204,7 @@ vim.keymap.set('n', '<leader>mo', ':MoltenEvaluateOperator<CR>', { silent = true
 vim.keymap.set('n', '<leader>ml', ':MoltenEvaluateLine<CR>', { silent = true, desc = 'evaluate line' })
 vim.keymap.set('v', '<leader>mv', ':<C-u>MoltenEvaluateVisual<CR>gv', { silent = false, desc = 'evaluate visual selection' })
 vim.keymap.set('n', '<leader>mc', ':MoltenReevaluateCell<CR>', { silent = false, desc = 'reevaluate cell' })
-vim.keymap.set('n', '<leader>me', ':noautocmd MoltenEnterOutput<CR>', { silent = true, desc = 'show/enter output' })
+vim.keymap.set('n', '<leader>me', ':noautocmd MoltenEnterOutput<CR>:noautocmd MoltenEnterOutput<CR>', { silent = true, desc = 'show/enter output' })
 vim.keymap.set('n', '<leader>mh', ':MoltenHideOutput<CR>', { silent = true, desc = 'hide output' })
 
 
