@@ -1,60 +1,60 @@
 return {
   {
-	'lewis6991/gitsigns.nvim',
-	opts = {
-	  signs = {
-		add          = { text = '┃' },
-		change       = { text = '┃' },
-		delete       = { text = '_' },
-		topdelete    = { text = '‾' },
-		changedelete = { text = '~' },
-		untracked    = { text = '┆' },
-	  },
-	  signs_staged = {
-		add          = { text = '┃' },
-		change       = { text = '┃' },
-		delete       = { text = '_' },
-		topdelete    = { text = '‾' },
-		changedelete = { text = '~' },
-		untracked    = { text = '┆' },
-	  },
-	  signs_staged_enable = true,
-	  signcolumn = true,
+    'lewis6991/gitsigns.nvim',
+    opts = {
+      signs = {
+	add          = { text = '┃' },
+	change       = { text = '┃' },
+	delete       = { text = '_' },
+	topdelete    = { text = '‾' },
+	changedelete = { text = '~' },
+	untracked    = { text = '┆' },
+      },
+      signs_staged = {
+	add          = { text = '┃' },
+	change       = { text = '┃' },
+	delete       = { text = '_' },
+	topdelete    = { text = '‾' },
+	changedelete = { text = '~' },
+	untracked    = { text = '┆' },
+      },
+      signs_staged_enable = true,
+      signcolumn = true,
 
-	  on_attach = function()
-		local gitsigns = require('gitsigns')
+      on_attach = function()
+	local gitsigns = require('gitsigns')
 
-		vim.keymap.set('n', '<leader>gs', gitsigns.stage_hunk, { desc = 'stage hunk' })
-		vim.keymap.set('n', '<leader>gr', gitsigns.reset_hunk, { desc = 'restore hunk' })
+	vim.keymap.set('n', '<leader>gs', gitsigns.stage_hunk, { desc = 'stage hunk' })
+	vim.keymap.set('n', '<leader>gr', gitsigns.reset_hunk, { desc = 'restore hunk' })
 
-		vim.keymap.set('n', '<leader>gS', gitsigns.stage_buffer, { desc = 'stage buffer' })
-		vim.keymap.set('n', '<leader>gR', gitsigns.stage_hunk, { desc = 'reset buffer' })
+	vim.keymap.set('n', '<leader>gS', gitsigns.stage_buffer, { desc = 'stage buffer' })
+	vim.keymap.set('n', '<leader>gR', gitsigns.stage_hunk, { desc = 'reset buffer' })
 
-		vim.keymap.set('n', '<leader>gp', gitsigns.preview_hunk, { desc = 'preview hunk' })
-		vim.keymap.set('n', '<leader>gb', gitsigns.blame_line, { desc = 'blame line' })
+	vim.keymap.set('n', '<leader>gp', gitsigns.preview_hunk, { desc = 'preview hunk' })
+	vim.keymap.set('n', '<leader>gb', gitsigns.blame_line, { desc = 'blame line' })
+	vim.keymap.set('n', '<leader>gB', gitsigns.blame, { desc = 'blame' })
 
-
-	  end
-	},
+      end
+    },
   },
   {
-	'sindrets/diffview.nvim',
-	config = function ()
-	  local actions = require('diffview.config').actions
-	  require('diffview').setup({
-		keymaps = {
-		  disable_defaults = true,
-		  file_panel = {
-			['i'] = '<Up>',
-			['k'] = '<Down>',
-			['j'] = false,
+    'sindrets/diffview.nvim',
+    config = function ()
+      local actions = require('diffview.config').actions
+      require('diffview').setup({
+	keymaps = {
+	  disable_defaults = true,
+	  file_panel = {
+	    ['i'] = '<Up>',
+	    ['k'] = '<Down>',
+	    ['j'] = false,
 
-			['<Space>'] = function () actions.toggle_stage_entry() end
+	    ['<Space>'] = function () actions.toggle_stage_entry() end
 
-		  }
-		}
-	  })
-	end
+	  }
+	}
+      })
+    end
   },
   -- {
   -- 	'NeogitOrg/neogit',
