@@ -7,6 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  /* Duplicated key auto-commented: "agent": {
+    "profiles": {
+      "agent": {
+        "name": "Agent",
+        "tools": {},
+        "enable_all_context_servers": false,
+        "context_servers": {}
+      }
+    },
+    "default_profile": "write",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.5"
+    },
+    "model_parameters": []
+  }, */
+  "remove_trailing_whitespace_on_save": false,
   "use_on_type_format": false,
   "git_panel": {
     "dock": "right"
@@ -20,13 +37,12 @@
     }
   },
   "show_edit_predictions": false,
-  "assistant": {
-    "default_profile": "minimal",
+  "agent": {
+    "default_profile": "write",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3.7-sonnet"
+      "model": "claude-sonnet-4.5"
     },
-    "version": "2"
   },
   "terminal": {
     "dock": "right",

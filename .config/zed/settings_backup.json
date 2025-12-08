@@ -7,6 +7,23 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "profiles": {
+      "agent": {
+        "name": "Agent",
+        "tools": {},
+        "enable_all_context_servers": false,
+        "context_servers": {}
+      }
+    },
+    "default_profile": "write",
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-sonnet-4.5"
+    },
+    "model_parameters": []
+  },
+  "use_on_type_format": false,
   "git_panel": {
     "dock": "right"
   },
@@ -15,14 +32,15 @@
   },
   "languages": {
     "JSONC": {
-      "show_inline_completions": false
+      "show_edit_predictions": false
     }
   },
-  "show_inline_completions": false,
+  "show_edit_predictions": false,
   "assistant": {
+    "default_profile": "minimal",
     "default_model": {
       "provider": "copilot_chat",
-      "model": "o1"
+      "model": "claude-3.7-sonnet"
     },
     "version": "2"
   },
@@ -46,7 +64,7 @@
   },
   "vim_mode": true,
   "ui_font_size": 16,
-  "buffer_font_size": 15.0,
+  "buffer_font_size": 16.0,
   "theme": {
     "mode": "system",
     "light": "VSCode Dark Modern",
@@ -73,6 +91,11 @@
 
   "vim": {
     "toggle_relative_line_numbers": true
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
   }
 
 }

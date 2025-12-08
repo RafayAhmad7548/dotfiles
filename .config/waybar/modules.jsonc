@@ -33,8 +33,8 @@
         "on-click": "activate",
         "on-click-middle": "close",
         "ignore-list": [
-           "thunderbird",
-           "com.rtosta.zapzap"
+           "org.mozilla.Thunderbird",
+           "WhatsApp — LibreWolf"
         ]
     },
 
