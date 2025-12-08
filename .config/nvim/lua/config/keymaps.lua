@@ -16,6 +16,7 @@ vim.keymap.set({ 'x', 'o' }, '<S-Tab>', '<', { desc = 'S-tab unindent' })
 vim.keymap.set({ 'n', 'v' }, '<C-d>', '<C-d>zz', { desc = 'centered scroll' })
 vim.keymap.set({ 'n', 'v' }, '<C-u>', '<C-u>zz', { desc = 'centered scroll' })
 vim.keymap.set({ 'n', 'v' }, '<C-o>', '<C-o>zz', { desc = 'centered jump back' })
+vim.keymap.set({ 'n', 'v' }, '<C-p>', '<C-i>zz', { desc = 'centered jump forward' })
 
 -- start of line
 vim.keymap.set({ 'n', 'v', 'o' }, '#', '_', { desc = '# start of line' })
@@ -64,6 +65,7 @@ local Snacks = require('snacks')
 
 vim.keymap.set('n', '<leader>sf', Snacks.picker.files , { desc = 'pick files' })
 vim.keymap.set('n', '<leader>sw', Snacks.picker.grep, { desc = 'grep' })
+vim.keymap.set('n', '<leader>sb', Snacks.picker.buffers, { desc = 'buffers' })
 vim.keymap.set('n', '<leader>sd', Snacks.picker.diagnostics_buffer, { desc = 'diagnostics' })
 vim.keymap.set('n', '<leader>sD', Snacks.picker.diagnostics, { desc = 'workspace diagnostics' })
 vim.keymap.set('n', '<leader>st', function()
