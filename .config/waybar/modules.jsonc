@@ -34,7 +34,7 @@
         "on-click-middle": "close",
         "ignore-list": [
            "org.mozilla.Thunderbird",
-           "WhatsApp — LibreWolf"
+           "fluffychat"
         ]
     },
 
