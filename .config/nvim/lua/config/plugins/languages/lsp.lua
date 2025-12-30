@@ -139,7 +139,15 @@ return {
     end
   },
 
-  { 'mason-org/mason.nvim', opts = {} },
+  -- { 'mason-org/mason.nvim', opts = {} },
+  {
+    "mason-org/mason.nvim",
+    config = function()
+      require("mason").setup({
+	log_level = vim.log.levels.DEBUG,
+      })
+    end,
+  },
 
   {
     'mason-org/mason-lspconfig.nvim',

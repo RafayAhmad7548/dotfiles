@@ -28,6 +28,7 @@ vim.keymap.set('n', '<C-w>', ':bd<CR>', { desc = 'save and close', nowait = true
 -- delete word in insert mode
 vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })
 
+vim.keymap.set('n', '<leader>t', '<cmd>silent !kitty . &<CR>', { desc = 'open kitty in pwd' })
 
 
 -- INFO: Right Dock: Terminal & MiniOilFiles

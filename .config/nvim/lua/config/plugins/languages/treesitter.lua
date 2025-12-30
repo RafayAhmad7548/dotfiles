@@ -27,7 +27,8 @@ return {
 			'tsx',
 			'prisma',
 			'regex',
-			'kotlin'
+			'kotlin',
+			'java',
 		},
 		auto_install = false,
 		highlight = { enable = true, },
