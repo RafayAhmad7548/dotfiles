@@ -20,3 +20,11 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.keymap.del("n", "j", { buffer = true })
   end,
 })
+
+-- use this maybe or maybe not
+-- vim.api.nvim_create_autocmd('TermOpen', {
+--   pattern = '*',
+--   callback = function ()
+--     vim.fn.chansend(vim.b.terminal_job_id, 'alias vi="nvr -cc tabnew"\n\x0c')
+--   end
+-- })
