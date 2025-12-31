@@ -51,6 +51,10 @@ vim.o.swapfile = false
 vim.o.undofile = false
 
 vim.o.sessionoptions='blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions'
+
 -- Example for configring Neovim to load user-installed installed Lua rocks:
 package.path = package.path .. ';' .. vim.fn.expand('$HOME') .. '/.luarocks/share/lua/5.1/?/init.lua;'
 package.path = package.path .. ';' .. vim.fn.expand('$HOME') .. '/.luarocks/share/lua/5.1/?.lua;'
+
+vim.env.GIT_EDITOR = 'nvr -cc tabnew --remote-wait-silent'
+vim.env.NVIM_LISTEN_ADDRESS = vim.fn.execute('echo v:servername')
