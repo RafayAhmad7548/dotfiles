@@ -8,7 +8,8 @@ local servers = {
   emmet_language_server = {},
   html = { filetypes = { 'html', 'htmldjango' }, },
   cssls = {},
-  vtsls = {},
+  -- vtsls = {},
+  ts_ls = {},
 
   prismals = {},
 
@@ -64,8 +65,9 @@ return {
       keymap = {
 	preset = 'default',
 
-	['<Tab>'] = { 'select_and_accept', 'snippet_forward', 'fallback'},
-	['<S-Tab>'] = { 'snippet_backward', 'fallback'},
+	['<Tab>'] = { 'select_and_accept', 'fallback'},
+	['<C-n>'] = { 'snippet_forward', 'fallback'},
+	['<C-S-n>'] = { 'snippet_backward', 'fallback'},
 	['I'] = { 'scroll_documentation_up', 'fallback' },
 	['K'] = { 'scroll_documentation_down', 'fallback' },
 

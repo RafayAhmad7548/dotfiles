@@ -28,10 +28,14 @@ vim.keymap.set('n', '<C-w>', ':bd<CR>', { desc = 'save and close', nowait = true
 -- delete word in insert mode
 vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })
 
+-- kitty in current dir
 vim.keymap.set('n', '<leader>t', '<cmd>silent !kitty . &<CR>', { desc = 'open kitty in pwd' })
 
+-- disable default comp
+vim.keymap.set('i', '<C-n>', '<NOP>', { desc = 'disable default comp' })
+vim.keymap.set('i', '<C-S-n>', '<NOP>', { desc = 'disable default comp' })
 
--- INFO: Right Dock: Terminal & MiniOilFiles
+-- INFO: Terminal & MiniOilFiles
 
 -- INFO: ctrl m
 vim.keymap.set('n', '<F27>', '<cmd>Floaterminal<CR>', { desc = 'open terminal', nowait = true })
