@@ -12,9 +12,10 @@ handle() {
     case $1 in
         activewindow*)
             echo $1
-            if [[ $1 == *YouTube* ]] && ! is_valid_youtube_time; then
+            if [[ $1 == *YouTube*  || $1 == *Instagram* ]]; then
                 hyprctl dispatch killactive
-                notify-send "ENOUGH, LOCK IN"
+                notify-send "ENOUGH, LOCK IN" "GET BACK TO WORK" -u critical -i $HOME/dotfiles/scripts/discipline.png
+                mpv $HOME/dotfiles/scripts/getbacktowork.mp3
             fi
     esac
 }
