@@ -30,6 +30,7 @@ vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })
 
 -- kitty in current dir
 vim.keymap.set('n', '<leader>t', '<cmd>silent !kitty . &<CR>', { desc = 'open kitty in pwd' })
+vim.keymap.set('n', '<leader>e', '<cmd>silent !nautilus . &<CR>', { desc = 'open nautilus in pwd' })
 
 -- disable default comp
 vim.keymap.set('i', '<C-n>', '<NOP>', { desc = 'disable default comp' })
@@ -223,3 +224,15 @@ vim.keymap.set('n', '<leader>fr', '<cmd>FlutterRestart<CR>', { desc = 'flutter r
 vim.keymap.set('n', '<leader>fq', '<cmd>FlutterQuit<CR>', { desc = 'stop flutter' })
 vim.keymap.set('n', '<leader>fl', '<cmd>FlutterLogToggle<CR>', { desc = 'flutter log' })
 vim.keymap.set('n', '<leader>fc', '<cmd>FlutterLogClear<CR>', { desc = 'clear log' })
+
+-- INFO: Rest
+vim.keymap.set('n', '<leader>rr', '<cmd>Rest run<CR>', { desc = 'Run request under the cursor'})
+vim.keymap.set('n', '<leader>ro', '<cmd>vert Rest open<CR>', { desc = 'Open result pane'})
+vim.keymap.set('n', '<leader>rl', '<cmd>Rest last<CR>', { desc = 'Run last request'})
+vim.keymap.set('n', '<leader>rn', function ()
+  vim.ui.input({prompt = 'Enter request name'}, function (value)
+    if value then
+      vim.cmd('Rest run ' .. value)
+    end
+  end)
+end, { desc = 'Run last request'})

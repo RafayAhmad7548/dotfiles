@@ -24,13 +24,14 @@ require('lazy').setup({
 
   require('config.plugins.git'),
   require('config.plugins.ui'),
-  -- require('config.plugins.telescope'),
+
   require('config.plugins.languages.lsp'),
   require('config.plugins.languages.treesitter'),
   require('config.plugins.harpoon'),
   require('config.plugins.autosession'),
   require('config.plugins.snacks'),
   require('config.plugins.mini'),
+  require('config.plugins.rest'),
 
   require('config.plugins.languages.notebook'),
   require('config.plugins.languages.flutter'),

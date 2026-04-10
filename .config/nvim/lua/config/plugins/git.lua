@@ -44,12 +44,31 @@ return {
       require('diffview').setup({
 	keymaps = {
 	  disable_defaults = true,
+	  view = {
+	    { "n", "<c-n>",          actions.select_next_entry,              { desc = "Open the diff for the next file" } },
+	    { "n", "<c-p>",	     actions.select_prev_entry,              { desc = "Open the diff for the previous file" } },
+	    { "n", "[x",             actions.prev_conflict,                  { desc = "Go to the previous conflict" } },
+	    { "n", "]x",             actions.next_conflict,                  { desc = "Go to the next conflict" } },
+	  },
 	  file_panel = {
-	    ['i'] = '<Up>',
-	    ['k'] = '<Down>',
-	    ['j'] = false,
+	    { "n", "k",              actions.next_entry,                     { desc = "Bring the cursor to the next file entry" } },
+	    { "n", "i",              actions.prev_entry,                     { desc = "Bring the cursor to the previous file entry" } },
+	    { "n", "<CR>",           actions.select_entry,                   { desc = "Open the diff for the selected entry" } },
+	    { "n", "l",              actions.select_entry,                   { desc = "Open the diff for the selected entry" } },
+	    { "n", "s",              actions.toggle_stage_entry,             { desc = "Stage / unstage the selected entry" } },
+	    { "n", "S",              actions.stage_all,                      { desc = "Stage all entries" } },
+	    { "n", "U",              actions.unstage_all,                    { desc = "Unstage all entries" } },
+	    { "n", "<c-n>",          actions.select_next_entry,              { desc = "Open the diff for the next file" } },
+	    { "n", "<c-p>",	     actions.select_prev_entry,              { desc = "Open the diff for the previous file" } },
+	    { "n", "[x",             actions.prev_conflict,                  { desc = "Go to the previous conflict" } },
+	    { "n", "]x",             actions.next_conflict,                  { desc = "Go to the next conflict" } },
+	    { "n", "g?",             actions.help("file_panel"),             { desc = "Open the help panel" } },
 
-	    ['<Space>'] = function () actions.toggle_stage_entry() end
+	    -- { "n", "<leader>cO",     actions.conflict_choose_all("ours"),    { desc = "Choose the OURS version of a conflict for the whole file" } },
+	    -- { "n", "<leader>cT",     actions.conflict_choose_all("theirs"),  { desc = "Choose the THEIRS version of a conflict for the whole file" } },
+	    -- { "n", "<leader>cB",     actions.conflict_choose_all("base"),    { desc = "Choose the BASE version of a conflict for the whole file" } },
+	    -- { "n", "<leader>cA",     actions.conflict_choose_all("all"),     { desc = "Choose all the versions of a conflict for the whole file" } },
+	    -- { "n", "dX",             actions.conflict_choose_all("none"),    { desc = "Delete the conflict region for the whole file" } },
 
 	  }
 	}
