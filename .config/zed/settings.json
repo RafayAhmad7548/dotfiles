@@ -40,10 +40,12 @@
   "show_edit_predictions": false,
   "agent": {
     "always_allow_tool_actions": false,
-    "default_profile": "write",
+    "default_profile": "ask",
     "default_model": {
+      "effort": "high",
+      "enable_thinking": false,
       "provider": "copilot_chat",
-      "model": "claude-sonnet-4.5"
+      "model": "gemini-3.1-pro-preview"
     },
   },
   "terminal": {
