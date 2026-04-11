@@ -111,13 +111,14 @@ return {
       }
     },
 
+    image = { enabled = true },
+
     bufdelete = { enabled = false },
     debug = { enabled = false },
     dim = { enabled = false },
     explorer = { enabled = false },
     git = { enabled = false },
     gitbrowse = { enabled = false },
-    image = { enabled = false },
     layout = { enabled = false },
     lazygit = { enabled = false },
     notifier = { enabled = false },

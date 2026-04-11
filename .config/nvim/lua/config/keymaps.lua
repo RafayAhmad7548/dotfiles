@@ -230,9 +230,19 @@ vim.keymap.set('n', '<leader>rr', '<cmd>Rest run<CR>', { desc = 'Run request und
 vim.keymap.set('n', '<leader>ro', '<cmd>vert Rest open<CR>', { desc = 'Open result pane'})
 vim.keymap.set('n', '<leader>rl', '<cmd>Rest last<CR>', { desc = 'Run last request'})
 vim.keymap.set('n', '<leader>rn', function ()
-  vim.ui.input({prompt = 'Enter request name'}, function (value)
-    if value then
-      vim.cmd('Rest run ' .. value)
+  local lines = vim.api.nvim_buf_get_lines(0, 0, -1, false)
+  local items = {}
+
+  for _, line in ipairs(lines) do
+    local capture = line:match('# @name (%w+)')
+    if capture then
+      table.insert(items, capture)
+    end
+  end
+
+  vim.ui.select(items, { prompt = 'Run Request' }, function (choice)
+    if choice then
+      vim.cmd('Rest run ' .. choice)
     end
   end)
 end, { desc = 'Run last request'})
