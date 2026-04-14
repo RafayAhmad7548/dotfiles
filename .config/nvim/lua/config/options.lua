@@ -47,8 +47,7 @@ vim.o.winborder = 'rounded'
 vim.opt.hlsearch = false
 vim.opt.wrap = false
 
-vim.o.swapfile = false
-vim.o.undofile = false
+vim.opt.swapfile = false
 
 vim.o.sessionoptions='blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions'
 
