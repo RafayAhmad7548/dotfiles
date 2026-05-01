@@ -8,14 +8,19 @@ $username\
 [ ](bg:#3B4252 fg:#1793d1)\
 $directory\
 [ ](bg:#33658A fg:#3B4252)\
-$git_branch\
+$git_branch$character\
 [](fg:#33658A) \
 """
 # format = """$os$username$directory$git_branch"""
 
 [character]
-success_symbol = ''
-error_symbol = ''
+format = '$symbol'
+success_symbol = '[󰄾](bold fg:#00fff2 bg:#33658A)'
+error_symbol = '[󰄾](bold fg:red bg:#33658A)'
+vimcmd_symbol = '[󰄾](bold fg:#00fff2 bg:#33658A)'
+vimcmd_visual_symbol = '[󰄾](bold fg:#00fff2 bg:#33658A)'
+vimcmd_replace_one_symbol = '[󰄾](bold fg:#00fff2 bg:#33658A)'
+vimcmd_replace_symbol = '[󰄾](bold fg:#00fff2 bg:#33658A)'
 
 [os]
 format = '[$symbol]($style)'
