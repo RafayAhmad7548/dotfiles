@@ -1,10 +1,10 @@
 -- INFO: General --
 
 -- hjkl to ijkl remap
-vim.keymap.set({ 'n', 'x', 'o' }, 'j', 'h', { desc = 'hjkl to ijkl' })
-vim.keymap.set({ 'n', 'x', 'o' }, 'h', 'i', { desc = 'hjkl to ijkl' })
-vim.keymap.set({ 'n', 'x', 'o' }, 'i', 'k', { desc = 'hjkl to ijkl' })
-vim.keymap.set({ 'n', 'x', 'o' }, 'k', 'j', { desc = 'hjkl to ijkl' })
+vim.keymap.set({ 'n', 'x', 'o' }, 'j', 'h', { desc = 'hjkl to ijkl', nowait = true })
+vim.keymap.set({ 'n', 'x', 'o' }, 'h', 'i', { desc = 'hjkl to ijkl', nowait = true })
+vim.keymap.set({ 'n', 'x', 'o' }, 'i', 'k', { desc = 'hjkl to ijkl', nowait = true })
+vim.keymap.set({ 'n', 'x', 'o' }, 'k', 'j', { desc = 'hjkl to ijkl', nowait = true })
 
 -- indentation
 vim.keymap.set('n', '<Tab>', '>>', { desc = 'tab indent' })
@@ -17,13 +17,14 @@ vim.keymap.set({ 'n', 'v' }, '<C-d>', '<C-d>zz', { desc = 'centered scroll' })
 vim.keymap.set({ 'n', 'v' }, '<C-u>', '<C-u>zz', { desc = 'centered scroll' })
 vim.keymap.set({ 'n', 'v' }, '<C-o>', '<C-o>zz', { desc = 'centered jump back' })
 vim.keymap.set({ 'n', 'v' }, '<C-p>', '<C-i>zz', { desc = 'centered jump forward' })
+vim.keymap.set({ 'n', 'v' }, 'zJ', 'zH', { desc = 'scroll half page left' })
 
 -- start of line
 vim.keymap.set({ 'n', 'v', 'o' }, '#', '_', { desc = '# start of line' })
 
 -- save / quit
 vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'ctrl-s save' })
-vim.keymap.set('n', '<C-w>', ':bd<CR>', { desc = 'save and close', nowait = true })
+vim.keymap.set('n', '<C-w>', Snacks.bufdelete.delete, { desc = 'save and close', nowait = true })
 
 -- delete word in insert mode
 vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })
@@ -64,6 +65,20 @@ vim.keymap.set({ 'n', 'v', 'o' }, '<leader>ki', ':wincmd k<CR>', { desc = 'move 
 vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kk', ':wincmd j<CR>', { desc = 'move focus between windows', silent = true })
 vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kl', ':wincmd l<CR>', { desc = 'move focus between windows', silent = true })
 vim.keymap.set({ 'n', 'v', 'o' }, '<leader>kj', ':wincmd h<CR>', { desc = 'move focus between windows', silent = true })
+
+vim.keymap.set('n', '<leader>w=', '<cmd>wincmd =<CR>', { desc = 'resize windows' })
+vim.keymap.set('n', '<leader>wi', function ()
+  vim.cmd('resize -' .. (vim.v.count1 * 5))
+end, { desc = 'resize windows' })
+vim.keymap.set('n', '<leader>wk', function ()
+  vim.cmd('resize +' .. (vim.v.count1 * 5))
+end, { desc = 'resize windows' })
+vim.keymap.set('n', '<leader>wj', function ()
+  vim.cmd('vert resize -' .. (vim.v.count1 * 5))
+end, { desc = 'resize windows' })
+vim.keymap.set('n', '<leader>wl', function ()
+  vim.cmd('vert resize +' .. (vim.v.count1 * 5))
+end, { desc = 'resize windows' })
 
 -- INFO: Picker
 

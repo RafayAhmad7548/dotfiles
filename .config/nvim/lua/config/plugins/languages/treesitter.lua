@@ -4,6 +4,7 @@ return {
   config = function()
     require('nvim-treesitter').install({
       'bash',
+      'fish',
       'c',
       'cpp',
       'diff',
@@ -25,6 +26,7 @@ return {
       'r',
       'dart',
       'prisma',
+      'sql',
       'regex',
       'kotlin',
       'java',

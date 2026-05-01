@@ -42,6 +42,11 @@ return {
     config = function ()
       local actions = require('diffview.config').actions
       require('diffview').setup({
+	view = {
+	  merge_tool = {
+	    layout = 'diff3_mixed',
+	  },
+	},
 	keymaps = {
 	  disable_defaults = true,
 	  view = {

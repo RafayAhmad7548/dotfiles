@@ -112,8 +112,8 @@ return {
     },
 
     image = { enabled = true },
+    bufdelete = { enabled = true },
 
-    bufdelete = { enabled = false },
     debug = { enabled = false },
     dim = { enabled = false },
     explorer = { enabled = false },
