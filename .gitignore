@@ -4,6 +4,9 @@
 !.config/nvim
 !.config/nvim/**
 
+!.config/fish
+!.config/fish/**
+
 !.config/fastfetch
 !.config/fastfetch/**
 

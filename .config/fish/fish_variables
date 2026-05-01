@@ -1,0 +1,5 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:4300
+SETUVAR fish_greeting:
+SETUVAR fish_user_paths:/home/rafayahmad/\x2epyenv/shims\x1e/home/rafayahmad/\x2ecargo/bin\x1e/opt/android\x2dsdk/cmdline\x2dtools/latest/bin\x1e/opt/android\x2dsdk/emulator\x1e/opt/android\x2dsdk/platform\x2dtools
