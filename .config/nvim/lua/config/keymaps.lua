@@ -17,6 +17,7 @@ vim.keymap.set({ 'n', 'v' }, '<C-d>', '<C-d>zz', { desc = 'centered scroll' })
 vim.keymap.set({ 'n', 'v' }, '<C-u>', '<C-u>zz', { desc = 'centered scroll' })
 vim.keymap.set({ 'n', 'v' }, '<C-o>', '<C-o>zz', { desc = 'centered jump back' })
 vim.keymap.set({ 'n', 'v' }, '<C-p>', '<C-i>zz', { desc = 'centered jump forward' })
+vim.keymap.set({ 'n', 'v' }, 'zj', 'zh', { desc = 'scroll left' })
 vim.keymap.set({ 'n', 'v' }, 'zJ', 'zH', { desc = 'scroll half page left' })
 
 -- start of line
@@ -53,7 +54,7 @@ vim.keymap.set('t', '<C-p>', '<cmd>Floaterminal prev<CR>', { desc = 'prev termin
 
 vim.keymap.set('t', '<C-w>', '<C-d>', { desc = 'kill terminal' })
 
-vim.keymap.set('t', '<Esc>', '<C-\\><C-n>', { desc = 'normal mode in terminal' })
+vim.keymap.set('t', '<C-Esc>', '<C-\\><C-n>', { desc = 'normal mode in terminal' })
 
 vim.keymap.set('n', '<C-e>', require('mini.files').open, { desc = 'open mini files' })
 

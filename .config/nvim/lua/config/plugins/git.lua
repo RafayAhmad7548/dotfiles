@@ -1,6 +1,7 @@
 return {
   {
     'lewis6991/gitsigns.nvim',
+    -- dir = '~/Stuff/Coding/gitsigns.nvim',
     opts = {
       signs = {
 	add          = { text = '┃' },
