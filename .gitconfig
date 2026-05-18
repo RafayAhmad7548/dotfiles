@@ -1,0 +1,16 @@
+[user]
+	email = rafayahmad@fluxgrid.pk
+	name = RafayAhmad7548
+	signingkey = /home/rafayahmad/.ssh/id_github.pub
+[core]
+	editor = nvim
+[push]
+	default = current
+	autoSetupRemote = true
+[alias]
+	graph = log --oneline --graph --decorate --all --color
+	diverged = "!f() { git rev-list --left-right --count HEAD...\"$1\"; }; f"
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true

@@ -23,6 +23,19 @@
     },
     "model_parameters": []
   }, */
+  "ssh_connections": [
+    {
+      "host": "server",
+      "args": [],
+      "projects": []
+    }
+  ],
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
   "enable_language_server": false,
   "remove_trailing_whitespace_on_save": false,
   "use_on_type_format": false,
@@ -39,8 +52,10 @@
   },
   "show_edit_predictions": false,
   "agent": {
+    "sidebar_side": "left",
+    "dock": "right",
     "always_allow_tool_actions": false,
-    "default_profile": "ask",
+    "default_profile": "write",
     "default_model": {
       "effort": "high",
       "enable_thinking": false,
