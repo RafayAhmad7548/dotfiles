@@ -26,6 +26,10 @@ vim.keymap.set({ 'n', 'v', 'o' }, '#', '_', { desc = '# start of line' })
 -- save / quit
 vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'ctrl-s save' })
 vim.keymap.set('n', '<C-w>', Snacks.bufdelete.delete, { desc = 'save and close', nowait = true })
+vim.keymap.set('n', '<C-S-w>', function ()
+  Snacks.bufdelete.delete()
+  vim.cmd('q')
+end, { desc = 'save and close', nowait = true })
 
 -- delete word in insert mode
 vim.keymap.set('i', '<C-BS>', '<C-w>', { desc = 'delete word in insert mode' })

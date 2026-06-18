@@ -56,4 +56,5 @@ package.path = package.path .. ';' .. vim.fn.expand('$HOME') .. '/.luarocks/shar
 package.path = package.path .. ';' .. vim.fn.expand('$HOME') .. '/.luarocks/share/lua/5.1/?.lua;'
 
 vim.env.GIT_EDITOR = 'nvr -cc tabnew --remote-wait-silent'
-vim.env.NVIM_LISTEN_ADDRESS = vim.fn.execute('echo v:servername')
+vim.env.MANPAGER = 'nvr -cc tabnew --remote-wait-silent +Man! -'
+vim.env.NVIM_LISTEN_ADDRESS = vim.v.servername

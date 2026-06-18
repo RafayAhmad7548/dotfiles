@@ -1,10 +1,10 @@
-set -x MANPAGER 'nvim +Man!'
+set -q MANPAGER; or set -x MANPAGER 'nvim +Man!'
 set -x EDITOR 'nvim'
 
 set -x SSH_AUTH_SOCK $XDG_RUNTIME_DIR/rbw/ssh-agent-socket
 set -x CHROME_EXECUTABLE /usr/bin/chromium
 
-set -x SUPPLY_KEY_JSON ~/.fastlane/read-maududi-app-b0b713a4a08b.json
+set -x SUPPLY_JSON_KEY ~/.fastlane/read-maududi-app-b0b713a4a08b.json
 
 fish_add_path /opt/android-sdk/platform-tools
 fish_add_path /opt/android-sdk/emulator
