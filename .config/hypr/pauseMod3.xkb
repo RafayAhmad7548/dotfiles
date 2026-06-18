@@ -9,6 +9,12 @@ xkb_keymap {
         modifier_map Mod3 { <PAUS> };
 
 		key <CAPS> { [ Escape ] };
+
+		key <I121> { [ XF86AudioMute         ] };
+		key <I122> { [ XF86AudioLowerVolume  ] };
+		key <I123> { [ XF86AudioRaiseVolume  ] };
+		key <I232> { [ XF86MonBrightnessDown ] };
+		key <I233> { [ XF86MonBrightnessUp   ] };
 		
     };
     xkb_geometry  { include "pc(pc105)" };

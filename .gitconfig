@@ -14,3 +14,5 @@
 	format = ssh
 [commit]
 	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = /home/rafayahmad/.ssh/allowed_signers

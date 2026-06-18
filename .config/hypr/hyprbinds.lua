@@ -44,13 +44,13 @@ hl.bind('SUPER + SHIFT + P', hl.dsp.exec_cmd('rofi-rbw'))
 hl.bind('ALT + P', hl.dsp.exec_cmd('hyprpicker --format=hex -a'))
 
 -- Audio Controls
-hl.bind('code:123', hl.dsp.exec_cmd('wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+'), { repeating = true, locked = true })
-hl.bind('code:122', hl.dsp.exec_cmd('wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-'), { repeating = true, locked = true })
-hl.bind('code:121', hl.dsp.exec_cmd('wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle'), { repeating = true, locked = true })
+hl.bind('XF86AudioRaiseVolume', hl.dsp.exec_cmd('wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+'), { repeating = true, locked = true })
+hl.bind('XF86AudioLowerVolume', hl.dsp.exec_cmd('wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-'), { repeating = true, locked = true })
+hl.bind('XF86AudioMute', hl.dsp.exec_cmd('wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle'), { repeating = true, locked = true })
 
 -- Brightness Controls
-hl.bind('code:233', hl.dsp.exec_cmd('brightnessctl s 1%+ && echo true > /home/rafayahmad/dotfiles/.config/eww/brightnessShow'), { repeating = true, locked = true })
-hl.bind('code:232', hl.dsp.exec_cmd('brightnessctl s 1%- && echo true > /home/rafayahmad/dotfiles/.config/eww/brightnessShow'), { repeating = true, locked = true })
+hl.bind('XF86MonBrightnessUp', hl.dsp.exec_cmd('brightnessctl s 1%+ && echo true > /home/rafayahmad/dotfiles/.config/eww/brightnessShow'), { repeating = true, locked = true })
+hl.bind('XF86MonBrightnessDown', hl.dsp.exec_cmd('brightnessctl s 1%- && echo true > /home/rafayahmad/dotfiles/.config/eww/brightnessShow'), { repeating = true, locked = true })
 
 
 -- Window movement
@@ -130,6 +130,6 @@ hl.bind('SUPER + mouse:272', hl.dsp.window.drag(), { mouse = true })
 hl.bind('ALT + mouse:272', hl.dsp.window.resize(), { mouse = true })
 
 -- Shutdown/Reboot
-hl.bind('SUPER + M', hl.dsp.exit)
+hl.bind('SUPER + M', hl.dsp.exit())
 hl.bind('CTRL + ALT + Z', hl.dsp.exec_cmd('reboot'))
 hl.bind('CTRL + ALT + X', hl.dsp.exec_cmd('shutdown now'))
